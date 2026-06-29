@@ -1,0 +1,12 @@
+{
+  "id": "ans-ejemplo-0001",
+  "query_id": "qry-ejemplo-0001",
+  "decision": "insufficient_criteria",
+  "answer_text": "El corpus de criterios aprobados no contiene actualmente criterios suficientes para responder a esta consulta, por lo que el sistema no puede ofrecer una respuesta de fondo. Esto no significa que la cuestión carezca de respuesta jurídica, sino que la base de conocimiento interna aprobada no la cubre todavía.",
+  "criteria_used": [],
+  "sources_used": [],
+  "limits": "No se ha realizado ningún análisis de fondo: la consulta fue clasificada dentro del alcance temático, pero no existen criterios aprobados que la cubran.",
+  "confidence_level": null,
+  "disclaimer": "Esta respuesta es únicamente orientación informativa basada en un corpus cerrado de criterios jurídicos y no constituye asesoramiento jurídico. Para un caso concreto, consulte a un profesional.",
+  "created_at": "2026-06-11T00:00:01Z"
+}

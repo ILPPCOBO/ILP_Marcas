@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://locked-legal-advisor.local/schemas/catalog_question.schema.json",
+  "title": "CatalogQuestion",
+  "description": "Pregunta estándar del catálogo (respuesta PREAPROBADA). Solo se muestra si approved:true y está conectada a criterios aprobados con fuentes y límites. Espejo TS: services/models/catalogQuestion.ts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "area",
+    "topic",
+    "question",
+    "short_answer",
+    "full_answer",
+    "related_criteria_ids",
+    "source_references",
+    "limits",
+    "approved",
+    "version",
+    "last_reviewed_at",
+    "last_reviewed_by"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "area": { "type": "string", "minLength": 1, "description": "Debe pertenecer a categories.json" },
+    "topic": { "type": "string", "minLength": 1, "description": "Debe pertenecer a los temas de su área" },
+    "question": { "type": "string", "minLength": 1 },
+    "short_answer": { "type": "string", "description": "No vacía si approved" },
+    "full_answer": { "type": "string", "description": "No vacía si approved" },
+    "related_criteria_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "IDs de criterios APROBADOS que respaldan la respuesta (Regla 2)."
+    },
+    "source_references": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "limits": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "approved": { "type": "boolean" },
+    "version": { "type": "string", "minLength": 1 },
+    "last_reviewed_at": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "last_reviewed_by": { "type": ["string", "null"], "minLength": 1 }
+  },
+  "allOf": [
+    {
+      "description": "Aprobada => contenido, respaldo, fuentes, límites y acto humano (Reglas 1-4 y 3).",
+      "if": { "properties": { "approved": { "const": true } }, "required": ["approved"] },
+      "then": {
+        "properties": {
+          "short_answer": { "type": "string", "minLength": 1 },
+          "full_answer": { "type": "string", "minLength": 1 },
+          "related_criteria_ids": { "minItems": 1 },
+          "source_references": { "minItems": 1 },
+          "limits": { "minItems": 1 },
+          "last_reviewed_at": { "type": "string", "minLength": 1 },
+          "last_reviewed_by": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  ]
+}

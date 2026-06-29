@@ -1,0 +1,1027 @@
+{
+ "_note": "Preguntas estándar generadas del corpus real (respuestas = criterios verbatim + fuente). Aprobadas con autorización del propietario; revisables en el panel admin.",
+ "questions": [
+  {
+   "id": "cat-marcas-riesgo_de_confusion-001",
+   "area": "Marcas",
+   "topic": "riesgo de confusión",
+   "question": "¿Qué criterios del corpus se aplican en materia de riesgo de confusión?",
+   "short_answer": "El corpus aporta 4 criterio(s) sobre «riesgo de confusión», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «riesgo de confusión» (transcritos de las resoluciones analizadas):\n\n• Límites de la Marca Notoria: En el juicio de confusión, el hecho de compartir un vocablo genérico (\"24 HRS\") no genera riesgo de confusión ni aprovechamiento de la reputación ajena si los elementos gráficos difieren de forma acusada y el ámbito competitivo (zapatos vs. ropa de bebé) es dispar.\n  Fuente: Sentencia del Tribunal Supremo, nº 330/2017 (Sala de lo Civil), de 2017 (aprox.).\n\n• Cotejo de Riesgo de Confusión: Para determinar si existe riesgo de confusión, la comparación debe hacerse con los productos/servicios para los que la marca anterior fue solicitada o registrada, y no limitarse a aquellos para los que ha sido efectivamente utilizada.\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 150/2024 (Sección 32ª), de 29 de mayo de 2024.\n\n• Infracción por Dominio de Internet: La reserva de un nombre de dominio fonéticamente casi idéntico a una marca registrada (\"espiamos\" vs \"espia2.com\") para redirigir tráfico a productos idénticos vulnera el ius prohibendi marcario.\n  Fuente: Sentencia de la Audiencia Provincial de Granada, nº 157/2021 (Sección 3ª), de 5 de marzo de 2021.\n\n• Riesgo de confusión como presupuesto común. El riesgo de confusión (incluido el de asociación sobre el origen empresarial) es presupuesto común de las acciones de nulidad relativa, de infracción e indemnizatoria; su inexistencia conlleva la desestimación íntegra de todas ellas.\nComparación en conjunto. Los signos se comparan en su conjunto (planos visual, fonético y conceptual), sin descomponerlos artificialmente; la distintividad puede residir en el conjunto denominativo-gráfico y no en un vocablo aislado de uso común en el sector.\nVocablo común y dilución de distintividad. La preexistencia de numerosas marcas registradas que comparten un mismo vocablo debilita su distintividad e impide monopolizarlo.\nCoexistencia previa. La coexistencia pacífica anterior de los signos en el mercado es indicio relevante de ausencia de riesgo de confusión.\nInfracción sin nulidad previa. Tras el cambio de criterio del TS (S. 14 oct. 2014, acogiendo la STJUE “Fédération Cynologique”), el titular prioritario puede ejercitar la acción de infracción frente al titular de una marca posterior registrada sin instar previamente su nulidad.\nPrescripción por tolerancia. La acción puede decaer por prescripción por tolerancia del titular prioritario respecto de la marca posterior.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 205/2018, de 22 de junio de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-010",
+    "crit-real-020",
+    "crit-real-033",
+    "crit-real-077"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 330/2017 (Sala de lo Civil), de 2017 (aprox.)",
+    "Sentencia de la Audiencia Provincial de Madrid, nº 150/2024 (Sección 32ª), de 29 de mayo de 2024",
+    "Sentencia de la Audiencia Provincial de Granada, nº 157/2021 (Sección 3ª), de 5 de marzo de 2021",
+    "Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 205/2018, de 22 de junio de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-mala_fe-001",
+   "area": "Marcas",
+   "topic": "mala fe",
+   "question": "¿Qué criterios del corpus se aplican en materia de mala fe?",
+   "short_answer": "El corpus aporta 7 criterio(s) sobre «mala fe», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «mala fe» (transcritos de las resoluciones analizadas):\n\n• Protección de Obras Extranjeras: Una obra gráfica puede ser protegida en España invocando derechos de propiedad intelectual nacidos y asegurados bajo ordenamientos extranjeros aplicables por convenios internacionales (ej. Convenio España-México de 1924), permitiendo anular marcas nacionales registradas de mala fe.\n  Fuente: Sentencia del Tribunal Supremo, nº 158/2021 (Sala de lo Civil), de 22 de marzo de 2021.\n\n• Nulidad Absoluta por Mala Fe: Es patente la mala fe cuando se solicita una marca coincidiendo en el tiempo (3 días antes) con un pacto de socios donde existía el compromiso de transferir los derechos de dicho signo. Cae el escudo de la inmunidad registral.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 1332/2022 (Sección 8ª), de 2 de noviembre de 2022.\n\n• Inexistencia de Mala Fe Pública: El registro de marcas por un ente público para proteger un festival cultural financiado con sus presupuestos, sin afán de expoliar un proyecto privado preexistente, carece de mala fe. No hay abuso de dependencia económica en la contratación.\n  Fuente: Sentencia de la Audiencia Provincial de Murcia, nº 603/2021 (Sección 4ª), de 27 de mayo de 2021.\n\n• Registro de Marca por el Arrendatario: La solicitud de marca realizada de forma sorpresiva por el arrendatario del local/negocio frente al arrendador original (titular extraregistral) implica mala fe evidente y abuso de confianza, procediendo la nulidad.\n  Fuente: Sentencia de la Audiencia Provincial de Pontevedra, nº 310/2018 (Sección 1ª), de 21 de septiembre de 2018.\n\n• Mala Fe y Registro Preventivo: Resulta patente la mala fe registral cuando un exempleador solicita la marca exacta que acaban de adoptar sus ex-empleados para su nueva aventura comercial (conociendo dichos preparativos) con el solo afán de obstaculizar su competencia.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 16/2021, de 16 de febrero de 2021.\n\n• Mala fe registral (art. 51.1.b LM; STJUE “Lindt” C-529/07). Se valora con todos los factores concurrentes en el momento de la solicitud: conocimiento o deber de conocer el uso por un tercero de signo idéntico/similar, intención de impedir su uso, y grado de protección de ambos signos. Las circunstancias posteriores son irrelevantes.\nPrueba del uso o notoriedad del signo no registrado. Quien reivindica la titularidad de una marca no registrada debe probar (a) su uso en España/UE con fines comerciales y cierta intensidad, o (b) su carácter notorio/renombrado internacional del que el registrante pretende aprovecharse.\nUso en Internet. La mera presencia del signo en la red no acredita uso comercial en España; se exigen parámetros adicionales (descargas/visualizaciones desde territorio español, volumen de ventas, distribución geográfica, etc.).\nIndicios negativos. La documentación íntegramente en lengua extranjera, la ausencia de campañas publicitarias en España y la indefinición del mercado de referencia operan como indicios de que el público destinatario no era el nacional.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 434/2020, de 18 de septiembre de 2020.\n\n• Mala fe del solicitante (art. 51.1.b LM). Procede la nulidad cuando se registra un signo a sabiendas de que un tercero lo viene usando en el mercado, con la finalidad de impedir su irrupción/expulsarlo o de obtener rédito económico.\nOrden lógico de análisis. Estimada la nulidad por mala fe, decae automáticamente la reconvención por infracción: no puede alegar infracción quien deja de ser titular de un signo válidamente registrado; por ello la nulidad se analiza en primer lugar.\nDerecho transitorio. La redacción del art. 51.1.b dada por el RDL 23/2018 se aplica conforme a su DT, manteniéndose vigente la jurisprudencia anterior sobre concepto y requisitos de la mala fe, su valoración al momento de la solicitud y la prueba del uso previo.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 127/2021, de 16 de febrero de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-008",
+    "crit-real-027",
+    "crit-real-032",
+    "crit-real-042",
+    "crit-real-059",
+    "crit-real-079",
+    "crit-real-080"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 158/2021 (Sala de lo Civil), de 22 de marzo de 2021",
+    "Sentencia de la Audiencia Provincial de Alicante, nº 1332/2022 (Sección 8ª), de 2 de noviembre de 2022",
+    "Sentencia de la Audiencia Provincial de Murcia, nº 603/2021 (Sección 4ª), de 27 de mayo de 2021",
+    "Sentencia de la Audiencia Provincial de Pontevedra, nº 310/2018 (Sección 1ª), de 21 de septiembre de 2018",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 16/2021, de 16 de febrero de 2021",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 434/2020, de 18 de septiembre de 2020",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 127/2021, de 16 de febrero de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-prioridad_registral-001",
+   "area": "Marcas",
+   "topic": "prioridad registral",
+   "question": "¿Qué criterios del corpus se aplican en materia de prioridad registral?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «prioridad registral», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «prioridad registral» (transcritos de las resoluciones analizadas):\n\n• Límites de los Dominios Web: El titular registral de la marca obtiene presunción de validez y protección cautelar plena. El mero registro temporalmente anterior de un \"nombre de dominio\" no dota de justo título para bloquear o desobedecer el ius prohibendi del titular marcario.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 92/2018, de 9 de mayo de 2018.\n\n• Prioridad registral (art. 34 LM). Quien figura como titular registral adquiere la propiedad de la marca y el ius prohibendi; mientras no se declare su nulidad (por falta de distintividad o mala fe) goza de plena protección y puede accionar frente a quien perturbe su exclusiva.\nExcepciones a la prioridad registral. La prioridad registral sólo decae, imponiéndose la prioridad de uso, en dos supuestos: (a) titular de marca notoria no registrada; (b) sentencia estimatoria de acción reivindicatoria por mala fe, fraude o violación de obligación legal/contractual.\nDominio anterior. El registro previo de un nombre de dominio no habilita por sí para usar el signo distintivo correspondiente frente al titular registral, máxime si el dominio se cedió a la sociedad.\nPluralidad de marcas y litisconsorcio. La existencia de otras marcas con el mismo vocablo no constituye por sí excepción de litisconsorcio pasivo necesario ni excluye la infracción.\nUnificación procesal (Ley 24/2015). La Ley de Patentes 24/2015 unificó el procedimiento de los pleitos de propiedad industrial; sus novedades son extrapolables a los litigios marcarios salvo en lo contrario a su naturaleza.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 92/2018, de 9 de mayo de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-068",
+    "crit-real-076"
+   ],
+   "source_references": [
+    "Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 92/2018, de 9 de mayo de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-marca_renombrada-001",
+   "area": "Marcas",
+   "topic": "marca renombrada",
+   "question": "¿Qué criterios del corpus se aplican en materia de marca renombrada?",
+   "short_answer": "El corpus aporta 5 criterio(s) sobre «marca renombrada», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «marca renombrada» (transcritos de las resoluciones analizadas):\n\n• Marca de Renombre y Riesgo de Asociación: La protección de las marcas de renombre no está supeditada a que se constate un riesgo de confusión estricto en el público. Es suficiente que el grado de similitud evoque la marca anterior en la mente del consumidor medio, normalmente informado y perspicaz, estableciendo un \"vínculo\" o asociación mental (apreciación global).\n  Fuente: Sentencia del Tribunal de Justicia de la UE, asunto C-252/07 (Caso Intel), de 27 de noviembre de 2008.\n\n• Parasitismo y Marca Renombrada: La utilización de un signo similar a una marca figurativa renombrada (ej. jinete de Polo) para aprovecharse de su poder de atracción sin contraprestación es un acto desleal. Origina daños patrimoniales y morales in re ipsa.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 195/2025 (Sección 8ª), de 5 de diciembre de 2025.\n\n• Marca Notoria y Siglas: El uso de las letras dominantes (\"C\" y \"K\") de una marca notoria (Calvin Klein) en un signo ajeno (Charles Keeper) aplicado al mismo sector (ropa/accesorios) incurre en riesgo de confusión visual y fonética, constituyendo nulidad relativa.\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 224/2015 (Sección 28ª), de 1 de septiembre de 2015.\n\n• Notoriedad del Signo No Registrado: Para declarar nula una marca por mala fe (art. 51.1.b LM), quien ataca el registro debe probar que su propio signo previo poseía ya un reconocimiento notable en el territorio (España) y en el momento temporal exacto de la solicitud impugnada.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 434/2020, de 18 de septiembre de 2020.\n\n• Medidas Cautelares en Marcas Renombradas: La tutela cautelar se agudiza ante el aprovechamiento visual e infractor de una marca de alto renombre comercial (ej. estética de establecimientos Zara), ante el evidente riesgo de desprestigio y dilución del signo original.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 32/2018, de 23 de febrero de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-001",
+    "crit-real-016",
+    "crit-real-045",
+    "crit-real-060",
+    "crit-real-067"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal de Justicia de la UE, asunto C-252/07 (Caso Intel), de 27 de noviembre de 2008",
+    "Sentencia de la Audiencia Provincial de Alicante, nº 195/2025 (Sección 8ª), de 5 de diciembre de 2025",
+    "Sentencia de la Audiencia Provincial de Madrid, nº 224/2015 (Sección 28ª), de 1 de septiembre de 2015",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 434/2020, de 18 de septiembre de 2020",
+    "Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 32/2018, de 23 de febrero de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-accion_reivindicatoria-001",
+   "area": "Marcas",
+   "topic": "acción reivindicatoria",
+   "question": "¿Qué criterios del corpus se aplican en materia de acción reivindicatoria?",
+   "short_answer": "El corpus aporta 6 criterio(s) sobre «acción reivindicatoria», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «acción reivindicatoria» (transcritos de las resoluciones analizadas):\n\n• Acción Reivindicatoria de Marca (art. 2.2 LM): Constituye una vía de adquisición de titularidad frente a registros realizados con abuso de confianza o fraude. Procede cuando un antiguo colaborador registra la marca a sus espaldas para apropiarse del signo y bloquear a su verdadero usuario preexistente.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 254/2024 (Sección 8ª), de 13 de mayo de 2024.\n\n• Reivindicatoria contra Mandatario: Procede la reivindicatoria de marca (art. 2.2 LM) cuando el registro es solicitado a título individual por un administrador, excediéndose de su mandato y en fraude de la sociedad gestora del proyecto común.\n  Fuente: Sentencia de la Audiencia Provincial de Albacete, nº 114/2020 (Sección 1ª), de 6 de marzo de 2020.\n\n• Carga de Prueba en Reivindicatoria: El mero hecho de haber encargado un diseño no otorga automáticamente la titularidad reivindicable (art. 2.2 LM). Debe probarse un uso mercantil preexistente a título individual y que el titular registral actual actuó mediando fraude.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 200/2022, de 7 de junio de 2022.\n\n• Interposición Societaria y Represalia: Procede la reivindicatoria de marca cuando se utiliza una sociedad inactiva interpuesta para registrar el signo notorio de un tercero como represalia por un litigio civil/penal anterior. Es un claro supuesto de registro fraudulento ex art. 2.2 LM.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 187/2022, de 17 de mayo de 2022.\n\n• Acción reivindicatoria (art. 2.2 LM). Procede cuando el registro se solicitó de mala fe, a sabiendas de que el signo (aunque no registrado) era el que el actor venía usando para identificar su empresa/servicios, con finalidad de apropiárselo, bloquear su actividad y expulsarlo del mercado.\nIndicios de mala fe. Relaciones comerciales o conflictos previos entre las partes, registro como represalia, empleo de los mismos colores o forma del signo ajeno, e inactividad de la registrante (no uso del signo).\nValoración probatoria. El interrogatorio del representante legal carente de verosimilitud (contradicciones, incongruencias) puede desvirtuar la posición de la parte; el uso ininterrumpido del signo no registrado se prueba con documentos, facturas, correos y resoluciones de otros procedimientos.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 187/2022, de 17 de mayo de 2022.\n\n• Reivindicatoria impropia (art. 2.2 LM). No presupone la titularidad del signo por el actor (a diferencia de la reivindicatoria civil), por lo que no le son exigibles los requisitos de ésta; un mero usuario puede discutir el mejor derecho del titular registral.\nPresupuestos (STS 9 mayo 2016). (a) Registro solicitado con fraude de los derechos de un tercero o con violación de obligación legal/contractual; (b) mejor derecho del actor sobre el signo.\nCarga de la prueba sobre el actor. Debe acreditar ser titular/usuario del signo en el tráfico a título individual y la mala fe del registrante al solicitar; su falta determina la desestimación.\nEncargo y coste del diseño/registro. Encargar y costear el diseño o registro de un signo por cuenta de una entidad no convierte al encargado en titular (a lo sumo, derecho de reembolso frente a la entidad).\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 200/2022, de 7 de junio de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-019",
+    "crit-real-035",
+    "crit-real-054",
+    "crit-real-062",
+    "crit-real-084",
+    "crit-real-085"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 254/2024 (Sección 8ª), de 13 de mayo de 2024",
+    "Sentencia de la Audiencia Provincial de Albacete, nº 114/2020 (Sección 1ª), de 6 de marzo de 2020",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 200/2022, de 7 de junio de 2022",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 187/2022, de 17 de mayo de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-agotamiento-001",
+   "area": "Marcas",
+   "topic": "agotamiento",
+   "question": "¿Qué criterios del corpus se aplican en materia de agotamiento?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «agotamiento», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «agotamiento» (transcritos de las resoluciones analizadas):\n\n• Agotamiento de Marca y Ventas Online: La venta por internet de productos de distribución selectiva (lujo) no es en sí un \"motivo legítimo\" para que el titular prohíba su reventa, salvo que las condiciones de esa web (formato low-cost, sin asesoramiento, búsqueda genérica) menoscaben gravemente el aura de lujo y prestigio de la marca.\n  Fuente: Sentencia del Tribunal Supremo, nº 267/2016 (Sala de lo Civil), de 22 de abril de 2016.\n\n• Extinción de Licencia: La doble vertiente (positiva/negativa) del ius prohibendi marcario conlleva que el uso de un signo idéntico por un antiguo licenciatario, una vez resuelto el contrato, constituya infracción directa y deba indemnizarse mediante regalía hipotética.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 188/2021, de 18 de marzo de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-009",
+    "crit-real-058"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 267/2016 (Sala de lo Civil), de 22 de abril de 2016",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 188/2021, de 18 de marzo de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-distintividad-001",
+   "area": "Marcas",
+   "topic": "distintividad",
+   "question": "¿Qué criterios del corpus se aplican en materia de distintividad?",
+   "short_answer": "El corpus aporta 4 criterio(s) sobre «distintividad», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «distintividad» (transcritos de las resoluciones analizadas):\n\n• Marcas de Posición y Distintividad Débil: Una marca notoria consistente en un signo gráfico de baja distintividad intrínseca (un aspa \"X\") aplicado a un producto muy concreto (zapatillas), no otorga un monopolio absoluto. Si un tercero lo usa en sectores distintos (palas de pádel), decae la protección ampliada al no existir el vínculo evocativo necesario.\n  Fuente: Sentencia del Tribunal Supremo, nº 860/2025 (Sala de lo Civil), de 28 de mayo de 2025.\n\n• Distintividad Sobrevenida: Términos genéricos (\"EIR\" o \"MIR\" + región) pueden alcanzar distintividad sobrevenida en el mercado. Usar una marca similar (\"Curso EIR\") habiendo preexistencia y agradecimientos parasitarios a la prioritaria (\"Curso MIR\") genera confusión y aprovechamiento indebido.\n  Fuente: Sentencia de la Audiencia Provincial de Oviedo, nº 208/2015 (Sección 1ª), de 11 de septiembre de 2015.\n\n• Vulgarización del Signo: Si un prefijo adquiere carácter genérico en el mercado (ej. \"Tupper\" para envases), la marca notoria pierde su fuerza expansiva para oponerse al uso de variantes fonéticas (Tuppersex) en sectores totalmente dispares (productos eróticos).\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 149/2010 (Sección 8ª), de 26 de marzo de 2010.\n\n• Vocablos Comunes y Dilución: Cuando múltiples marcas conviven con un mismo elemento verbal dominante en un sector (ej. \"Alfil\"), su carácter distintivo se diluye; no pudiendo el titular monopolizar ese vocablo e impedir el registro de otros que añadan sufijos diferenciadores.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 205/2018, de 22 de junio de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-003",
+    "crit-real-046",
+    "crit-real-048",
+    "crit-real-063"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 860/2025 (Sala de lo Civil), de 28 de mayo de 2025",
+    "Sentencia de la Audiencia Provincial de Oviedo, nº 208/2015 (Sección 1ª), de 11 de septiembre de 2015",
+    "Sentencia de la Audiencia Provincial de Alicante, nº 149/2010 (Sección 8ª), de 26 de marzo de 2010",
+    "Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 205/2018, de 22 de junio de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-eslogan-001",
+   "area": "Marcas",
+   "topic": "eslogan",
+   "question": "¿Qué criterios del corpus se aplican en materia de eslogan?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «eslogan», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «eslogan» (transcritos de las resoluciones analizadas):\n\n• Eslogan Publicitario: Un eslogan (\"madurada como ninguna...\") carece de aptitud distintiva aislada como marca si es puramente descriptivo/promocional, dependiendo del término principal para ser válido. Plagiar un catálogo comercial vulnera la LPI, devengando indemnización.\n  Fuente: Sentencia de la Audiencia Provincial de Barcelona, nº 1624/2019 (Sección 15ª), de 20 de septiembre de 2019.\n\n• Eslogan en Sectores Dispares: El uso aislado o secundario de un eslogan (\"Vuelve a casa por Navidad\") en una campaña promocional de un sector radicalmente distinto (cine de terror vs. turrones) no genera riesgo de confusión en los consumidores ni expolio de la marca.\n  Fuente: Sentencia de la Audiencia Provincial de Barcelona, nº 282/2005 (Sección 15ª), de 7 de junio de 2005.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-040",
+    "crit-real-049"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Barcelona, nº 1624/2019 (Sección 15ª), de 20 de septiembre de 2019",
+    "Sentencia de la Audiencia Provincial de Barcelona, nº 282/2005 (Sección 15ª), de 7 de junio de 2005"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-indemnizacion-001",
+   "area": "Marcas",
+   "topic": "indemnizacion",
+   "question": "¿Qué criterios del corpus se aplican en materia de indemnizacion?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «indemnizacion», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «indemnizacion» (transcritos de las resoluciones analizadas):\n\n• Cálculo de Indemnización: La condena al 1% de la cifra de negocios o a los beneficios del infractor no exige que el titular de la marca explote directamente el mismo subsector exacto. La indemnización por infracción marcaria se considera un daño ex re ipsa derivado del enriquecimiento injusto del infractor.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 31/2026 (Sección 8ª), de 18 de febrero de 2026.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-015"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 31/2026 (Sección 8ª), de 18 de febrero de 2026"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-ius_prohibendi-001",
+   "area": "Marcas",
+   "topic": "ius prohibendi",
+   "question": "¿Qué criterios del corpus se aplican en materia de ius prohibendi?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «ius prohibendi», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «ius prohibendi» (transcritos de las resoluciones analizadas):\n\n• Doble vertiente del ius prohibendi (arts. 2 y 34 LM). El registro confiere al titular un uso exclusivo del signo en el tráfico (vertiente positiva) y la facultad de impedir a terceros el uso de signos idénticos/confundibles (vertiente negativa); los terceros sólo pueden usarlo con licencia o autorización.\nUso tras resolución de la licencia. Resuelto el contrato de licencia, el uso posterior del signo por el antiguo licenciatario, sin consentimiento y sin pago de canon, constituye infracción marcaria (signo idéntico para idénticos productos/servicios).\nRegalía hipotética. El daño puede cuantificarse por el canon que se habría debido pagar (regalía hipotética), incluso frente al codemandado en rebeldía.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 188/2021, de 18 de marzo de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-081"
+   ],
+   "source_references": [
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 188/2021, de 18 de marzo de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-libre_imitacion_competencia-001",
+   "area": "Marcas",
+   "topic": "libre imitacion competencia",
+   "question": "¿Qué criterios del corpus se aplican en materia de libre imitacion competencia?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «libre imitacion competencia», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «libre imitacion competencia» (transcritos de las resoluciones analizadas):\n\n• Libre Imitación Competencial: En ausencia de patentes, la copia de instalaciones estandarizadas por parte de extrabajadores de una empresa concursada es lícita por el principio de libre imitación (LCD), si no hay singularidad competitiva que induzca a un riesgo inevitable de asociación.\n  Fuente: Sentencia de la Audiencia Provincial de Navarra, de 8 de marzo de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-034"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Navarra, de 8 de marzo de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-prohibiciones_absolutas-001",
+   "area": "Marcas",
+   "topic": "prohibiciones absolutas",
+   "question": "¿Qué criterios del corpus se aplican en materia de prohibiciones absolutas?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «prohibiciones absolutas», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «prohibiciones absolutas» (transcritos de las resoluciones analizadas):\n\n• Firma Artística como Marca: El intento de un tercero de registrar como marca la firma manuscrita de un artista notorio incurre en las prohibiciones absolutas (art. 9.1 LM), al ser una secuencia indisociable de la personalidad y autoría, generando un fraude al consumidor sobre la vinculación real con el artista.\n  Fuente: Sentencia del Tribunal Superior de Justicia de Madrid, nº 478/2020 (Sección 2ª), de 14 de septiembre de 2020.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-012"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Superior de Justicia de Madrid, nº 478/2020 (Sección 2ª), de 14 de septiembre de 2020"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-regalia_hipotetica-001",
+   "area": "Marcas",
+   "topic": "regalia hipotetica",
+   "question": "¿Qué criterios del corpus se aplican en materia de regalia hipotetica?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «regalia hipotetica», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «regalia hipotetica» (transcritos de las resoluciones analizadas):\n\n• Regalía Hipotética (Daño Ex Re Ipsa): La indemnización basada en la regalía hipotética responde a la necesidad de no dejar sin protección al perjudicado, siendo un perjuicio que se deduce necesariamente de la intromisión en la exclusiva marcaria (manifesta non egent probatione).\n  Fuente: Auto del Tribunal Supremo (Sala de lo Civil), de 23 de febrero de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-011"
+   ],
+   "source_references": [
+    "Auto del Tribunal Supremo (Sala de lo Civil), de 23 de febrero de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-transmision_marca-001",
+   "area": "Marcas",
+   "topic": "transmision marca",
+   "question": "¿Qué criterios del corpus se aplican en materia de transmision marca?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «transmision marca», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «transmision marca» (transcritos de las resoluciones analizadas):\n\n• Transmisión de Marca en Concurso: En los contratos de compraventa de marcas sujetos a condición suspensiva/resolutoria, la posterior aprobación en un plan de liquidación concursal de la transmisión y resolución de licencias previas convalida el cumplimiento de la condición.\n  Fuente: Sentencia de la Audiencia Provincial de Barcelona, nº 376/2018 (Sección 15ª), de 5 de junio de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-044"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Barcelona, nº 376/2018 (Sección 15ª), de 5 de junio de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-uso_efectivo-001",
+   "area": "Marcas",
+   "topic": "uso efectivo",
+   "question": "¿Qué criterios del corpus se aplican en materia de uso efectivo?",
+   "short_answer": "El corpus aporta 3 criterio(s) sobre «uso efectivo», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «uso efectivo» (transcritos de las resoluciones analizadas):\n\n• Prohibiciones Absolutas y Nombres Geográficos: Términos que identifican ubicaciones (\"Bahiazul\") no están vetados si no designan características del servicio para el público. Caducidad parcial: Una marca caduca parcialmente respecto de aquellos servicios concretos del nomenclátor (ej. clase 36) para los que no demuestre uso efectivo.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 53/2026 (Sección 8ª), de 27 de marzo de 2026.\n\n• Uso Efectivo de Marca: La utilización de la marca en un establecimiento (hotel) para identificar los servicios que se prestan in situ es uso efectivo a efectos de enervar la caducidad. Confusión en el mercado justifica indemnización directa del 1% sobre facturación (daño ex re ipsa).\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 225/2025 (Sección 32ª), de 19 de septiembre de 2025.\n\n• Subcategorías en Falta de Uso: A efectos de caducidad, si se acredita el uso en subcategorías independientes (ej. láser diodo de belleza, franquicias), se mantiene el derecho. El uso infractor en el mismo sector (cuasi-copia) genera riesgo de asociación y daño resarcible.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 91/2024 (Sección 8ª), de 16 de febrero de 2024.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-013",
+    "crit-real-018",
+    "crit-real-022"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 53/2026 (Sección 8ª), de 27 de marzo de 2026",
+    "Sentencia de la Audiencia Provincial de Madrid, nº 225/2025 (Sección 32ª), de 19 de septiembre de 2025",
+    "Sentencia de la Audiencia Provincial de Alicante, nº 91/2024 (Sección 8ª), de 16 de febrero de 2024"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-marcas-uso_trafico_economico-001",
+   "area": "Marcas",
+   "topic": "uso trafico economico",
+   "question": "¿Qué criterios del corpus se aplican en materia de uso trafico economico?",
+   "short_answer": "El corpus aporta 3 criterio(s) sobre «uso trafico economico», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «uso trafico economico» (transcritos de las resoluciones analizadas):\n\n• Uso en el Tráfico Económico: El uso infractor no exige venta masiva; basta la oferta en redes sociales o internet en un contexto comercial. Los gastos de investigación para detectar la infracción son daño emergente indemnizable.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 231/2024 (Sección 8ª), de 3 de mayo de 2024.\n\n• Tráfico Económico como Presupuesto: Las acciones de infracción marcaria y de competencia desleal exigen que el uso infractor se dé en el \"tráfico comercial\" o concurrencial. El uso de signos entre asociaciones civiles sin ánimo de lucro escapa a este ámbito de prohibición.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 454/2021, de 22 de junio de 2021.\n\n• Presupuesto de actuación en el mercado. Tanto el ius prohibendi marcario (art. 34 LM) como la LCD presuponen una actuación en el tráfico económico con fines comerciales/concurrenciales.\nEntidades sin ánimo de lucro. Cuando ni actor ni demandado son empresarios ni operan en el mercado con fines comerciales (entidades civiles, culturales y sin ánimo de lucro), no hay infracción marcaria accionable ni acto de competencia desleal, aun existiendo uso de signos similares y coincidencia de actividad y ámbito geográfico.\nMarco de la infracción. Reafirma el principio de prioridad registral y el catálogo de conductas prohibidas del art. 34 LM como marco de la infracción.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 454/2021, de 22 de junio de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-021",
+    "crit-real-057",
+    "crit-real-082"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 231/2024 (Sección 8ª), de 3 de mayo de 2024",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 454/2021, de 22 de junio de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-comunicacion_publica-001",
+   "area": "Propiedad intelectual",
+   "topic": "comunicación pública",
+   "question": "¿Qué criterios del corpus se aplican en materia de comunicación pública?",
+   "short_answer": "El corpus aporta 5 criterio(s) sobre «comunicación pública», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «comunicación pública» (transcritos de las resoluciones analizadas):\n\n• Mora en Propiedad Intelectual: Al existir una presunción iuris tantum de comunicación pública de fonogramas/audiovisuales en hostelería y estar la cantidad determinada por tarifas, se aplican automáticamente los intereses de mora en obligaciones dinerarias.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 73/2023, de 20 de septiembre de 2023.\n\n• Comunicación Pública en Zonas Comunes: La disponibilidad técnica de televisores en habitaciones y salas de una clínica dirigida al esparcimiento de pacientes y acompañantes (pluralidad indeterminada) devenga la remuneración correspondiente a las entidades de gestión ex lege.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 2 de Barcelona, nº 10/2011, de 20 de enero de 2011.\n\n• Comunicación pública (art. 20.2.g TRLPI). La emisión de señal televisiva a través de aparatos instalados en zonas comunes y habitaciones de establecimientos abiertos al público (centros sanitarios, hoteleros y asimilados) es comunicación pública cuando se dirige a un número indeterminado de personas; el carácter aparentemente “privado” del espacio (la habitación) es irrelevante por la renovación continua de usuarios (doctrina TJCE sobre hoteles).\nUso potencial. Basta la disponibilidad técnica del aparato para devengar la remuneración: es indiferente que se encienda o no, o que por las circunstancias del público apenas se use. Lo determinante es la potencial distribución de la señal, no su utilización efectiva.\nIrrelevancia de la modalidad y del sector. La emisión “en abierto” no exonera del pago (sólo varía la tarifa frente al “pay per view”); la actividad concreta del establecimiento (oftalmología, odontología, etc.) tampoco altera la calificación del acto.\nGestión colectiva ex lege. La gestión corresponde por ley a la entidad de gestión; quien alegue disponer de licencia o autorización propia debe probarla.\nCuantificación. Se aplican las tarifas generales/oficiales de la entidad, devengándose la remuneración hasta la firmeza de la sentencia.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 2 de Barcelona, nº 10/2011, de 20 de enero de 2011.\n\n• Presunción iuris tantum. La existencia de un aparato de televisión o radio visible en un establecimiento abierto al público genera una presunción iuris tantum de comunicación pública habitual de obras del repertorio gestionado (criterio consolidado de las Audiencias).\nFundamento de la presunción. Se funda en que la finalidad de los aparatos no es estética sino el entretenimiento de la clientela; corresponde al demandado destruirla.\nCuantificación. Conforme a las tarifas generales de la entidad de gestión, criterio admitido por la jurisprudencia.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 20/2023, de 31 de marzo de 2023.\n\n• Reiteración de la presunción. Reitera la presunción iuris tantum de comunicación pública derivada de la instalación de aparatos de TV en local de hostelería abierto al público; legitimación activa de la entidad de gestión (arts. 108.4, 116.2 y 164 TRLPI).\nCarga del demandado. El cese alegado en la proyección o el pago anterior deben ser probados por el demandado.\nMora. Procede la aplicación de intereses moratorios (mora en obligación dineraria) sobre la cantidad debida.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 73/2023, de 20 de septiembre de 2023.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-051",
+    "crit-real-066",
+    "crit-real-071",
+    "crit-real-088",
+    "crit-real-090"
+   ],
+   "source_references": [
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 73/2023, de 20 de septiembre de 2023",
+    "Sentencia del Juzgado de lo Mercantil nº 2 de Barcelona, nº 10/2011, de 20 de enero de 2011",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 20/2023, de 31 de marzo de 2023"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-regalia_hipotetica-001",
+   "area": "Propiedad intelectual",
+   "topic": "regalía hipotética",
+   "question": "¿Qué criterios del corpus se aplican en materia de regalía hipotética?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «regalía hipotética», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «regalía hipotética» (transcritos de las resoluciones analizadas):\n\n• Daño Moral y Material en TV: La exhibición y transformación de una obra plástica ajena en televisión devenga indemnización por regalía hipotética. El daño moral se reconoce in re ipsa ante la alteración e intromisión inconsentida en los derechos morales del autor.\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 447/2020 (Sección 28ª), de 11 de febrero de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-030"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Madrid, nº 447/2020 (Sección 28ª), de 11 de febrero de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-acumulacion_pi_diseno-001",
+   "area": "Propiedad intelectual",
+   "topic": "acumulacion pi diseno",
+   "question": "¿Qué criterios del corpus se aplican en materia de acumulacion pi diseno?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «acumulacion pi diseno», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «acumulacion pi diseno» (transcritos de las resoluciones analizadas):\n\n• Acumulación de PI y Diseño Industrial: La protección por derechos de autor requiere \"originalidad\" (decisiones creativas libres). No es aplicable si el producto solo tiene \"singularidad o novedad\" estética para su fabricación masiva sin suficiente altura creativa (Doctrina Cofemel).\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 351/2023 (Sección 8ª), de 15 de junio de 2023.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-025"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 351/2023 (Sección 8ª), de 15 de junio de 2023"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-bases_de_datos-001",
+   "area": "Propiedad intelectual",
+   "topic": "bases de datos",
+   "question": "¿Qué criterios del corpus se aplican en materia de bases de datos?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «bases de datos», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «bases de datos» (transcritos de las resoluciones analizadas):\n\n• Bases de Datos y Marcas de Agua: El scraping o extracción sustancial vulnera el derecho sui generis de bases de datos (art. 133 TRLPI). Suprimir intencionadamente la \"marca de agua\" de las fotos viola el ius prohibendi (art. 34.4 LM) por privar de indicación de origen empresarial.\n  Fuente: Sentencia de la Audiencia Provincial de Barcelona, nº 785/2019 (Sección 15ª), de 3 de mayo de 2019.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-041"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Barcelona, nº 785/2019 (Sección 15ª), de 3 de mayo de 2019"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-canon_copia_privada-001",
+   "area": "Propiedad intelectual",
+   "topic": "canon copia privada",
+   "question": "¿Qué criterios del corpus se aplican en materia de canon copia privada?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «canon copia privada», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «canon copia privada» (transcritos de las resoluciones analizadas):\n\n• Apropiación Indebida y Canon Digital: Los intermediarios que cobran la remuneración por copia privada actúan como depositarios. Si no la ingresan a las entidades de gestión cometen apropiación indebida. La nulidad formal de una Orden Ministerial tarifaria no suprime el derecho sustantivo al cobro nacido de la LPI.\n  Fuente: Sentencia del Tribunal Supremo, nº 450/2022 (Sala de lo Penal), de 9 de mayo de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-006"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 450/2022 (Sala de lo Penal), de 9 de mayo de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-canon_digital-001",
+   "area": "Propiedad intelectual",
+   "topic": "canon digital",
+   "question": "¿Qué criterios del corpus se aplican en materia de canon digital?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «canon digital», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «canon digital» (transcritos de las resoluciones analizadas):\n\n• Apropiación Indebida de Remuneraciones LPI: Retener los importes del canon digital (copia privada) cobrados a minoristas y no entregarlos a las entidades de gestión (como EGEDA) consuma el delito de apropiación indebida (depósito irregular).\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 499/2019 (Sección 17ª), de 27 de junio de 2019.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-038"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Madrid, nº 499/2019 (Sección 17ª), de 27 de junio de 2019"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-cesion_multiuso_pi_marca-001",
+   "area": "Propiedad intelectual",
+   "topic": "cesion multiuso pi marca",
+   "question": "¿Qué criterios del corpus se aplican en materia de cesion multiuso pi marca?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «cesion multiuso pi marca», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «cesion multiuso pi marca» (transcritos de las resoluciones analizadas):\n\n• Cesión de Explotación y Signos Distintivos: Los derechos de autor y de marca son acumulables. La cesión total y en exclusiva de los derechos de explotación sobre un personaje animado comprende legítimamente la facultad del cesionario para registrarlo como marca propia.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 51/2013, de 4 de abril de 2013.\n\n• Compatibilidad PI / marca. La protección por derecho de autor y por derecho de marca sobre una misma creación (un personaje) es acumulable: una obra puede ser simultáneamente objeto de propiedad intelectual y registrarse como signo distintivo.\nAlcance de la cesión. La cesión total y en exclusiva de los derechos de explotación puede comprender la facultad de registrar la obra como marca, sin necesidad de autorización adicional del autor para ese registro, si así resulta del alcance pactado.\nCesión del contrato vs. nueva cesión. La transmisión de activos empresariales que incluya la posición contractual (subrogación del adquirente) no es una “segunda cesión” de derechos de autor que requiera nuevo consentimiento del autor; el adquirente ocupa la misma posición del cedente.\nDuración (art. 43.2 TRLPI). El límite supletorio de cinco años sólo opera a falta de pacto de duración; un pacto de duración indefinida lo desplaza y mantiene vigente el contrato.\nDerecho moral. No vulnera el derecho de paternidad quien, siendo titular legítimo de los derechos de comunicación/explotación, no divulga la autoría en términos no pactados.\nLegitimación. Si la cesión no ha sido resuelta, la legitimación para reclamar la explotación corresponde al cesionario, no al autor cedente.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 51/2013, de 4 de abril de 2013.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-065",
+    "crit-real-072"
+   ],
+   "source_references": [
+    "Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 51/2013, de 4 de abril de 2013"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-cesion_tecnologia-001",
+   "area": "Propiedad intelectual",
+   "topic": "cesion tecnologia",
+   "question": "¿Qué criterios del corpus se aplican en materia de cesion tecnologia?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «cesion tecnologia», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «cesion tecnologia» (transcritos de las resoluciones analizadas):\n\n• Cesión de Tecnología: Incurre en incumplimiento grave de contrato mercantil de cesión de tecnología quien concede licencias de uso de derechos industriales sobre los que carece de titularidad en exclusiva.\n  Fuente: Sentencia de la Audiencia Provincial de Cantabria (Sección 2ª), de 28 de abril de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-031"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Cantabria (Sección 2ª), de 28 de abril de 2021"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-diseno_industrial-001",
+   "area": "Propiedad intelectual",
+   "topic": "diseno industrial",
+   "question": "¿Qué criterios del corpus se aplican en materia de diseno industrial?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «diseno industrial», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «diseno industrial» (transcritos de las resoluciones analizadas):\n\n• Límites Penales de PI vs Diseño: Absolución penal. El bien protegido por el delito de PI (art. 270 CP) es la obra plástica individualizada, no la comercialización del producto industrial (bolso) que la incorpora como estampado, que quedaría sujeto al régimen del diseño industrial.\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 640/2019 (Sección 30ª), de 31 de octubre de 2019.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-037"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Madrid, nº 640/2019 (Sección 30ª), de 31 de octubre de 2019"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-infraccion-001",
+   "area": "Propiedad intelectual",
+   "topic": "infraccion",
+   "question": "¿Qué criterios del corpus se aplican en materia de infraccion?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «infraccion», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «infraccion» (transcritos de las resoluciones analizadas):\n\n• Delito contra la Propiedad Industrial: La inscripción registral de las marcas es un hecho notorio. El grado de credulidad, la calidad burda del producto o que el consumidor no sea engañado es irrelevante para la consumación penal, pues el bien jurídico tutelado es el derecho de exclusiva, no el patrimonio de los consumidores.\n  Fuente: Sentencia del Tribunal Supremo, nº 682/2024 (Sala de lo Penal), de 27 de junio de 2024.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-005"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 682/2024 (Sala de lo Penal), de 27 de junio de 2024"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-nfts_fair_use-001",
+   "area": "Propiedad intelectual",
+   "topic": "nfts fair use",
+   "question": "¿Qué criterios del corpus se aplican en materia de nfts fair use?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «nfts fair use», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «nfts fair use» (transcritos de las resoluciones analizadas):\n\n• Límites de PI, NFTs y Fair Use: El derecho de exhibición del propietario del soporte físico (art. 56.2 TRLPI) no le autoriza a digitalizar, transformar ni crear NFTs en el metaverso. La doctrina anglosajona del fair use es inaplicable en España (sistema numerus clausus de excepciones).\n  Fuente: Sentencia de la Audiencia Provincial de Barcelona, nº 731/2025 (Sección 15ª), de 5 de junio de 2025.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-017"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Barcelona, nº 731/2025 (Sección 15ª), de 5 de junio de 2025"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-obra_protegible-001",
+   "area": "Propiedad intelectual",
+   "topic": "obra protegible",
+   "question": "¿Qué criterios del corpus se aplican en materia de obra protegible?",
+   "short_answer": "El corpus aporta 5 criterio(s) sobre «obra protegible», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «obra protegible» (transcritos de las resoluciones analizadas):\n\n• Obra Protegible y Formatos de TV: Un formato televisivo (\"El Rosco\") es obra protegible si expresa decisiones libres y creativas, plasmadas de forma pormenorizada (no meras ideas o reglas).Cosa Juzgada: Las sentencias firmes no despliegan efecto de cosa juzgada frente a quien no fue parte en el pleito precedente.Culpa del Infractor: La responsabilidad indemnizatoria requiere actuar \"a sabiendas\" o con \"motivos razonables\" (Directiva 2004/48).\n  Fuente: Sentencia del Tribunal Supremo, nº 758/2026 (Sala de lo Civil), de 19 de mayo de 2026.\n\n• Propiedad Intelectual en Obras Aplicadas: Un estampado original incorporado a un producto útil (ej. un bolso) goza de plena protección penal como obra de propiedad intelectual, sin quedar absorbido por el derecho de propiedad industrial. El error sobre la licitud al amparo de un diseño industrial propio anula la tipicidad subjetiva.\n  Fuente: Sentencia del Tribunal Supremo, nº 222/2025 (Sala de lo Penal), de 6 de marzo de 2025.\n\n• Originalidad de Dibujos Comerciales: Símbolos gráficos (smilings/puzzlitos) creados para merchandising son obras protegibles por PI al reflejar la personalidad del autor. Su registro como marca por un licenciatario aprovechando su posición configura nulidad por mala fe.\n  Fuente: Sentencia de la Audiencia Provincial de Valencia, nº 184/2023 (Sección 9ª), de 24 de febrero de 2023.\n\n• Precisión de la Obra para Evitar Plagio: La protección del derecho de autor requiere un objeto identificable con precisión (expresión objetiva, doctrina Cofemel). Las ideas generales (ej. crear un jardín botánico interactivo) no son monopolizables ni susceptibles de plagio.\n  Fuente: Sentencia de la Audiencia Provincial de Baleares, nº 638/2022 (Sección 5ª), de 21 de junio de 2022.\n\n• Exclusión de PI en Proyectos Logísticos: Un \"proyecto de implantación de bases de transporte\" no reúne la altura creativa ni originalidad exigibles por la Ley de Propiedad Intelectual, quedando fuera del ámbito de los derechos de autor.\n  Fuente: Sentencia de la Audiencia Provincial de Málaga, nº 857/2018 (Sección 6ª), de 17 de octubre de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-002",
+    "crit-real-004",
+    "crit-real-026",
+    "crit-real-029",
+    "crit-real-043"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 758/2026 (Sala de lo Civil), de 19 de mayo de 2026",
+    "Sentencia del Tribunal Supremo, nº 222/2025 (Sala de lo Penal), de 6 de marzo de 2025",
+    "Sentencia de la Audiencia Provincial de Valencia, nº 184/2023 (Sección 9ª), de 24 de febrero de 2023",
+    "Sentencia de la Audiencia Provincial de Baleares, nº 638/2022 (Sección 5ª), de 21 de junio de 2022",
+    "Sentencia de la Audiencia Provincial de Málaga, nº 857/2018 (Sección 6ª), de 17 de octubre de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-plagio-001",
+   "area": "Propiedad intelectual",
+   "topic": "plagio",
+   "question": "¿Qué criterios del corpus se aplican en materia de plagio?",
+   "short_answer": "El corpus aporta 3 criterio(s) sobre «plagio», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «plagio» (transcritos de las resoluciones analizadas):\n\n• Inexistencia de Plagio en Formatos TV: El uso de elementos estructurales que pertenecen al \"imaginario colectivo\" o al acervo común de un género televisivo no constituye plagio. Un mero registro genérico no otorga protección si no se concreta la expresión original.\n  Fuente: Sentencia de la Audiencia Provincial de Madrid, nº 316/2024 (Sección 28ª), de 11 de octubre de 2024.\n\n• Cuantificación de Daños por Plagio: El resarcimiento por la adaptación comercial publicitaria de una obra ajena abarca la pérdida patrimonial (daño emergente/lucro cesante), los beneficios ilícitos del infractor y el daño moral reputacional (\"pérdida de lenguaje artístico\").\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 18/2023, de 23 de marzo de 2023.\n\n• Indemnización (art. 140 TRLPI). El perjudicado puede reclamar daño emergente (pérdidas y gastos de investigación para acreditar la infracción), lucro cesante (por métodos alternativos: pérdida de beneficios, beneficios del infractor o regalía hipotética) y daño moral.\nPlagio por adaptación. El plagio puede consistir en la adaptación inconsentida del núcleo esencial de una obra ajena (p. ej., para un anuncio publicitario), aunque se introduzcan modificaciones; persiste el uso indebido de la obra ajena.\nDaño moral del autor. Comprende el daño reputacional y la “pérdida del lenguaje artístico”: el cuestionamiento de la autoría/originalidad neutraliza el recorrido comercial de la obra. Su acreditación puede sustentarse en prueba testifical coincidente de profesionales del sector e informes de valoración.\nLiquidación diferida. La cuantificación del daño puede diferirse a un procedimiento posterior si así se anunció en la demanda.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 18/2023, de 23 de marzo de 2023.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-023",
+    "crit-real-053",
+    "crit-real-087"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Madrid, nº 316/2024 (Sección 28ª), de 11 de octubre de 2024",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 18/2023, de 23 de marzo de 2023"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-software-001",
+   "area": "Propiedad intelectual",
+   "topic": "software",
+   "question": "¿Qué criterios del corpus se aplican en materia de software?",
+   "short_answer": "El corpus aporta 7 criterio(s) sobre «software», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «software» (transcritos de las resoluciones analizadas):\n\n• Código Fuente y Complementariedad Relativa: La copia de software (código fuente) para fabricar piezas no autorizadas vulnera la LPI. En la Ley de Competencia Desleal rige la \"complementariedad relativa\": solo aplica si hay un desvalor anticoncurrencial distinto a la mera infracción del derecho de exclusiva.\n  Fuente: Sentencia de la Audiencia Provincial de Zaragoza, nº 490/2020 (Sección 5ª), de 24 de junio de 2020.\n\n• Software a Medida e Incumplimiento: La reproducción y comercialización de desarrollos informáticos (código/software) adjudicándose la titularidad de los mismos frente a terceros constituye incumplimiento contractual esencial y vulneración directa de la PI del creador/propietario original.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 527/2021, de 15 de septiembre de 2021.\n\n• Software Craqueado: La mera instalación de un programa pirata (saltándose las protecciones técnicas) consuma la infracción de PI sin importar su grado de uso posterior. La indemnización procede tasarla aplicando el criterio de la regalía hipotética por los asientos/servidores defraudados.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 176/2020, de 28 de abril de 2020.\n\n• Autoría de Software Laboral (Art. 97.4 LPI): Si el trabajador asalariado programa una plataforma por iniciativa propia, fuera de las instrucciones directas o encargos de su empleador, conserva plenamente la titularidad de los derechos patrimoniales y morales de la obra.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 122/2017, de 10 de mayo de 2017.\n\n• Autoría del software (art. 97.1 y 2 TRLPI). Corresponde, en principio, a la persona física creadora, con derechos morales irrenunciables, intransmisibles e inalienables. Sólo excepcionalmente se reconoce autoría a la persona jurídica (obra colectiva).\nObra creada en relación laboral (art. 97.4 TRLPI). Los derechos de explotación corresponden al empresario, salvo pacto, únicamente cuando el programa lo crea un trabajador contratado para ello, dentro de las funciones de su contrato y siguiendo las instrucciones del empleador.\nCreación por iniciativa propia. Si el trabajador crea el programa por iniciativa propia, al margen del contrato y sin instrucciones, conserva derechos morales y patrimoniales; es nula la cláusula que le imponga renunciar a la autoría moral.\nAutorización ligada al contrato. Una licencia de uso vinculada a la vigencia del contrato laboral cesa con la extinción de éste, recuperando el autor las facultades de explotación.\nCosa juzgada e inventario concursal. La inclusión de un bien o derecho en el inventario no impugnado de la masa activa del concurso no produce efectos de cosa juzgada material sobre su titularidad.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 122/2017, de 10 de mayo de 2017.\n\n• La instalación consuma la infracción. La mera instalación no autorizada de un programa (“craqueado”) consuma la infracción con independencia del uso efectivo posterior: se sanciona la puesta a disposición del programa a favor de persona no autorizada (arts. 95, 96 y 99 TRLPI).\nLegitimación pasiva. Responde quien instala el software sin licencia aunque su objeto social no sea el sector propio del programa; basta la instalación ilícita.\nRegalía hipotética (art. 140 TRLPI). La indemnización puede fijarse en el precio de las licencias que se habrían debido abonar de haberse solicitado autorización, cuantificable por dictamen pericial.\nAseguramiento de la fuente de prueba. Es lícito practicarlo inaudita parte y de forma sorpresiva (para no frustrar su eficacia), notificándose en el acto; el acta del LAJ goza de fe pública sobre los hechos constatados, garantizando la cadena de custodia. El acceso a los equipos (incluso con contraseñas) es lícito por ser el único medio de constatar la infracción.\nCarga de la prueba de autenticidad. Corresponde aportar los ficheros originales a quien dispone de ellos; quien niega la autenticidad de la copia debe indicar en qué puntos concretos no es auténtica.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 176/2020, de 28 de abril de 2020.\n\n• Titularidad pactada del software. En contratos de comercialización/licencia y desarrollo de software, la titularidad de los derechos de PI sobre el programa y sus desarrollos/evolutivos se rige por lo pactado; la facultad de comercializar licencias a terceros no transmite la titularidad de los derechos sobre el programa.\nIncumplimiento resolutorio. Constituyen incumplimiento esencial, con infracción de los derechos de PI, la copia, reproducción y comercialización del programa a terceros bajo otra denominación atribuyéndose su autoría, la subcontratación no autorizada de desarrollos y la ocultación de los contratos de licencia y del impago de cánones.\nResolución (art. 1124 CC). La resolución exige incumplimiento sustancial de las obligaciones; la consignación notarial del código fuente y de las cantidades adeudadas articula la liquidación ordenada de la relación.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 527/2021, de 15 de septiembre de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-036",
+    "crit-real-056",
+    "crit-real-061",
+    "crit-real-064",
+    "crit-real-073",
+    "crit-real-078",
+    "crit-real-083"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Zaragoza, nº 490/2020 (Sección 5ª), de 24 de junio de 2020",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 527/2021, de 15 de septiembre de 2021",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 176/2020, de 28 de abril de 2020",
+    "Sentencia del Juzgado de lo Mercantil nº 9 de Barcelona, nº 122/2017, de 10 de mayo de 2017"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-propiedad_intelectual-titulo_obra-001",
+   "area": "Propiedad intelectual",
+   "topic": "titulo obra",
+   "question": "¿Qué criterios del corpus se aplican en materia de titulo obra?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «titulo obra», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «titulo obra» (transcritos de las resoluciones analizadas):\n\n• Título de Obra como PI: El título de una obra original (videojuego) es protegible por PI. Quien lo registra como marca a sus espaldas incurre en mala fe, procediendo la acción reivindicatoria a favor del creador, independientemente del volumen de uso en la UE.\n  Fuente: Sentencia de la Audiencia Provincial de Alicante, nº 448/2023 (Sección 8ª), de 15 de septiembre de 2023.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-024"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Alicante, nº 448/2023 (Sección 8ª), de 15 de septiembre de 2023"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-patentes-diseno_industrial-001",
+   "area": "Patentes",
+   "topic": "diseno industrial",
+   "question": "¿Qué criterios del corpus se aplican en materia de diseno industrial?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «diseno industrial», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «diseno industrial» (transcritos de las resoluciones analizadas):\n\n• Carácter Singular del Diseño Industrial: La mera traslación de un estampado perteneciente al dominio público (ej. pañuelo cachirulo) a un nuevo soporte (ej. braga de cuello) carece de carácter singular si la combinación no genera una impresión general diferente en el usuario informado.\n  Fuente: Sentencia del Tribunal Supremo, nº 608/2021 (Sala de lo Civil), de 16 de septiembre de 2021.\n\n• Diseño Industrial vs Obra Artística: El diseño utilitario de un carrito de bebé (Bugaboo) carece de envergadura artística para ser PI. En sede de LCD, si un consumidor perspicaz puede distinguirlo y el diseño responde a un estándar de la industria, la imitación es lícita.\n  Fuente: Sentencia de la Audiencia Provincial de Castellón, nº 184/2013 (Sección 3ª), de 29 de abril de 2013.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-007",
+    "crit-real-047"
+   ],
+   "source_references": [
+    "Sentencia del Tribunal Supremo, nº 608/2021 (Sala de lo Civil), de 16 de septiembre de 2021",
+    "Sentencia de la Audiencia Provincial de Castellón, nº 184/2013 (Sección 3ª), de 29 de abril de 2013"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-patentes-patentabilidad-001",
+   "area": "Patentes",
+   "topic": "patentabilidad",
+   "question": "¿Qué criterios del corpus se aplican en materia de patentabilidad?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «patentabilidad», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «patentabilidad» (transcritos de las resoluciones analizadas):\n\n• Falta de Actividad Inventiva: Procede la nulidad de una patente si la solución técnica que aporta resulta \"obvia\" para un experto en la materia combinando libremente documentos y técnicas preexistentes en el estado de la técnica (método problema-solución).\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 1338/2020, de 15 de junio de 2022.\n\n• Requisitos de patentabilidad (art. 4.1 LP). Novedad, actividad inventiva y aplicación industrial.\nNovedad (art. 6.1 LP). Concepto normativo negativo: invención no comprendida en el estado de la técnica. Se aprecia “documento por documento”: un único documento debe anticipar de forma directa e inequívoca todas y cada una de las características reivindicadas (cabe combinar pasajes de un mismo documento, no de varios).\nActividad inventiva. A diferencia de la novedad, permite combinar varios documentos; se valora si para el experto en la materia la solución resultaba “obvia” partiendo del estado de la técnica más próximo (método problema-solución de la EPO).\nSuficiencia de la descripción (art. 102.1.b LP). Hay nulidad si la invención no es ejecutable por un experto por la vaguedad o imprecisión de las reivindicaciones.\nOrden de análisis y justicia rogada. Orden lógico: novedad → actividad inventiva → suficiencia; el juez puede alterar el orden propuesto si las causas se plantean de forma alternativa, limitándose a las causas invocadas (justicia rogada).\nInterpretación de reivindicaciones. Se interpretan a la luz de la descripción y los dibujos; las figuras forman parte del estado de la técnica y pueden destruir la novedad.\nPrueba pericial (sana crítica). Prevalece el dictamen técnicamente más minucioso, concluyente y coherente; debilita su posición quien no amplía su pericial para rebatir la nulidad pese a conocerla.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 201/2022, de 15 de junio de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-055",
+    "crit-real-086"
+   ],
+   "source_references": [
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 1338/2020, de 15 de junio de 2022",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 201/2022, de 15 de junio de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-cosa_juzgada-001",
+   "area": "Procesal",
+   "topic": "cosa juzgada",
+   "question": "¿Qué criterios del corpus se aplican en materia de cosa juzgada?",
+   "short_answer": "El corpus aporta 5 criterio(s) sobre «cosa juzgada», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «cosa juzgada» (transcritos de las resoluciones analizadas):\n\n• El efecto o función positiva de la cosa juzgada material (art. 222.4 LEC) no autoriza a sobreseer el procedimiento en la audiencia previa: aunque el tribunal pudiera quedar vinculado por lo resuelto en un proceso anterior como antecedente lógico, la cuestión debe resolverse en sentencia, porque el objeto del proceso anterior y el del posterior no son idénticos (art. 421.1, párrafo segundo, LEC). El sobreseimiento solo procede por el efecto negativo o excluyente de la cosa juzgada (art. 222.1 LEC).\n  Fuente: Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Tercero, apartados 9-10.\n\n• La cosa juzgada material en sentido positivo no exige identidad objetiva plena, sino que basta con que el objeto del proceso posterior sea parcialmente idéntico (si la identidad de objeto fuese plena operaría el efecto excluyente); en cambio, sí es exigible la identidad subjetiva.\n  Fuente: Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Tercero, apartado 10 (cita STS 164/2021, de 23 de marzo, ECLI:ES:TS:2021:1083, FJ 5.2).\n\n• La cosa juzgada solo se extiende a las partes del proceso anterior y a sus causahabientes (art. 222.3 y 222.4 LEC). No genera identidad subjetiva el mero conocimiento del litigio anterior, la decisión de no intervenir voluntariamente en él ni el apoyo extraprocesal a una de las partes; el licenciatario cuyos derechos derivan de quien fue parte sí puede ser causahabiente a estos efectos.\n  Fuente: Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Cuarto, apartados 13-22.\n\n• Descartado el efecto positivo de la cosa juzgada, las declaraciones del primer litigio deben respetarse pero no vinculan al tribunal del segundo proceso, que valora libremente la prueba, motiva su decisión y, en su caso, explica por qué se aparta del criterio seguido antes.\n  Fuente: Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Cuarto, apartado 23.\n\n• Límites de Cosa Juzgada en PI: El licenciatario de derechos de PI tiene \"identidad jurídica\" (solidaridad como causahabiente) con el licenciante que pleiteó anteriormente. Queda vinculado por la cosa juzgada de la sentencia firme dictada frente al licenciante.\n  Fuente: Auto de la Audiencia Provincial de Barcelona, nº 91/2021 (Sección 15ª), de 13 de mayo de 2021.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-ECLI-ES-APB-2021-3348A-001",
+    "crit-ECLI-ES-APB-2021-3348A-002",
+    "crit-ECLI-ES-APB-2021-3348A-003",
+    "crit-ECLI-ES-APB-2021-3348A-004",
+    "crit-real-050"
+   ],
+   "source_references": [
+    "Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Tercero, apartados 9-10",
+    "Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Tercero, apartado 10 (cita STS 164/2021, de 23 de marzo, ECLI:ES:TS:2021:1083, FJ 5.2)",
+    "Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Cuarto, apartados 13-22",
+    "Auto de la Audiencia Provincial de Barcelona (ECLI:ES:APB:2021:3348A), Fundamento Jurídico Cuarto, apartado 23",
+    "Auto de la Audiencia Provincial de Barcelona, nº 91/2021 (Sección 15ª), de 13 de mayo de 2021"
+   ],
+   "limits": [
+    "Criterio PROCESAL sobre cosa juzgada (LEC); la materia de fondo del caso era propiedad intelectual.",
+    "Extraído de un auto de apelación.",
+    "Recoge doctrina del Tribunal Supremo citada en el auto.",
+    "Procesal, no marcario.",
+    "NO se convierte el desenlace del caso (que cierta parte no quedaba vinculada) en regla general: el criterio versa sobre los requisitos de la identidad subjetiva.",
+    "Procesal.",
+    "Procesal; matiz sobre la fuerza de declaraciones previas no firmes frente al nuevo tribunal.",
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-medidas_cautelares-001",
+   "area": "Procesal",
+   "topic": "medidas cautelares",
+   "question": "¿Qué criterios del corpus se aplican en materia de medidas cautelares?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «medidas cautelares», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «medidas cautelares» (transcritos de las resoluciones analizadas):\n\n• Finalidad de la cautelar marcaria. Más allá de asegurar la ejecución del fallo, persigue evitar la continuación de la infracción y el incremento del quantum indemnizatorio durante la pendencia; por ello se exige un examen más riguroso del fumus boni iuris, dada la injerencia patrimonial.\nMarca renombrada (art. 8.3 y 34.2 LM). Goza de protección reforzada que excede de las clases registradas: el titular puede ejercer el ius prohibendi frente a usos en productos/servicios distintos cuando exista aprovechamiento indebido o menoscabo del carácter distintivo o del renombre, o riesgo de conexión. Distinción notoria (conocida en su sector) / renombrada (conocida por el público en general).\nComparación de signos. Debe ser global o de conjunto, no fragmentaria, atendiendo a los elementos predominantes; los términos genéricos o descriptivos son secundarios y no aportan distintividad.\nRiesgo de confusión y de asociación. El riesgo de confusión comprende el de asociación (confusión en sentido amplio): existe aunque el consumidor sepa que el origen empresarial es distinto, si puede creer en una vinculación económica entre las empresas.\nDilución y desprestigio. El riesgo de dilución, de desprestigio de la marca renombrada y el enriquecimiento injusto del infractor integran el periculum y refuerzan la tutela cautelar.\nCompetencia. Los litigios sobre derechos de propiedad industrial corresponden a los juzgados de lo mercantil.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 32/2018, de 23 de febrero de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-074"
+   ],
+   "source_references": [
+    "Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 32/2018, de 23 de febrero de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-prescripcion-001",
+   "area": "Procesal",
+   "topic": "prescripción",
+   "question": "¿Qué criterios del corpus se aplican en materia de prescripción?",
+   "short_answer": "El corpus aporta 3 criterio(s) sobre «prescripción», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «prescripción» (transcritos de las resoluciones analizadas):\n\n• Retraso Desleal (Prescripción por Tolerancia): Requiere que el titular de la marca anterior permanezca inactivo de forma consciente durante 5 años frente al uso de una \"marca posterior registrada\". No aplica ante meros usos fácticos (marcas no registradas) ni puede deducirse si no hay confianza legítima consolidada en el infractor.\n  Fuente: Sentencia de la Audiencia Provincial de Vizcaya, nº 197/2026 (Sección 4ª), de 10 de abril de 2026.\n\n• Prescripción e Impago Local: El ente organizador del evento asume la legitimación pasiva del pago de tarifas. La falta de colaboración u ocultación de datos por parte del deudor interrumpe o impide que se beneficie de los plazos de prescripción general de 5 años.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 31/2023, de 17 de mayo de 2023.\n\n• Dies a quo de la prescripción. Conforme a la línea jurisprudencial actual, el plazo corre desde que el acreedor conoció o debió conocer (con diligencia básica) la lesión de su derecho; pero la mala fe del deudor que oculta los hechos prevalece sobre la falta de diligencia del acreedor.\nFalta de colaboración del deudor. No puede beneficiarse de la prescripción el deudor cuya falta de colaboración (no facilitar los datos económicos necesarios para liquidar) provocó la emisión tardía de las facturas; los requerimientos extrajudiciales interrumpen la prescripción.\nLegitimación pasiva del organizador. El ente que organiza y sufraga el evento (fiestas patronales con cargo a presupuesto) es legitimado pasivo; el pacto de “pago delegado” con terceros no le exonera frente a la entidad de gestión.\nPrueba por indicios. Basta prueba indiciaria (programas de fiestas de varios años con música y baile) para tener por acreditados los actos de comunicación pública.\nCuantificación y pluspetición. Cuantificación por tarifas generales; no hay pluspetición si se reclama cantidad inferior a la resultante de aplicarlas.\n  Fuente: Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 31/2023, de 17 de mayo de 2023.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-014",
+    "crit-real-052",
+    "crit-real-089"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Vizcaya, nº 197/2026 (Sección 4ª), de 10 de abril de 2026",
+    "Sentencia del Juzgado de lo Mercantil nº 13 de Madrid, nº 31/2023, de 17 de mayo de 2023"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-competencia_objetiva-001",
+   "area": "Procesal",
+   "topic": "competencia objetiva",
+   "question": "¿Qué criterios del corpus se aplican en materia de competencia objetiva?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «competencia objetiva», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «competencia objetiva» (transcritos de las resoluciones analizadas):\n\n• Acumulación y Competencia Mercantil: Procede la competencia objetiva de los Juzgados de lo Mercantil para tramitar acumuladamente acciones de Propiedad Intelectual y acciones de vulneración del Derecho a la propia imagen, si están indisolublemente conectadas por el mismo hecho.\n  Fuente: Auto de la Audiencia Provincial de Madrid, nº 54/2019 (Sección 28ª), de 26 de abril de 2019.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-039"
+   ],
+   "source_references": [
+    "Auto de la Audiencia Provincial de Madrid, nº 54/2019 (Sección 28ª), de 26 de abril de 2019"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-cuestiones_procesales_pi-001",
+   "area": "Procesal",
+   "topic": "cuestiones procesales pi",
+   "question": "¿Qué criterios del corpus se aplican en materia de cuestiones procesales pi?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «cuestiones procesales pi», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «cuestiones procesales pi» (transcritos de las resoluciones analizadas):\n\n• Cuestiones Procesales en Propiedad Intelectual: (Resolución meramente procedimental/estimatoria sobre recursos y acumulación procesal entre entidad de TV y un Club de Fútbol, sin doctrina material sustantiva extraíble de los fundamentos aportados).\n  Fuente: Sentencia de la Audiencia Provincial de Valencia, nº 97/2025 (Sección 9ª), de 1 de septiembre de 2025.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-070"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Valencia, nº 97/2025 (Sección 9ª), de 1 de septiembre de 2025"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-desistimiento_renuncia-001",
+   "area": "Procesal",
+   "topic": "desistimiento renuncia",
+   "question": "¿Qué criterios del corpus se aplican en materia de desistimiento renuncia?",
+   "short_answer": "El corpus aporta 2 criterio(s) sobre «desistimiento renuncia», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «desistimiento renuncia» (transcritos de las resoluciones analizadas):\n\n• Desistimiento vs. Renuncia: A diferencia de la renuncia material, el desistimiento procesal previo a la contestación es unilateral. El mero hecho de existir otras acciones cruzadas no convierte en temerario o de mala fe el desistimiento a efectos de imposición de costas.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 50/2018, de 7 de marzo de 2018.\n\n• Desistimiento vs. renuncia. El desistimiento es figura procesal: deja imprejuzgada la pretensión, reejercitable en otro pleito. La renuncia es material: abandono de la acción y del derecho, no reejercitable.\nUnilateralidad / bilateralidad. El desistimiento es unilateral antes de la contestación; tras ella se torna bilateral, bastando dar audiencia al demandado (no es preciso acuerdo) para evitar indefensión (art. 24 CE).\nPersonación ≠ contestación. La mera personación del demandado, antes de vencer el plazo para contestar, no equivale a contestación a efectos del régimen del desistimiento, que conserva carácter unilateral.\nCostas de otro procedimiento. Las costas de un pleito distinto (p. ej., la reivindicatoria seguida en otro juzgado) no pueden prejuzgarse ni resarcirse en éste; corresponde decidirlas al órgano que conoce de aquél.\nMala fe / temeridad. La sola interposición de otra demanda por el actor no acredita por sí mala fe o temeridad procesal a efectos de imposición de costas.\n  Fuente: Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 50/2018, de 7 de marzo de 2018.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-069",
+    "crit-real-075"
+   ],
+   "source_references": [
+    "Auto del Juzgado de lo Mercantil nº 9 de Barcelona, nº 50/2018, de 7 de marzo de 2018"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  },
+  {
+   "id": "cat-procesal-estafa_comercial-001",
+   "area": "Procesal",
+   "topic": "estafa comercial",
+   "question": "¿Qué criterios del corpus se aplican en materia de estafa comercial?",
+   "short_answer": "El corpus aporta 1 criterio(s) sobre «estafa comercial», extraídos de resoluciones reales; la respuesta completa los transcribe con la resolución de la que procede cada uno. Es orientación informativa basada en un corpus cerrado, no asesoramiento jurídico.",
+   "full_answer": "Criterios del corpus sobre «estafa comercial» (transcritos de las resoluciones analizadas):\n\n• Estafa en Ámbito Empresarial: Incurre en engaño penalmente reprochable (estafa) quien recauda inversiones para un proyecto fundado en una marca, haciendo creer que pertenece a la sociedad, ocultando dolosamente que la inscribió a título exclusivamente personal.\n  Fuente: Sentencia de la Audiencia Provincial de Baleares, nº 193/2022 (Sección 1ª), de 17 de mayo de 2022.\n\nEsta es una lectura orientativa de los criterios; el resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora. No constituye asesoramiento jurídico.",
+   "related_criteria_ids": [
+    "crit-real-028"
+   ],
+   "source_references": [
+    "Sentencia de la Audiencia Provincial de Baleares, nº 193/2022 (Sección 1ª), de 17 de mayo de 2022"
+   ],
+   "limits": [
+    "Criterio hermenéutico extraído por el propietario de la resolución citada; es orientación informativa y no anticipa el resultado de ningún procedimiento.",
+    "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora.",
+    "El catálogo recoge los criterios del corpus sobre la materia; no cubre los matices ajenos a ellos. El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+   ],
+   "approved": true,
+   "version": "1.0.0",
+   "last_reviewed_at": "2026-06-23T12:53:09.922174+00:00",
+   "last_reviewed_by": "William (revisión del propietario) — catálogo generado del corpus"
+  }
+ ]
+}

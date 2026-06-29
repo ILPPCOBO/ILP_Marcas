@@ -1,0 +1,33 @@
+{
+  "criteria": [
+    {
+      "id": "crit-ECLI-ES-APB-2021-3348A-003",
+      "judgment_id": "ECLI-ES-APB-2021-3348A",
+      "area": "procesal",
+      "topic": "cosa_juzgada",
+      "subtopic": "elemento_subjetivo_causahabientes",
+      "criterion_text": "La cosa juzgada solo se extiende a las partes del proceso anterior y a sus causahabientes (art. 222.3 y 222.4 LEC). No genera identidad subjetiva el mero conocimiento del litigio anterior, la decisión de no intervenir voluntariamente en él ni el apoyo extraprocesal a una de las partes; el licenciatario cuyos derechos derivan de quien fue parte sí puede ser causahabiente a estos efectos.",
+      "conditions_for_application": [
+        "Que se discuta extender la cosa juzgada a quien no fue parte en el proceso anterior.",
+        "Que se valore el origen (cesión/licencia) de los derechos invocados."
+      ],
+      "does_not_answer": [
+        "No resuelve la identidad objetiva ni el alcance temporal de la cosa juzgada.",
+        "No se pronuncia sobre marcas registradas."
+      ],
+      "limits": [
+        "NO se convierte el desenlace del caso (que cierta parte no quedaba vinculada) en regla general: el criterio versa sobre los requisitos de la identidad subjetiva.",
+        "Procesal."
+      ],
+      "source_excerpt": "Solo se puede extender la cosa juzgada a los que sean causahabientes de las partes, y en este caso, Mediaset no tenía esa condición.",
+      "source_reference": "Fundamento Jurídico Cuarto, apartados 13-22",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "William (revisión del propietario)",
+      "approved_at": "2026-06-16T09:31:15.567502+00:00",
+      "created_at": "2026-06-13T12:00:00Z",
+      "updated_at": "2026-06-16T09:31:15.567502+00:00"
+    }
+  ]
+}

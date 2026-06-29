@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://locked-legal-advisor.local/schemas/audit_log.schema.json",
+  "title": "AuditLog",
+  "description": "Trazabilidad de cada interacción (Regla 16). La cadena completa es UserQuery + AdvisorAnswer + AuditLog. Espejo TS: services/models/auditLog.ts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "query_id",
+    "answer_id",
+    "retrieved_criteria_ids",
+    "rejected_criteria_ids",
+    "decision_reason",
+    "safety_flags",
+    "created_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "query_id": { "type": "string", "minLength": 1 },
+    "answer_id": { "type": "string", "minLength": 1 },
+    "retrieved_criteria_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Criterios candidatos que recuperó el retriever (sin duplicados)."
+    },
+    "rejected_criteria_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "SUBCONJUNTO de retrieved_criteria_ids descartado (relevancia insuficiente, veto de guardarraíl...). La relación descartado ⊆ recuperado no es expresable en JSON Schema: la asegura el espejo TS (validateAuditLog)."
+    },
+    "decision_reason": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Justificación auditable de la decisión del motor (Regla 16)."
+    },
+    "safety_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Códigos de safetyGuardrails activados; vacío si ninguno."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    }
+  }
+}

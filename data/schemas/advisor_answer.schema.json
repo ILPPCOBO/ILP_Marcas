@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://locked-legal-advisor.local/schemas/advisor_answer.schema.json",
+  "title": "AdvisorAnswer",
+  "description": "Respuesta producida por el sistema (incluye repreguntas y rechazos). Espejo TS: services/models/advisorAnswer.ts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "query_id",
+    "decision",
+    "answer_text",
+    "criteria_used",
+    "sources_used",
+    "limits",
+    "confidence_level",
+    "disclaimer",
+    "created_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "query_id": { "type": "string", "minLength": 1 },
+    "decision": {
+      "enum": ["answer", "clarify", "out_of_scope", "insufficient_criteria"],
+      "description": "Únicas salidas representables. out_of_scope (Regla 8) e insufficient_criteria (Regla 6) son las dos formas del 'rechazar' constitucional."
+    },
+    "answer_text": { "type": "string", "minLength": 1 },
+    "criteria_used": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "IDs de LegalCriterion usados, sin duplicados. Vacío salvo decision='answer'."
+    },
+    "sources_used": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["criterion_id", "judgment_id"],
+        "properties": {
+          "criterion_id": { "type": "string", "minLength": 1 },
+          "judgment_id": { "type": "string", "minLength": 1 }
+        }
+      },
+      "description": "Citas criterio → resolución, ensambladas desde metadatos (Reglas 4 y 9)."
+    },
+    "limits": { "type": "string", "minLength": 1 },
+    "confidence_level": {
+      "enum": ["high", "medium", "low", null],
+      "description": "null cuando no hay respuesta de fondo."
+    },
+    "disclaimer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "SIEMPRE presente, en toda decisión (Reglas 11-12)."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    }
+  },
+  "allOf": [
+    {
+      "description": "decision='answer' exige criterios, fuentes y confianza (Reglas 1, 4, 5, 9).",
+      "if": { "properties": { "decision": { "const": "answer" } }, "required": ["decision"] },
+      "then": {
+        "properties": {
+          "criteria_used": { "minItems": 1 },
+          "sources_used": { "minItems": 1 },
+          "confidence_level": { "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    {
+      "description": "Repreguntas y rechazos sin criterios ni fuentes ni confianza (Regla 17).",
+      "if": {
+        "properties": {
+          "decision": { "enum": ["clarify", "out_of_scope", "insufficient_criteria"] }
+        },
+        "required": ["decision"]
+      },
+      "then": {
+        "properties": {
+          "criteria_used": { "maxItems": 0 },
+          "sources_used": { "maxItems": 0 },
+          "confidence_level": { "const": null }
+        }
+      }
+    }
+  ]
+}

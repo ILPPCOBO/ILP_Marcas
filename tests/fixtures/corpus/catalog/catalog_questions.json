@@ -1,0 +1,159 @@
+{
+  "_warning": "⚠️ DATOS DE PRUEBA FICTICIOS. Estas preguntas estándar NO son derecho real: restituyen criterios FICTICIOS del corpus de prueba para poder ejercitar el catálogo. Su 'approved: true' es una autorización de PRUEBA del propietario (no revisión jurídica), registrada en last_reviewed_by. BORRAR antes de cargar contenido real.",
+  "dataset": {
+    "name": "catalog_questions",
+    "fictitious": true,
+    "purpose": "Probar el modo de preguntas estándar (navegación + puertas) antes de cargar preguntas reales.",
+    "delete_before_production": true,
+    "authorized_by_owner": "2026-06-13"
+  },
+  "questions": [
+    {
+      "id": "cat-marcas-rc-001",
+      "area": "Marcas",
+      "topic": "riesgo de confusión",
+      "question": "¿Cómo se compara si dos signos pueden confundirse?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, la comparación atiende a la impresión de conjunto de los signos y a la similitud de los productos o servicios.",
+      "full_answer": "FICTICIO (datos de prueba) — Según los criterios aprobados del corpus de ensayo, para apreciar el riesgo de confusión el análisis parte del «elemento de ensayo dominante» de cada signo y pondera conjuntamente la similitud visual y fonética; además, a mayor similitud entre los productos comparados, menor semejanza entre los signos basta para apreciar la confusión. El corpus no permite afirmar un resultado: estos criterios solo orientan el análisis.",
+      "related_criteria_ids": ["crit-mock-0001", "crit-mock-0002"],
+      "source_references": [
+        "Resolución MOCK-101/2021 (ficticia), Fundamento de prueba 2.º",
+        "Resolución MOCK-101/2021 (ficticia), Fundamento de prueba 3.º"
+      ],
+      "limits": [
+        "FICTICIO — No resuelve la comparación de signos figurativos ni la validez registral.",
+        "El resultado depende de la prueba practicada y de la normativa vigente, que esta herramienta no verifica."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-13T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-marcas-mf-001",
+      "area": "Marcas",
+      "topic": "mala fe",
+      "question": "¿Cuándo se considera que una marca se registró de mala fe?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, hay mala fe cuando se solicita el signo solo para bloquear a un operador preexistente, sin intención de uso propio.",
+      "full_answer": "FICTICIO (datos de prueba) — Conforme a la doctrina de ensayo del corpus, registra de mala fe quien solicita el signo con el único propósito de obstaculizar la actividad de un operador de prueba preexistente, conociendo esa actividad y sin un plan de uso propio documentado. Es solo orientación: el corpus no anticipa ningún resultado.",
+      "related_criteria_ids": ["crit-mock-0003"],
+      "source_references": ["Resolución MOCK-202/2019 (ficticia), Fundamento de prueba 4.º"],
+      "limits": [
+        "FICTICIO — No responde sobre la mala fe en renovaciones de registro.",
+        "El resultado depende de la prueba y de la normativa vigente, no verificadas por esta herramienta."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-13T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-marcas-pr-001",
+      "area": "Marcas",
+      "topic": "prioridad registral",
+      "question": "¿Cómo se determina la prioridad entre dos signos en conflicto?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, la prioridad se fija por la fecha de solicitud, salvo excepción de uso notorio anterior.",
+      "full_answer": "FICTICIO (datos de prueba) — Conforme a los criterios de ensayo del corpus, la prioridad entre signos en conflicto se determina por la fecha de solicitud de ensayo, salvo que se acredite la excepción de uso notorio anterior. Es orientación informativa; el corpus no anticipa el resultado.",
+      "related_criteria_ids": ["crit-mock-0004"],
+      "source_references": ["Resolución MOCK-202/2019 (ficticia), Fundamento de prueba 2.º"],
+      "limits": [
+        "FICTICIO — No responde sobre la prioridad derivada de solicitudes internacionales.",
+        "El resultado depende de la prueba disponible y de la normativa vigente."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-13T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-procesal-pr-001",
+      "area": "Procesal",
+      "topic": "prueba",
+      "question": "¿A quién corresponde la carga de la prueba?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, corresponde a quien afirma un hecho, con desplazamiento por cercanía a la fuente.",
+      "full_answer": "FICTICIO (datos de prueba) — Según los criterios de ensayo del corpus, en el proceso corresponde a quien afirma un hecho la carga de acreditarlo, con la regla de la «cercanía a la fuente»: la carga se desplaza a la parte con mejor acceso a la fuente de prueba. El dictamen pericial se valora por su solvencia metodológica, sin vincular automáticamente al tribunal. Es orientación, no un pronóstico.",
+      "related_criteria_ids": ["crit-mock-0009", "crit-mock-0010"],
+      "source_references": [
+        "Resolución MOCK-606/2023 (ficticia), Fundamento de prueba 2.º",
+        "Resolución MOCK-606/2023 (ficticia), Fundamento de prueba 4.º"
+      ],
+      "limits": [
+        "FICTICIO — No resuelve la admisibilidad de medios de prueba concretos.",
+        "El resultado depende de la prueba practicada y de la normativa vigente."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-13T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-pi-aut-001",
+      "area": "Propiedad intelectual",
+      "topic": "autoría",
+      "question": "¿Quién se presume autor de una obra inscrita?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, se presume autor a quien consta como tal en el registro de la obra, salvo prueba en contrario.",
+      "full_answer": "FICTICIO (datos de prueba) — Según los criterios aprobados del corpus de ensayo, se presume autor a quien figura como tal en el registro de la obra de ensayo; es una presunción que cede ante la prueba en contrario que aporte quien discuta la autoría. Aplica cuando la obra consta inscrita. Es orientación informativa: el corpus no anticipa ningún resultado.",
+      "related_criteria_ids": ["crit-mock-0005"],
+      "source_references": ["Resolución MOCK-303/2020 (ficticia), Fundamento de prueba 1.º"],
+      "limits": [
+        "FICTICIO — No resuelve la coautoría de obras colectivas.",
+        "El resultado depende de la prueba practicada y de la normativa vigente, que esta herramienta no verifica."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-17T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-pi-ol-001",
+      "area": "Propiedad intelectual",
+      "topic": "obra laboral",
+      "question": "Si un empleado crea una obra en su trabajo, ¿de quién son los derechos de explotación?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, cuando la obra se crea en ejecución del contrato laboral, los derechos de explotación se entienden cedidos al empleador en el alcance necesario para su actividad ordinaria, salvo pacto en contrario.",
+      "full_answer": "FICTICIO (datos de prueba) — Conforme a los criterios de ensayo del corpus, si la obra se crea en ejecución de un contrato laboral y dentro de las funciones del puesto, los derechos de explotación se entienden cedidos al empleador en el alcance necesario para su actividad ordinaria, salvo pacto por escrito en contrario. Es orientación informativa; el corpus no anticipa el resultado.",
+      "related_criteria_ids": ["crit-mock-0006"],
+      "source_references": ["Resolución MOCK-303/2020 (ficticia), Fundamento de prueba 5.º"],
+      "limits": [
+        "FICTICIO — No responde sobre los derechos morales del trabajador ni sobre obras de colaboradores autónomos.",
+        "El resultado depende de la prueba practicada y de la normativa vigente, que esta herramienta no verifica."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-17T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-pi-cp-001",
+      "area": "Propiedad intelectual",
+      "topic": "comunicación pública",
+      "question": "¿Cuándo hay comunicación pública de una obra?",
+      "short_answer": "FICTICIO (prueba) — Según los criterios disponibles, hay comunicación pública cuando la obra se pone a disposición de una pluralidad de personas ajenas al grupo cerrado del titular, con independencia de que accedan efectivamente.",
+      "full_answer": "FICTICIO (datos de prueba) — Según la resolución de ensayo del corpus, existe comunicación pública cuando la obra se pone a disposición de una «pluralidad» —umbral inventado por esa resolución: más de cinco personas— ajenas al grupo cerrado del titular, con independencia de que accedan o no efectivamente a ella. Es orientación informativa; el corpus no anticipa el resultado.",
+      "related_criteria_ids": ["crit-mock-0007"],
+      "source_references": ["Resolución MOCK-404/2022 (ficticia), Fundamento de prueba 3.º"],
+      "limits": [
+        "FICTICIO — No responde sobre la reproducción ni la distribución de ejemplares.",
+        "El resultado depende de la prueba practicada y de la normativa vigente, que esta herramienta no verifica."
+      ],
+      "approved": true,
+      "version": "1.0.0",
+      "last_reviewed_at": "2026-06-17T09:00:00Z",
+      "last_reviewed_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)"
+    },
+    {
+      "id": "cat-patentes-inf-001",
+      "area": "Patentes",
+      "topic": "infracción",
+      "question": "¿Cuándo se infringe una patente?",
+      "short_answer": "",
+      "full_answer": "",
+      "related_criteria_ids": [],
+      "source_references": [],
+      "limits": [],
+      "approved": false,
+      "version": "0.1.0",
+      "last_reviewed_at": null,
+      "last_reviewed_by": null
+    }
+  ]
+}

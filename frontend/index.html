@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ILP · Asesor Informativo de Marcas y PI</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="acceptance.css" />
+  </head>
+  <body>
+    <!-- Cabecera de marca (inspirada en ilpabogados.com): navy + filo de oro. -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="ILP Abogados — inicio">
+          <span class="brand-mark">ILP<span class="dot">.</span></span>
+          <span class="brand-sub">Asesor Informativo</span>
+        </a>
+        <div class="barra-idioma">
+          <span id="idioma-label">Idioma:</span>
+          <button id="lang-es" type="button" class="lang activo">Español</button>
+          <button id="lang-en" type="button" class="lang">English</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <!-- Héroe -->
+      <section class="hero">
+        <p class="kicker">Marcas · Propiedad intelectual · Patentes · Procesal</p>
+        <h1>Inteligencia que <em>entiende</em> tu caso.</h1>
+        <p id="subtitulo" class="subtitulo">
+          Orientación informativa basada en un corpus cerrado de criterios aprobados de resoluciones reales.
+        </p>
+      </section>
+
+      <!-- Aviso fijo (Reglas 11-12). El texto se reconcilia desde la fuente
+           única (services/legal/disclaimer.ts) vía acceptance.js; el literal
+           es solo el render inicial / degradación sin JS. -->
+      <p class="aviso-fijo" role="note" data-disclaimer-banner>
+        Esta herramienta ofrece orientación informativa basada en un corpus cerrado.
+        No constituye asesoramiento jurídico y no predice el resultado de ningún procedimiento.
+      </p>
+
+      <!-- DOS CAMINOS desde el menú principal: catálogo (rápido y validado) o
+           pregunta específica asistida (repregunta / orienta con el corpus). -->
+      <section class="dos-caminos" aria-label="Elige cómo empezar">
+        <article class="camino-card">
+          <span class="camino-num">01</span>
+          <h2>Preguntas estándar</h2>
+          <p>
+            Catálogo navegable por materias —marcas, propiedad intelectual, patentes y procesal—.
+            Cada pregunta tiene una respuesta validada de antemano, fiel a los criterios del corpus y
+            con la resolución de la que procede.
+          </p>
+          <p class="camino-nota">El camino rápido, predecible y de máxima fiabilidad.</p>
+          <a class="camino-cta" href="catalog.html">Abrir catálogo →</a>
+        </article>
+        <article class="camino-card destacada">
+          <span class="camino-num">02</span>
+          <h2>Pregunta específica</h2>
+          <p>
+            Redacta tu propia consulta. Si es ambigua o mezcla materias, la herramienta
+            <strong>repregunta</strong> para precisar; si es clara, ofrece una
+            <strong>orientación</strong> construida solo con los criterios del corpus, citando su fuente.
+          </p>
+          <p class="camino-nota">
+            Lectura orientativa de criterios jurisprudenciales — nunca un dictamen ni una recomendación
+            de actuación.
+          </p>
+          <a class="camino-cta primaria" href="#pregunta-especifica">Escribir consulta →</a>
+        </article>
+      </section>
+
+      <!-- Herramientas secundarias. (El score de alineación lo activa scoreboard.js) -->
+      <nav class="menu menu-secundario" aria-label="Otras herramientas">
+        <span class="menu-rotulo">También:</span>
+        <a class="menu-item" href="evaluar.html">Evaluar caso</a>
+        <a class="menu-item" href="#zona-materiales">Subir documentos del caso</a>
+        <button id="menu-scoreboard" type="button" class="menu-item">Ver score de alineación</button>
+      </nav>
+
+      <h2 id="pregunta-especifica" class="seccion-titulo">Pregunta específica asistida</h2>
+      <p class="seccion-nota">
+        La herramienta repreguntará si faltan datos, u ofrecerá una orientación basada en los criterios
+        del corpus y su fuente. Nunca predice el resultado de un procedimiento.
+      </p>
+
+      <form id="formulario" class="caja">
+        <label id="label-consulta" for="consulta">Escriba su consulta</label>
+        <textarea
+          id="consulta"
+          name="consulta"
+          rows="4"
+          placeholder="Ej.: Una empresa usa un logo parecido a mi marca registrada…"
+        ></textarea>
+
+        <!-- Zona de HECHOS / reporte del caso. Se lee LOCALMENTE en el navegador
+             (no se sube a ningún servidor externo) y se trata como "los hechos
+             que el usuario describe": alimenta la detección determinista de
+             criterios aplicables y datos faltantes. NUNCA pronostica resultado
+             (Reglas 10-13, 17). -->
+        <label id="label-hechos" for="hechos">Hechos o reporte del caso (opcional)</label>
+        <div id="zona-hechos" class="dropzone">
+          <textarea
+            id="hechos"
+            name="hechos"
+            rows="5"
+            placeholder="Pega aquí el reporte del caso o arrastra un archivo .txt…"
+          ></textarea>
+          <p class="dropzone-ayuda">
+            <span id="hechos-ayuda"
+              >Se procesa en tu navegador; el sistema no predice resultados, solo orienta según los
+              criterios aprobados.</span
+            >
+            <button type="button" id="examinar" class="enlace">Examinar…</button>
+            <input type="file" id="archivo-hechos" accept=".txt,text/plain" multiple hidden />
+          </p>
+          <p id="archivos-cargados" class="archivos" aria-live="polite"></p>
+        </div>
+
+        <!-- MATERIALES DEL CASO (Case Materials): archivos del propio caso del
+             usuario. SOLO evidencia factual, NUNCA fuente jurídica. Se suben a
+             /api/upload, se extrae texto LOCALMENTE (OCR si está disponible) y se
+             preparan hechos para compararlos con criterios aprobados; NUNCA se
+             pronostica resultado. -->
+        <label id="label-materiales">Materiales del caso (archivos: PDF, DOCX, TXT, PNG, JPG, JPEG)</label>
+        <div id="zona-materiales" class="dropzone dropzone-archivos">
+          <p class="dropzone-ayuda">
+            <span id="materiales-ayuda">Arrastra aquí tus archivos (PDF, DOCX, TXT, PNG, JPG, JPEG) o</span>
+            <button type="button" id="examinar-materiales" class="enlace">examinar…</button>
+            <input
+              type="file"
+              id="archivo-materiales"
+              accept=".pdf,.docx,.txt,.png,.jpg,.jpeg"
+              multiple
+              hidden
+            />
+          </p>
+          <p id="nota-evidencia" class="nota-evidencia">
+            Evidencia del caso, no fuente jurídica. Se prepara para compararla con los criterios
+            aprobados del corpus; no constituye asesoramiento ni predice el resultado.
+          </p>
+          <ul id="lista-materiales" class="materiales" aria-live="polite"></ul>
+          <div id="hechos-detectados" class="hechos-detectados oculto"></div>
+        </div>
+
+        <button id="enviar" type="submit">Enviar consulta</button>
+      </form>
+
+      <section id="resultado" class="resultado oculto" aria-live="polite">
+        <!-- Panel de trazabilidad: decisión, área, tema, criterios, fuentes -->
+        <div class="panel">
+          <div class="campo">
+            <span class="etiqueta">Decisión del sistema</span>
+            <span id="decision" class="valor badge"></span>
+          </div>
+          <div class="campo">
+            <span class="etiqueta">Área detectada</span>
+            <span id="area" class="valor"></span>
+          </div>
+          <div class="campo">
+            <span class="etiqueta">Tema detectado</span>
+            <span id="tema" class="valor"></span>
+          </div>
+          <div class="campo">
+            <span class="etiqueta">Criterios usados</span>
+            <span id="criterios" class="valor"></span>
+          </div>
+          <div class="campo">
+            <span class="etiqueta">Fuentes usadas</span>
+            <span id="fuentes" class="valor"></span>
+          </div>
+        </div>
+
+        <!-- Área de respuesta. El título cambia según la decisión. -->
+        <h2 id="titulo-respuesta"></h2>
+        <!-- La respuesta se presenta en FLASHCARDS (una sección por tarjeta) que
+             se deslizan de derecha a izquierda. El <pre> queda como texto completo
+             alternativo (botón "Ver todo el texto") y fallback sin JS. -->
+        <div id="flashcards" class="flashcards oculto" aria-live="polite"></div>
+        <pre id="texto-respuesta" class="texto"></pre>
+        <button type="button" id="toggle-texto" class="toggle-texto oculto">Ver todo el texto</button>
+
+        <!-- Aclaración GUIADA: preguntas con opciones (multiple choice) derivadas
+             de los criterios del corpus. Al pulsar una opción, se reenvía la
+             consulta con la frase de esa opción → ruteo preciso y determinista. -->
+        <div id="clarify-options" class="clarify-options oculto" aria-live="polite"></div>
+
+        <!-- Caja de respuesta a las preguntas de aclaración (texto libre, como
+             alternativa a las opciones). Al enviar, se combina la consulta
+             original con lo añadido y se reenvía como UNA consulta nueva. -->
+        <form id="form-aclaracion" class="caja aclaracion oculto">
+          <label id="label-aclaracion" for="aclaracion">Responda a las preguntas anteriores</label>
+          <textarea
+            id="aclaracion"
+            name="aclaracion"
+            rows="3"
+            placeholder="Añada aquí los datos que le piden…"
+          ></textarea>
+          <button id="enviar-aclaracion" type="submit">Enviar respuesta</button>
+        </form>
+
+        <p id="aviso-respuesta" class="aviso-respuesta"></p>
+
+        <!-- Honestidad / ausencia de complacencia: si el corpus no cubre la
+             cuestión o no hay criterios suficientes, se reconoce abiertamente y
+             se redirige al catálogo o a un profesional (no se rellena el vacío). -->
+        <p id="sugerencia" class="sugerencia oculto">
+          Esta cuestión no está cubierta con certeza por las resoluciones en que me baso. Puede revisar
+          el <a href="catalog.html">catálogo de preguntas estándar</a> o consultar a un profesional. Solo
+          oriento sobre lo que los criterios aprobados del corpus sí resuelven.
+        </p>
+
+        <!-- Llamada a la acción: al final de cada consulta se invita a contactar con
+             ILP Abogados. Es promoción informativa del despacho (Reglas 11-12): no
+             es asesoramiento ni pronóstico. El mensaje se refuerza cuando el caso
+             tiene matices o queda fuera del corpus (out_of_scope / insufficient). -->
+        <aside id="cta-ilp" class="cta-ilp oculto" aria-live="polite">
+          <div class="cta-ilp-inner">
+            <p id="cta-ilp-titulo" class="cta-ilp-titulo">¿Su caso tiene más matices?</p>
+            <p id="cta-ilp-texto" class="cta-ilp-texto">
+              Esta orientación se basa en un corpus cerrado de resoluciones. Para resolver las dudas
+              concretas de su caso, contacte con ILP Abogados.
+            </p>
+            <div class="cta-ilp-acciones">
+              <a id="cta-ilp-email" class="cta-ilp-btn"
+                 href="mailto:atencionalcliente@ilpabogados.com?subject=Consulta%20sobre%20marcas%20y%20propiedad%20intelectual"
+                >Contactar con ILP Abogados</a>
+              <a class="cta-ilp-tel" href="tel:+34914582492">+34 914 582 492</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Scoreboard: "Score de alineación con criterios del corpus" (NO es una
+           probabilidad de ganar). Solo aparece al pulsar "Ver score de alineación". -->
+      <section id="scoreboard" class="scoreboard oculto" aria-live="polite"></section>
+    </main>
+
+    <!-- Pie de marca -->
+    <footer class="pie">
+      <div class="pie-inner">
+        <div>
+          <span class="brand-mark">ILP<span class="dot">.</span></span>
+          <p class="pie-aviso">
+            Asesor informativo de marcas y propiedad intelectual. Responde únicamente con criterios
+            aprobados extraídos de resoluciones reales; cita su fuente, declara sus límites y nunca
+            predice el resultado de un procedimiento. No constituye asesoramiento jurídico: para un
+            caso concreto, consulte con un profesional.
+          </p>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>Paseo de la Castellana 120, 5º Izq.<br />28046 Madrid, España</p>
+          <p><a href="tel:+34914582492">+34 914 582 492</a></p>
+          <p><a href="mailto:atencionalcliente@ilpabogados.com">atencionalcliente@ilpabogados.com</a></p>
+        </div>
+        <p class="pie-legal">
+          Herramienta interna de orientación informativa · Corpus cerrado · Sin conexión a internet en
+          la lógica de respuesta · La aprobación de criterios es siempre un acto humano.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Pop-up del score de ALINEACIÓN con el corpus. Según el umbral (≥70 / <70)
+         cambia el mensaje, pero AMBOS promueven consultar con ILP Abogados (Reglas
+         11-12). NO es un pronóstico de resultado ni una recomendación de litigar
+         (Regla 18): la alineación mide cobertura del corpus, no el mérito. -->
+    <div id="popup-score" class="popup-overlay oculto" role="dialog" aria-modal="true" aria-labelledby="popup-score-titulo">
+      <div class="popup-box">
+        <button type="button" id="popup-score-cerrar" class="popup-cerrar" aria-label="Cerrar">×</button>
+        <p id="popup-score-titulo" class="popup-titulo"></p>
+        <p id="popup-score-texto" class="popup-texto"></p>
+        <p id="popup-score-aviso" class="popup-aviso"></p>
+        <div class="popup-acciones">
+          <a id="popup-score-email" class="popup-btn"
+             href="mailto:atencionalcliente@ilpabogados.com?subject=Consulta%20sobre%20marcas%20y%20propiedad%20intelectual"
+            >Contactar con ILP Abogados</a>
+          <a class="popup-tel" href="tel:+34914582492">+34 914 582 492</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="acceptance.js"></script>
+    <script src="app.js"></script>
+    <script src="uploads.js"></script>
+    <script src="scoreboard.js"></script>
+  </body>
+</html>

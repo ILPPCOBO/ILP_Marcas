@@ -1,0 +1,21 @@
+{
+  "judgments": [
+    {
+      "id": "ECLI-ES-APB-2021-3348A",
+      "title": "Auto AP Barcelona (Secc. 15ª) 91/2021, de 13 de mayo — cosa juzgada positiva (caso «El Rosco»/Pasapalabra)",
+      "court": "Audiencia Provincial de Barcelona, Sección 15ª",
+      "date": "2021-05-13",
+      "resolution_number": "Auto 91/2021 (ECLI:ES:APB:2021:3348A)",
+      "jurisdiction": "ES",
+      "legal_area": "procesal",
+      "topics": [
+        "cosa_juzgada"
+      ],
+      "original_language": "es",
+      "file_path": "data/source_judgments/ECLI-ES-APB-2021-3348A.docx",
+      "summary_internal": "Auto que revoca el sobreseimiento acordado en audiencia previa por cosa juzgada positiva. Fija que el efecto positivo de la cosa juzgada (art. 222.4 LEC) no permite sobreseer (art. 421.1 LEC) y exige identidad subjetiva (partes y causahabientes). Materia de fondo: propiedad intelectual; criterios extraídos: procesales. USO INTERNO, no servible.",
+      "created_at": "2026-06-13T12:00:00Z",
+      "updated_at": "2026-06-13T12:00:00Z"
+    }
+  ]
+}

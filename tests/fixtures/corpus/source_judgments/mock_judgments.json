@@ -1,0 +1,102 @@
+{
+  "_warning": "⚠️ DATOS DE PRUEBA FICTICIOS. Ninguna de estas resoluciones existe: tribunales, números, fechas y contenidos son inventados para probar la lógica del sistema (Regla 4: lo inventado jamás puede parecer real). Los file_path apuntan a archivos que NO existen. BORRAR este archivo antes de cargar resoluciones reales.",
+  "dataset": {
+    "name": "mock_judgments",
+    "fictitious": true,
+    "purpose": "Resoluciones ficticias de respaldo para los criterios de prueba (mock_criteria.json y pending_mock_criteria.json).",
+    "delete_before_production": true,
+    "authorized_by_owner": "2026-06-11"
+  },
+  "judgments": [
+    {
+      "id": "jdg-mock-0001",
+      "title": "FICTICIO — Sentencia de prueba sobre riesgo de confusión entre signos de ensayo",
+      "court": "Tribunal Ficticio de Pruebas n.º 1",
+      "date": "2021-03-10",
+      "resolution_number": "MOCK-101/2021",
+      "jurisdiction": "ZZ",
+      "legal_area": "marcas",
+      "topics": ["riesgo_de_confusion"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-101-2021.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas: define las reglas de ensayo sobre comparación de signos. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "jdg-mock-0002",
+      "title": "FICTICIO — Sentencia de prueba sobre mala fe y prioridad registral de ensayo",
+      "court": "Tribunal Ficticio de Pruebas n.º 2",
+      "date": "2019-11-22",
+      "resolution_number": "MOCK-202/2019",
+      "jurisdiction": "ZZ",
+      "legal_area": "marcas",
+      "topics": ["mala_fe", "prioridad_registral"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-202-2019.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas sobre mala fe y prioridad en el registro de ensayo. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "jdg-mock-0003",
+      "title": "FICTICIO — Sentencia de prueba sobre autoría y obra creada bajo contrato de ensayo",
+      "court": "Tribunal Ficticio de Pruebas n.º 1",
+      "date": "2020-06-05",
+      "resolution_number": "MOCK-303/2020",
+      "jurisdiction": "ZZ",
+      "legal_area": "propiedad_intelectual",
+      "topics": ["autoria", "obra_laboral"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-303-2020.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas sobre autoría y obras de ensayo creadas en relación laboral ficticia. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "jdg-mock-0004",
+      "title": "FICTICIO — Sentencia de prueba sobre comunicación pública de obras de ensayo",
+      "court": "Tribunal Ficticio de Apelación de Pruebas",
+      "date": "2022-01-18",
+      "resolution_number": "MOCK-404/2022",
+      "jurisdiction": "ZZ",
+      "legal_area": "propiedad_intelectual",
+      "topics": ["comunicacion_publica"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-404-2022.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas sobre actos de comunicación al público de ensayo. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "jdg-mock-0005",
+      "title": "FICTICIO — Auto de prueba sobre medidas cautelares de ensayo",
+      "court": "Tribunal Ficticio de Pruebas n.º 3",
+      "date": "2018-09-30",
+      "resolution_number": "MOCK-505/2018",
+      "jurisdiction": "ZZ",
+      "legal_area": "procesal",
+      "topics": ["medidas_cautelares"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-505-2018.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas sobre los requisitos de ensayo de las medidas cautelares. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "jdg-mock-0006",
+      "title": "FICTICIO — Sentencia de prueba sobre carga y valoración de la prueba de ensayo",
+      "court": "Tribunal Ficticio de Apelación de Pruebas",
+      "date": "2023-04-12",
+      "resolution_number": "MOCK-606/2023",
+      "jurisdiction": "ZZ",
+      "legal_area": "procesal",
+      "topics": ["prueba"],
+      "original_language": "es",
+      "file_path": "data/source_judgments/MOCK-FICTICIO-606-2023.pdf",
+      "summary_internal": "FICTICIO — Resolución inventada para pruebas sobre reglas de ensayo de carga y valoración probatoria. No existe el archivo ni la resolución.",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    }
+  ]
+}

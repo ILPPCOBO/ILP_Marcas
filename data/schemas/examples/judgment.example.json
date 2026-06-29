@@ -1,0 +1,15 @@
+{
+  "id": "jdg-ejemplo-ficticio-0001",
+  "title": "EJEMPLO FICTICIO — Sentencia sobre riesgo de confusión entre marcas denominativas",
+  "court": "Tribunal Ficticio de Ejemplo",
+  "date": "2020-01-15",
+  "resolution_number": "EJEMPLO-123/2020",
+  "jurisdiction": "ES",
+  "legal_area": "marcas",
+  "topics": ["riesgo_de_confusion", "marcas_denominativas"],
+  "original_language": "es",
+  "file_path": "data/source_judgments/EJEMPLO-FICTICIO-123-2020.pdf",
+  "summary_internal": "Documento ficticio creado únicamente para validar el esquema Judgment. No existe resolución real con estos datos y nada de este contenido es servible.",
+  "created_at": "2026-06-11T00:00:00Z",
+  "updated_at": "2026-06-11T00:00:00Z"
+}

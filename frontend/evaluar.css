@@ -1,0 +1,25 @@
+/* Evaluador de Caso (Case Fit Grade). */
+.contenedor input[type="text"], .contenedor select {
+  font: inherit; padding: 10px; border: 1px solid var(--linea); border-radius: 8px; width: 100%;
+}
+.eval-result h2 { font-size: 1.15rem; margin: 0 0 8px; }
+.eval-result h3 { font-size: 0.95rem; margin: 14px 0 4px; }
+.grade-head { display: flex; gap: 14px; align-items: center; }
+.grade-badge {
+  width: 56px; height: 56px; border-radius: 12px; flex: 0 0 auto;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.8rem; font-weight: 800; color: #fff;
+}
+.grade-A { background: #237804; }
+.grade-B { background: #5b8c00; }
+.grade-C { background: #d48806; }
+.grade-D { background: #a8071a; }
+.grade-label { font-weight: 700; }
+.grade-sub { color: var(--suave); font-size: 0.9rem; }
+.eval-result .factores { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+.eval-result .factores li { margin: 4px 0; }
+.eval-result .f-fuente { color: var(--suave); font-size: 0.82rem; }
+.ev-reason { font-weight: 600; }
+.ev-meta, .sb-ev { color: var(--suave); font-size: 0.85rem; }
+.ev-summary { margin: 0; }
+.eval-result .aviso-item { margin: 8px 0 0; font-size: 0.8rem; color: var(--suave); }

@@ -1,0 +1,10 @@
+{
+  "id": "aud-ejemplo-0001",
+  "query_id": "qry-ejemplo-0001",
+  "answer_id": "ans-ejemplo-0001",
+  "retrieved_criteria_ids": [],
+  "rejected_criteria_ids": [],
+  "decision_reason": "Consulta en alcance (marcas/riesgo_de_confusion) y sin datos faltantes, pero el retriever no recuperó ningún criterio aprobado: el corpus aprobado está vacío. Decisión insufficient_criteria por deny-by-default (Reglas 6 y 17).",
+  "safety_flags": [],
+  "created_at": "2026-06-11T00:00:01Z"
+}

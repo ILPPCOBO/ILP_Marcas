@@ -1,0 +1,1535 @@
+{
+ "_note": "Resoluciones reales citadas por los cuadros del propietario (metadatos).",
+ "judgments": [
+  {
+   "id": "jdg-real-stjue-c-252-07-caso-intel",
+   "title": "STJUE C-252/07 (Caso Intel)",
+   "court": "STJUE C-252/07",
+   "date": "",
+   "resolution_number": "STJUE C-252/07 (Caso Intel)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "marca_renombrada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 27 de noviembre de 2008. marca renombrada / notoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-758-2026-sala-de-lo-civil",
+   "title": "S TS 758/2026 (Sala de lo Civil)",
+   "court": "S TS 758/2026",
+   "date": "",
+   "resolution_number": "S TS 758/2026 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "obra_protegible"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 19 de mayo de 2026. obra protegible / originalidad.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-860-2025-sala-de-lo-civil",
+   "title": "S TS 860/2025 (Sala de lo Civil)",
+   "court": "S TS 860/2025",
+   "date": "",
+   "resolution_number": "S TS 860/2025 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "distintividad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 28 de mayo de 2025. distintividad / vulgarización.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-222-2025-sala-de-lo-penal",
+   "title": "S TS 222/2025 (Sala de lo Penal)",
+   "court": "S TS 222/2025",
+   "date": "",
+   "resolution_number": "S TS 222/2025 (Sala de lo Penal)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "obra_protegible"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 6 de marzo de 2025. obra protegible / originalidad.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-682-2024-sala-de-lo-penal",
+   "title": "S TS 682/2024 (Sala de lo Penal)",
+   "court": "S TS 682/2024",
+   "date": "",
+   "resolution_number": "S TS 682/2024 (Sala de lo Penal)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "infraccion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 27 de junio de 2024. infracción.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-450-2022-sala-de-lo-penal",
+   "title": "S TS 450/2022 (Sala de lo Penal)",
+   "court": "S TS 450/2022",
+   "date": "",
+   "resolution_number": "S TS 450/2022 (Sala de lo Penal)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "canon_copia_privada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 9 de mayo de 2022. canon de copia privada.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-608-2021-sala-de-lo-civil",
+   "title": "S TS 608/2021 (Sala de lo Civil)",
+   "court": "S TS 608/2021",
+   "date": "",
+   "resolution_number": "S TS 608/2021 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "patentes",
+   "topics": [
+    "diseno_industrial"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 16 de septiembre de 2021. diseño industrial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-158-2021-sala-de-lo-civil",
+   "title": "S TS 158/2021 (Sala de lo Civil)",
+   "court": "S TS 158/2021",
+   "date": "",
+   "resolution_number": "S TS 158/2021 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de marzo de 2021. mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-267-2016-sala-de-lo-civil",
+   "title": "S TS 267/2016 (Sala de lo Civil)",
+   "court": "S TS 267/2016",
+   "date": "",
+   "resolution_number": "S TS 267/2016 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "agotamiento"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de abril de 2016. agotamiento de marca.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ts-330-2017-sala-de-lo-civil",
+   "title": "S TS 330/2017 (Sala de lo Civil)",
+   "court": "S TS 330/2017",
+   "date": "",
+   "resolution_number": "S TS 330/2017 (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "riesgo_de_confusion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 2017 (aprox.). riesgo de confusión.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-ts-sala-de-lo-civil",
+   "title": "A TS (Sala de lo Civil)",
+   "court": "A TS",
+   "date": "",
+   "resolution_number": "A TS (Sala de lo Civil)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "regalia_hipotetica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 23 de febrero de 2022. regalía hipotética.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-tsj-madrid-478-2020-seccion-2",
+   "title": "S TSJ Madrid 478/2020 (Sección 2ª)",
+   "court": "S TSJ Madrid 478/2020",
+   "date": "",
+   "resolution_number": "S TSJ Madrid 478/2020 (Sección 2ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "prohibiciones_absolutas"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 14 de septiembre de 2020. prohibiciones absolutas.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-53-2026-seccion-8",
+   "title": "S AP Alicante 53/2026 (Sección 8ª)",
+   "court": "S AP Alicante 53/2026",
+   "date": "",
+   "resolution_number": "S AP Alicante 53/2026 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_efectivo"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 27 de marzo de 2026. uso efectivo / falta de uso.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-vizcaya-197-2026-seccion-4",
+   "title": "S AP Vizcaya 197/2026 (Sección 4ª)",
+   "court": "S AP Vizcaya 197/2026",
+   "date": "",
+   "resolution_number": "S AP Vizcaya 197/2026 (Sección 4ª)",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "prescripcion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 10 de abril de 2026. prescripción.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-31-2026-seccion-8",
+   "title": "S AP Alicante 31/2026 (Sección 8ª)",
+   "court": "S AP Alicante 31/2026",
+   "date": "",
+   "resolution_number": "S AP Alicante 31/2026 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "indemnizacion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 18 de febrero de 2026. indemnización.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-195-2025-seccion-8",
+   "title": "S AP Alicante 195/2025 (Sección 8ª)",
+   "court": "S AP Alicante 195/2025",
+   "date": "",
+   "resolution_number": "S AP Alicante 195/2025 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "marca_renombrada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 5 de diciembre de 2025. marca renombrada / notoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-barcelona-731-2025-seccion-15",
+   "title": "S AP Barcelona 731/2025 (Sección 15ª)",
+   "court": "S AP Barcelona 731/2025",
+   "date": "",
+   "resolution_number": "S AP Barcelona 731/2025 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "nfts_fair_use"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 5 de junio de 2025. NFTs y fair use.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-225-2025-seccion-32",
+   "title": "S AP Madrid 225/2025 (Sección 32ª)",
+   "court": "S AP Madrid 225/2025",
+   "date": "",
+   "resolution_number": "S AP Madrid 225/2025 (Sección 32ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_efectivo"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 19 de septiembre de 2025. uso efectivo / falta de uso.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-254-2024-seccion-8",
+   "title": "S AP Alicante 254/2024 (Sección 8ª)",
+   "court": "S AP Alicante 254/2024",
+   "date": "",
+   "resolution_number": "S AP Alicante 254/2024 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 13 de mayo de 2024. Acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-150-2024-seccion-32",
+   "title": "S AP Madrid 150/2024 (Sección 32ª)",
+   "court": "S AP Madrid 150/2024",
+   "date": "",
+   "resolution_number": "S AP Madrid 150/2024 (Sección 32ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "riesgo_de_confusion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 29 de mayo de 2024. Riesgo de confusión.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-231-2024-seccion-8",
+   "title": "S AP Alicante 231/2024 (Sección 8ª)",
+   "court": "S AP Alicante 231/2024",
+   "date": "",
+   "resolution_number": "S AP Alicante 231/2024 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_trafico_economico"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 3 de mayo de 2024. Uso en el tráfico económico.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-91-2024-seccion-8",
+   "title": "S AP Alicante 91/2024 (Sección 8ª)",
+   "court": "S AP Alicante 91/2024",
+   "date": "",
+   "resolution_number": "S AP Alicante 91/2024 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_efectivo"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 16 de febrero de 2024. Uso efectivo / falta de uso.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-316-2024-seccion-28",
+   "title": "S AP Madrid 316/2024 (Sección 28ª)",
+   "court": "S AP Madrid 316/2024",
+   "date": "",
+   "resolution_number": "S AP Madrid 316/2024 (Sección 28ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "plagio"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 11 de octubre de 2024. Plagio.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-448-2023-seccion-8",
+   "title": "S AP Alicante 448/2023 (Sección 8ª)",
+   "court": "S AP Alicante 448/2023",
+   "date": "",
+   "resolution_number": "S AP Alicante 448/2023 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "titulo_obra"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de septiembre de 2023. Título de obra.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-351-2023-seccion-8",
+   "title": "S AP Alicante 351/2023 (Sección 8ª)",
+   "court": "S AP Alicante 351/2023",
+   "date": "",
+   "resolution_number": "S AP Alicante 351/2023 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "acumulacion_pi_diseno"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de junio de 2023. Acumulación de PI y Diseño Industrial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-valencia-184-2023-seccion-9",
+   "title": "S AP Valencia 184/2023 (Sección 9ª)",
+   "court": "S AP Valencia 184/2023",
+   "date": "",
+   "resolution_number": "S AP Valencia 184/2023 (Sección 9ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "obra_protegible"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 24 de febrero de 2023. Obra protegible / originalidad.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-1332-2022-seccion-8",
+   "title": "S AP Alicante 1332/2022 (Sección 8ª)",
+   "court": "S AP Alicante 1332/2022",
+   "date": "",
+   "resolution_number": "S AP Alicante 1332/2022 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 2 de noviembre de 2022. Mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-baleares-193-2022-seccion-1",
+   "title": "S AP Baleares 193/2022 (Sección 1ª)",
+   "court": "S AP Baleares 193/2022",
+   "date": "",
+   "resolution_number": "S AP Baleares 193/2022 (Sección 1ª)",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "estafa_comercial"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de mayo de 2022. Estafa comercial / fraude empresarial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-baleares-638-2022-seccion-5",
+   "title": "S AP Baleares 638/2022 (Sección 5ª)",
+   "court": "S AP Baleares 638/2022",
+   "date": "",
+   "resolution_number": "S AP Baleares 638/2022 (Sección 5ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "obra_protegible"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 21 de junio de 2022. Obra protegible / originalidad.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-447-2020-seccion-28",
+   "title": "S AP Madrid 447/2020 (Sección 28ª)",
+   "court": "S AP Madrid 447/2020",
+   "date": "",
+   "resolution_number": "S AP Madrid 447/2020 (Sección 28ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "regalia_hipotetica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 11 de febrero de 2022. Regalía hipotética.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-cantabria-seccion-2",
+   "title": "S AP Cantabria (Sección 2ª)",
+   "court": "S AP Cantabria",
+   "date": "",
+   "resolution_number": "S AP Cantabria (Sección 2ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "cesion_tecnologia"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 28 de abril de 2021. Cesión de tecnología.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-murcia-603-2021-seccion-4",
+   "title": "S AP Murcia 603/2021 (Sección 4ª)",
+   "court": "S AP Murcia 603/2021",
+   "date": "",
+   "resolution_number": "S AP Murcia 603/2021 (Sección 4ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 27 de mayo de 2021. Mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-granada-157-2021-seccion-3",
+   "title": "S AP Granada 157/2021 (Sección 3ª)",
+   "court": "S AP Granada 157/2021",
+   "date": "",
+   "resolution_number": "S AP Granada 157/2021 (Sección 3ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "riesgo_de_confusion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 5 de marzo de 2021. Riesgo de confusión.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-navarrafecha-8-de-marzo-de-2021",
+   "title": "S AP Navarra",
+   "court": "S AP Navarra",
+   "date": "",
+   "resolution_number": "S AP Navarra",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "libre_imitacion_competencia"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 8 de marzo de 2021. Libre imitación competencial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-albacete-114-2020-seccion-1",
+   "title": "S AP Albacete 114/2020 (Sección 1ª)",
+   "court": "S AP Albacete 114/2020",
+   "date": "",
+   "resolution_number": "S AP Albacete 114/2020 (Sección 1ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 6 de marzo de 2020. Acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-zaragoza-490-2020-seccion-5",
+   "title": "S AP Zaragoza 490/2020 (Sección 5ª)",
+   "court": "S AP Zaragoza 490/2020",
+   "date": "",
+   "resolution_number": "S AP Zaragoza 490/2020 (Sección 5ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 24 de junio de 2020. Autoría/titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-640-2019-seccion-30",
+   "title": "S AP Madrid 640/2019 (Sección 30ª)",
+   "court": "S AP Madrid 640/2019",
+   "date": "",
+   "resolution_number": "S AP Madrid 640/2019 (Sección 30ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "diseno_industrial"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 31 de octubre de 2019. diseño industrial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-499-2019-seccion-17",
+   "title": "S AP Madrid 499/2019 (Sección 17ª)",
+   "court": "S AP Madrid 499/2019",
+   "date": "",
+   "resolution_number": "S AP Madrid 499/2019 (Sección 17ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "canon_digital"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 27 de junio de 2019. canon digital y copia privada.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-ap-madrid-54-2019-seccion-28",
+   "title": "A AP Madrid 54/2019 (Sección 28ª)",
+   "court": "A AP Madrid 54/2019",
+   "date": "",
+   "resolution_number": "A AP Madrid 54/2019 (Sección 28ª)",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "competencia_objetiva"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 26 de abril de 2019. competencia objetiva y acumulación de acciones.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-barcelona-1624-2019-seccion-15",
+   "title": "S AP Barcelona 1624/2019 (Sección 15ª)",
+   "court": "S AP Barcelona 1624/2019",
+   "date": "",
+   "resolution_number": "S AP Barcelona 1624/2019 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "eslogan"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 20 de septiembre de 2019. eslogan publicitario.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-barcelona-785-2019-seccion-15",
+   "title": "S AP Barcelona 785/2019 (Sección 15ª)",
+   "court": "S AP Barcelona 785/2019",
+   "date": "",
+   "resolution_number": "S AP Barcelona 785/2019 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "bases_de_datos"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 3 de mayo de 2019. bases de datos.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-pontevedra-310-2018-seccion-1",
+   "title": "S AP Pontevedra 310/2018 (Sección 1ª)",
+   "court": "S AP Pontevedra 310/2018",
+   "date": "",
+   "resolution_number": "S AP Pontevedra 310/2018 (Sección 1ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 21 de septiembre de 2018. mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-malaga-857-2018-seccion-6",
+   "title": "S AP Málaga 857/2018 (Sección 6ª)",
+   "court": "S AP Málaga 857/2018",
+   "date": "",
+   "resolution_number": "S AP Málaga 857/2018 (Sección 6ª)",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "obra_protegible"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de octubre de 2018. obra protegible / originalidad.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-barcelona-376-2018-seccion-15",
+   "title": "S AP Barcelona 376/2018 (Sección 15ª)",
+   "court": "S AP Barcelona 376/2018",
+   "date": "",
+   "resolution_number": "S AP Barcelona 376/2018 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "transmision_marca"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 5 de junio de 2018. transmisión de marca.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-madrid-224-2015-seccion-28",
+   "title": "S AP Madrid 224/2015 (Sección 28ª)",
+   "court": "S AP Madrid 224/2015",
+   "date": "",
+   "resolution_number": "S AP Madrid 224/2015 (Sección 28ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "marca_renombrada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 1 de septiembre de 2015. marca renombrada / notoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-oviedo-208-2015-seccion-1",
+   "title": "S AP Oviedo 208/2015 (Sección 1ª)",
+   "court": "S AP Oviedo 208/2015",
+   "date": "",
+   "resolution_number": "S AP Oviedo 208/2015 (Sección 1ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "distintividad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 11 de septiembre de 2015. distintividad / vulgarización.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-castellon-184-2013-seccion-3",
+   "title": "S AP Castellón 184/2013 (Sección 3ª)",
+   "court": "S AP Castellón 184/2013",
+   "date": "",
+   "resolution_number": "S AP Castellón 184/2013 (Sección 3ª)",
+   "jurisdiction": "ES",
+   "legal_area": "patentes",
+   "topics": [
+    "diseno_industrial"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 29 de abril de 2013. diseño industrial.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-alicante-149-2010-seccion-8",
+   "title": "S AP Alicante 149/2010 (Sección 8ª)",
+   "court": "S AP Alicante 149/2010",
+   "date": "",
+   "resolution_number": "S AP Alicante 149/2010 (Sección 8ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "distintividad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 26 de marzo de 2010. distintividad / vulgarización.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-barcelona-282-2005-seccion-15",
+   "title": "S AP Barcelona 282/2005 (Sección 15ª)",
+   "court": "S AP Barcelona 282/2005",
+   "date": "",
+   "resolution_number": "S AP Barcelona 282/2005 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "eslogan"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 7 de junio de 2005. eslogan publicitario.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-ap-barcelona-91-2021-seccion-15",
+   "title": "A AP Barcelona 91/2021 (Sección 15ª)",
+   "court": "A AP Barcelona 91/2021",
+   "date": "",
+   "resolution_number": "A AP Barcelona 91/2021 (Sección 15ª)",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "cosa_juzgada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 13 de mayo de 2021. cosa juzgada.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-73-2023fecha-20-de-septiembre-de-",
+   "title": "S JM 13 Madrid 73/2023",
+   "court": "S JM 13 Madrid 73/2023",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 73/2023",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "comunicacion_publica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 20 de septiembre de 2023. comunicación pública.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-31-2023fecha-17-de-mayo-de-2023",
+   "title": "S JM 13 Madrid 31/2023",
+   "court": "S JM 13 Madrid 31/2023",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 31/2023",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "prescripcion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de mayo de 2023. prescripción.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-18-2023fecha-23-de-marzo-de-2023",
+   "title": "S JM 13 Madrid 18/2023",
+   "court": "S JM 13 Madrid 18/2023",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 18/2023",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "plagio"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 23 de marzo de 2023. plagio.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-200-2022fecha-7-de-junio-de-2022",
+   "title": "S JM 13 Madrid 200/2022",
+   "court": "S JM 13 Madrid 200/2022",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 200/2022",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 7 de junio de 2022. acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-1338-2020fecha-15-de-junio-de-202",
+   "title": "S JM 13 Madrid 1338/2020",
+   "court": "S JM 13 Madrid 1338/2020",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 1338/2020",
+   "jurisdiction": "ES",
+   "legal_area": "patentes",
+   "topics": [
+    "patentabilidad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de junio de 2022. novedad / actividad inventiva.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-527-2021fecha-15-de-septiembre-de",
+   "title": "S JM 13 Madrid 527/2021",
+   "court": "S JM 13 Madrid 527/2021",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 527/2021",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de septiembre de 2021. autoría/titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-454-2021fecha-22-de-junio-de-2021",
+   "title": "S JM 13 Madrid 454/2021",
+   "court": "S JM 13 Madrid 454/2021",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 454/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_trafico_economico"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de junio de 2021. uso en el tráfico económico.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-188-2021fecha-18-de-marzo-de-2021",
+   "title": "S JM 13 Madrid 188/2021",
+   "court": "S JM 13 Madrid 188/2021",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 188/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "agotamiento"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 18 de marzo de 2021. agotamiento de marca.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-16-2021fecha-16-de-febrero-de-202",
+   "title": "S JM 13 Madrid 16/2021",
+   "court": "S JM 13 Madrid 16/2021",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 16/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 16 de febrero de 2021. mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-434-2020fecha-18-de-septiembre-de",
+   "title": "S JM 13 Madrid 434/2020",
+   "court": "S JM 13 Madrid 434/2020",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 434/2020",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "marca_renombrada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 18 de septiembre de 2020. marca renombrada / notoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-176-2020fecha-28-de-abril-de-2020",
+   "title": "S JM 13 Madrid 176/2020",
+   "court": "S JM 13 Madrid 176/2020",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 176/2020",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 28 de abril de 2020. autoría/titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-13-madrid-187-2022fecha-17-de-mayo-de-2022",
+   "title": "S JM 13 Madrid 187/2022",
+   "court": "S JM 13 Madrid 187/2022",
+   "date": "",
+   "resolution_number": "S JM 13 Madrid 187/2022",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de mayo de 2022. acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-9-barcelona-205-2018fecha-22-de-junio-de-20",
+   "title": "S JM 9 Barcelona 205/2018",
+   "court": "S JM 9 Barcelona 205/2018",
+   "date": "",
+   "resolution_number": "S JM 9 Barcelona 205/2018",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "distintividad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de junio de 2018. distintividad / vulgarización.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-9-barcelona-122-2017fecha-10-de-mayo-de-201",
+   "title": "S JM 9 Barcelona 122/2017",
+   "court": "S JM 9 Barcelona 122/2017",
+   "date": "",
+   "resolution_number": "S JM 9 Barcelona 122/2017",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 10 de mayo de 2017. autoría/titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-9-barcelona-51-2013fecha-4-de-abril-de-2013",
+   "title": "S JM 9 Barcelona 51/2013",
+   "court": "S JM 9 Barcelona 51/2013",
+   "date": "",
+   "resolution_number": "S JM 9 Barcelona 51/2013",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "cesion_multiuso_pi_marca"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 4 de abril de 2013. Cesión de PI / Marca.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-jm-2-barcelona-10-2011fecha-20-de-enero-de-201",
+   "title": "S JM 2 Barcelona 10/2011",
+   "court": "S JM 2 Barcelona 10/2011",
+   "date": "",
+   "resolution_number": "S JM 2 Barcelona 10/2011",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "comunicacion_publica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 20 de enero de 2011. comunicación pública.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-jm-9-barcelona-32-2018fecha-23-de-febrero-de-2",
+   "title": "A JM 9 Barcelona 32/2018",
+   "court": "A JM 9 Barcelona 32/2018",
+   "date": "",
+   "resolution_number": "A JM 9 Barcelona 32/2018",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "marca_renombrada"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 23 de febrero de 2018. marca renombrada / notoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-jm-9-barcelona-92-2018fecha-9-de-mayo-de-2018",
+   "title": "A JM 9 Barcelona 92/2018",
+   "court": "A JM 9 Barcelona 92/2018",
+   "date": "",
+   "resolution_number": "A JM 9 Barcelona 92/2018",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "prioridad_registral"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 9 de mayo de 2018. prioridad registral.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-a-jm-9-barcelona-50-2018fecha-7-de-marzo-de-2018",
+   "title": "A JM 9 Barcelona 50/2018",
+   "court": "A JM 9 Barcelona 50/2018",
+   "date": "",
+   "resolution_number": "A JM 9 Barcelona 50/2018",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "desistimiento_renuncia"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 7 de marzo de 2018. desistimiento vs renuncia.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-s-ap-valencia-97-2025-seccion-9",
+   "title": "S AP Valencia 97/2025 (Sección 9ª)",
+   "court": "S AP Valencia 97/2025",
+   "date": "",
+   "resolution_number": "S AP Valencia 97/2025 (Sección 9ª)",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "cuestiones_procesales_pi"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 1 de septiembre de 2025. Cuestiones procesales en PI.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-2-barcelona-sentencia-10-2011",
+   "title": "SJM nº 2 Barcelona, Sentencia 10/2011",
+   "court": "SJM nº 2 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 2 Barcelona, Sentencia 10/2011",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "comunicacion_publica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 20 de enero de 2011. comunicación pública.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-sentencia-51-2013",
+   "title": "SJM nº 9 Barcelona, Sentencia 51/2013",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Sentencia 51/2013",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "cesion_multiuso_pi_marca"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 4 de abril de 2013. Cesión de PI / Marca.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-sentencia-122-2017",
+   "title": "SJM nº 9 Barcelona, Sentencia 122/2017",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Sentencia 122/2017",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 10 de mayo de 2017. autoría y titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-auto-32-2018",
+   "title": "SJM nº 9 Barcelona, Auto 32/2018",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Auto 32/2018",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "medidas_cautelares"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 23 de febrero de 2018. medidas cautelares.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-auto-50-2018",
+   "title": "SJM nº 9 Barcelona, Auto 50/2018",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Auto 50/2018",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "desistimiento_renuncia"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 7 de marzo de 2018. desistimiento vs renuncia.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-auto-92-2018",
+   "title": "SJM nº 9 Barcelona, Auto 92/2018",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Auto 92/2018",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "prioridad_registral"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 9 de mayo de 2018. prioridad registral.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-9-barcelona-sentencia-205-2018",
+   "title": "SJM nº 9 Barcelona, Sentencia 205/2018",
+   "court": "SJM nº 9 Barcelona",
+   "date": "",
+   "resolution_number": "SJM nº 9 Barcelona, Sentencia 205/2018",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "riesgo_de_confusion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de junio de 2018. riesgo de confusión.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-176-2020",
+   "title": "SJM nº 13 Madrid, Sentencia 176/2020",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 176/2020",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 28 de abril de 2020. autoría y titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-434-2020",
+   "title": "SJM nº 13 Madrid, Sentencia 434/2020",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 434/2020",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 18 de septiembre de 2020. mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-127-2021",
+   "title": "SJM nº 13 Madrid, Sentencia 127/2021",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 127/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "mala_fe"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 16 de febrero de 2021. mala fe.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-188-2021",
+   "title": "SJM nº 13 Madrid, Sentencia 188/2021",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 188/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "ius_prohibendi"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 18 de marzo de 2021. ius prohibendi (doble vertiente).",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-454-2021",
+   "title": "SJM nº 13 Madrid, Sentencia 454/2021",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 454/2021",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "uso_trafico_economico"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 22 de junio de 2021. uso en el tráfico económico.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-527-2021",
+   "title": "SJM nº 13 Madrid, Sentencia 527/2021",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 527/2021",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "software"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de septiembre de 2021. autoría/titularidad de software.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-187-2022",
+   "title": "SJM nº 13 Madrid, Sentencia 187/2022",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 187/2022",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de mayo de 2022. acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-200-2022",
+   "title": "SJM nº 13 Madrid, Sentencia 200/2022",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 200/2022",
+   "jurisdiction": "ES",
+   "legal_area": "marcas",
+   "topics": [
+    "accion_reivindicatoria"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 7 de junio de 2022. acción reivindicatoria.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-201-2022",
+   "title": "SJM nº 13 Madrid, Sentencia 201/2022",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 201/2022",
+   "jurisdiction": "ES",
+   "legal_area": "patentes",
+   "topics": [
+    "patentabilidad"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 15 de junio de 2022. novedad / actividad inventiva.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-18-2023",
+   "title": "SJM nº 13 Madrid, Sentencia 18/2023",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 18/2023",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "plagio"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 23 de marzo de 2023. plagio.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-20-2023",
+   "title": "SJM nº 13 Madrid, Sentencia 20/2023",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 20/2023",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "comunicacion_publica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 31 de marzo de 2023. comunicación pública.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-31-2023",
+   "title": "SJM nº 13 Madrid, Sentencia 31/2023",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 31/2023",
+   "jurisdiction": "ES",
+   "legal_area": "procesal",
+   "topics": [
+    "prescripcion"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 17 de mayo de 2023. prescripción.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  },
+  {
+   "id": "jdg-real-sjm-n-13-madrid-sentencia-73-2023",
+   "title": "SJM nº 13 Madrid, Sentencia 73/2023",
+   "court": "SJM nº 13 Madrid",
+   "date": "",
+   "resolution_number": "SJM nº 13 Madrid, Sentencia 73/2023",
+   "jurisdiction": "ES",
+   "legal_area": "propiedad_intelectual",
+   "topics": [
+    "comunicacion_publica"
+   ],
+   "original_language": "es",
+   "file_path": "data/source_judgments/(original en la carpeta del propietario)",
+   "summary_internal": "Resolución del cuadro Base de Conocimiento Marcario. 20 de septiembre de 2023. comunicación pública.",
+   "created_at": "2026-06-17T08:23:38.356717+00:00",
+   "updated_at": "2026-06-17T08:23:38.356717+00:00"
+  }
+ ]
+}

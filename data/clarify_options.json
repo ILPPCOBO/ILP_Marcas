@@ -1,0 +1,902 @@
+{
+  "marcas|accion_reivindicatoria": {
+    "question": "¿Quién registró la marca y en qué circunstancias se produjo el registro que usted quiere impugnar?",
+    "options": [
+      {
+        "label": "Colaborador que se apropió de la marca",
+        "adds": "Un antiguo colaborador registró la marca a mis espaldas con abuso de confianza para apropiarse del signo que yo venía usando mercantilmente y bloquear mi actividad en el mercado.",
+        "label_en": "Co-owner who appropriated the mark"
+      },
+      {
+        "label": "Mi administrador registró a título personal",
+        "adds": "Un administrador de mi sociedad solicitó el registro a título individual en fraude de mi mandato y excediéndose de sus facultades para gestionar el proyecto común.",
+        "label_en": "My manager registered in their personal name"
+      },
+      {
+        "label": "Sociedad interpuesta como represalia",
+        "adds": "Se utilizó una sociedad inactiva interpuesta para registrar mi signo notorio como represalia por un litigio civil o penal anterior, constituyendo un registro fraudulento manifiesto.",
+        "label_en": "Interposed company registered in retaliation"
+      },
+      {
+        "label": "Tercero que sabía que yo usaba el signo",
+        "adds": "Otro registró de mala fe, a sabiendas de que el signo era el que yo venía usando para identificar mi empresa y servicios, con intención de bloquear mi actividad y expulsarme del mercado.",
+        "label_en": "Third party aware of my prior use of the sign"
+      },
+      {
+        "label": "Yo soy simple usuario no registrante",
+        "adds": "Soy un mero usuario del signo en el tráfico a título individual, y quiero discutir el mejor derecho del actual titular registral que actuó mediando fraude de mis derechos.",
+        "label_en": "I am a mere user with no registration rights"
+      }
+    ],
+    "question_en": "Who registered the trade mark and under what circumstances did the registration occur that you wish to challenge?"
+  },
+  "marcas|agotamiento": {
+    "question": "¿Cuál es el origen de la disputa sobre la reventa o el uso continuado del signo marcario?",
+    "options": [
+      {
+        "label": "Reventa de productos de lujo en plataforma online",
+        "adds": "Vendo por internet productos de distribución selectiva de mi marca en formato low-cost, sin asesoramiento personalizado, de forma genérica, lo que menoscaba el aura de lujo y prestigio de mi marca.",
+        "label_en": "Resale of luxury goods on online marketplace"
+      },
+      {
+        "label": "Antiguo licenciatario sigue usando la marca tras extinción",
+        "adds": "Un antiguo licenciatario continúa usando el signo idéntico a mi marca después de resuelto el contrato de licencia, constituyendo una infracción directa del ius prohibendi marcario que debo indemnizar.",
+        "label_en": "Former licensee continues using the mark after licence termination"
+      }
+    ],
+    "question_en": "What is the origin of the dispute concerning resale or continued use of the trade mark?"
+  },
+  "marcas|distintividad": {
+    "question": "¿Qué características tiene la marca y en qué contexto de mercado se cuestiona su protección?",
+    "options": [
+      {
+        "label": "Signo de baja distintividad en sectores distintos",
+        "adds": "Mi marca consiste en un signo gráfico de baja distintividad intrínseca aplicado a un producto concreto; cuando se usa en sectores completamente distintos decae mi protección ampliada al no existir vínculo evocativo.",
+        "label_en": "Sign of low distinctive character in unrelated sectors"
+      },
+      {
+        "label": "Término genérico que alcanzó distintividad sobrevenida",
+        "adds": "Mi signo es un término genérico que en el mercado ha alcanzado distintividad sobrevenida por el uso exclusivo y notoriedad; otros imitan elementos similares aprovechándose parasitariamente de mi posición.",
+        "label_en": "Generic term that subsequently acquired distinctive character"
+      },
+      {
+        "label": "Mi marca se vulgarizó y perdió fuerza expansiva",
+        "adds": "Mi prefijo adquirió carácter genérico en el mercado, y por ello pierdo fuerza expansiva para oponerme a variantes fonéticas similares usadas en sectores totalmente dispares.",
+        "label_en": "My mark has become generic and lost its expansion capacity"
+      },
+      {
+        "label": "Vocablos comunes compartidos en el sector",
+        "adds": "Un elemento verbal dominante de mi marca es compartido por múltiples titulares en el sector, diluyendo mi carácter distintivo, de modo que no puedo monopolizar ese vocablo ni impedir registros que añadan sufijos diferenciadores.",
+        "label_en": "Common terms shared within the trade sector"
+      }
+    ],
+    "question_en": "What characteristics does the mark possess and in what market context is its protection contested?"
+  },
+  "marcas|eslogan": {
+    "question": "¿Cómo se está utilizando el eslogan publicitario y en qué contexto comercial?",
+    "options": [
+      {
+        "label": "Eslogan copiado en catálogo comercial del mismo sector",
+        "adds": "Mi eslogan publicitario es puramente descriptivo y promocional, pero su copia íntegra en un catálogo comercial de mi sector constituye una vulneración de la LPI que genera indemnización.",
+        "label_en": "Slogan copied in commercial catalogue of the same sector"
+      },
+      {
+        "label": "Eslogan usado en sector radicalmente distinto",
+        "adds": "Otro usó mi eslogan de forma aislada y secundaria en una campaña promocional de un sector radicalmente distinto, sin generar riesgo de confusión en los consumidores ni expolio de mi marca.",
+        "label_en": "Slogan used in a radically different sector"
+      }
+    ],
+    "question_en": "How is the advertising slogan being used and in what commercial context?"
+  },
+  "marcas|indemnizacion": {
+    "question": "¿En qué subsector opera el infractor comparado con el suyo, y cómo debe medirse el daño?",
+    "options": [
+      {
+        "label": "Infractor en subsector distinto, daño ex re ipsa",
+        "adds": "El infractor opera en un subsector diferente al mío, pero la condena al 1% de su cifra de negocios o beneficios es procedente porque la indemnización es un daño ex re ipsa por enriquecimiento injusto independiente del subsector exacto.",
+        "label_en": "Infringer in different sub-sector, damage self-evident from the fact"
+      },
+      {
+        "label": "Infractor explotaba mismo segmento con beneficios",
+        "adds": "El infractor explotaba el mismo segmento de mis productos obteniendo beneficios directos, por lo que la indemnización marcaria se basa en esos beneficios o en un porcentaje de su cifra de negocios total del período infractor.",
+        "label_en": "Infringer exploited same market segment with profits"
+      }
+    ],
+    "question_en": "In what sub-sector does the infringer operate compared to yours, and how should damages be quantified?"
+  },
+  "marcas|ius_prohibendi": {
+    "question": "¿Cómo ha utilizado un tercero tu marca registrada tras terminar la licencia o el acuerdo?",
+    "options": [
+      {
+        "label": "Mi licenciatario sigue usando la marca después de resolver el contrato",
+        "adds": "el antiguo licenciatario que continúa usando el signo idéntico tras resolución de la licencia incurre en infracción directa del ius prohibendi marcario; la indemnización procede tasarla por regalía hipotética sobre el canon que habría debido pagar",
+        "label_en": "My licensee continues using the mark after contract termination"
+      },
+      {
+        "label": "Un competidor usa signos fonética o gráficamente similares",
+        "adds": "la doble vertiente del ius prohibendi confiere al titular uso exclusivo (vertiente positiva) y facultad de impedir a terceros usos de signos idénticos o confundibles (vertiente negativa), sin que puedan usarlos salvo con licencia autorizada",
+        "label_en": "A competitor uses phonetically or visually similar signs"
+      },
+      {
+        "label": "Alguien registra un dominio web casi idéntico a mi marca",
+        "adds": "el registro previo de un dominio no dota de justo título para usar el signo distintivo frente a mi ius prohibendi registral; aunque el dominio sea anterior, la marca registrada goza de presunción de validez y protección plena",
+        "label_en": "Someone registers a domain name nearly identical to my mark"
+      }
+    ],
+    "question_en": "How has a third party used your registered trade mark following termination of the licence or agreement?"
+  },
+  "marcas|libre_imitacion_competencia": {
+    "question": "¿Cuál es la circunstancia del tercero que copia tus instalaciones o sistemas sin patente?",
+    "options": [
+      {
+        "label": "Un exrabajador copia nuestras instalaciones estandarizadas",
+        "adds": "la imitación de instalaciones estandarizadas por extrabajadores es lícita por el principio de libre imitación competencial si no existe singularidad competitiva que induzca a riesgo inevitable de asociación marcaria",
+        "label_en": "A former employee copies our standardised facilities"
+      },
+      {
+        "label": "La copia genera riesgo evidente de que la confundan con mi marca",
+        "adds": "cuando existe singularidad competitiva o riesgo inevitable de asociación, la libre imitación decae; no basta la ausencia de patentes si el sistema alcanza nivel de distinción marcaria notoria",
+        "label_en": "The copying creates evident risk of confusion with my trade mark"
+      }
+    ],
+    "question_en": "What is the circumstances of the third party copying your facilities or systems without patent protection?"
+  },
+  "marcas|mala_fe": {
+    "question": "¿En qué circunstancia temporal o relacional se solicitó la marca que ahora te ataca un tercero?",
+    "options": [
+      {
+        "label": "El demandado registró la marca coincidiendo con un pacto que ya comprometía transferírmela",
+        "adds": "es patente la mala fe cuando se solicita la marca apenas 3 días antes de un pacto de socios donde existía compromiso de transferencia de derechos; cae el escudo de inmunidad registral",
+        "label_en": "The defendant registered the mark whilst bound by an agreement to transfer it to me"
+      },
+      {
+        "label": "Un ente público registró mi marca para un festival que financia con presupuestos",
+        "adds": "el registro de marca por ente público para proteger un festival culturalmente financiado, sin afán de expoliar proyecto privado previo, carece de mala fe; no hay abuso de dependencia económica",
+        "label_en": "A public entity registered my mark for a festival it finances from public funds"
+      },
+      {
+        "label": "Mi arrendador/proveedor registró sorpresivamente la marca que yo usaba",
+        "adds": "la solicitud sorpresiva de marca por el arrendatario frente al propietario del negocio, o el aprovechamiento de relación de confianza contractual, implica mala fe evidente y abuso de confianza, procediendo nulidad",
+        "label_en": "My landlord or supplier unexpectedly registered the mark I was using"
+      },
+      {
+        "label": "Un exempleador registró mi nueva marca sabiendo que la ibamos a adoptar",
+        "adds": "resulta patente la mala fe cuando un exempleador solicita la marca exacta que sus ex-empleados acababan de adoptar para nueva aventura, conociendo dichos preparativos, con único afán de obstaculizar su competencia",
+        "label_en": "A former employer registered my new mark knowing we were to adopt it"
+      },
+      {
+        "label": "Quien registró usaba mi signo extranjero conforme a convenios internacionales",
+        "adds": "una obra gráfica protegida en España bajo ordenamientos extranjeros por convenios (p.ej. Convenio España-México 1924) permite anular marcas nacionales registradas de mala fe que no respetaban esos derechos previos",
+        "label_en": "The person who registered was using my foreign sign in accordance with international agreements"
+      }
+    ],
+    "question_en": "In what temporal or relational circumstances was the mark now challenging you registered by a third party?"
+  },
+  "marcas|marca_renombrada": {
+    "question": "¿Cuál es el grado de conocimiento de tu marca y cómo la está usando el tercero?",
+    "options": [
+      {
+        "label": "Mi marca es muy conocida en el público; el competidor la evoca sin confusión directa",
+        "adds": "la protección de marca de renombre no exige riesgo de confusión estricto; basta que la similitud evoque mi marca en la mente del consumidor medio, estableciendo vínculo o asociación mental, sin riesgo de confusión directo",
+        "label_en": "My mark is highly renowned; the competitor evokes it without direct confusion"
+      },
+      {
+        "label": "Usa un signo similar a mi marca notoria (ej. mis letras dominantes) en mi sector",
+        "adds": "el uso de letras dominantes de marca notoria en signo ajeno aplicado al mismo sector incurre en riesgo de confusión visual y fonética, constituyendo nulidad relativa",
+        "label_en": "Uses a sign similar to my renowned mark (e.g. my dominant elements) in my sector"
+      },
+      {
+        "label": "Mi competidor copia mis elementos visuales para aprovecharse de mi reputación",
+        "adds": "la utilización de signo similar a marca figurativa renombrada para aprovecharse de su poder de atracción sin contraprestación es acto desleal de parasitismo; origina daños patrimoniales y morales in re ipsa",
+        "label_en": "My competitor copies my visual elements to take unfair advantage of my reputation"
+      },
+      {
+        "label": "Aún no tengo marca registrada pero es muy conocida; necesito probar su notoriedad",
+        "adds": "para declarar nula una marca por mala fe, quien ataca debe probar que su propio signo previo poseía reconocimiento notable en el territorio (España) en el momento exacto de la solicitud impugnada",
+        "label_en": "I have not yet registered the mark but it is highly renowned; I need to prove its notoriety"
+      },
+      {
+        "label": "El tercero copia la estética de mis establecimientos de lujo",
+        "adds": "la tutela cautelar se agudiza ante aprovechamiento visual infractor de marca de alto renombre comercial; ante riesgo evidente de desprestigio y dilución del signo original proceden medidas preventivas",
+        "label_en": "The third party copies the aesthetic of my luxury establishments"
+      }
+    ],
+    "question_en": "What is the degree of knowledge of your mark in the public and how is the third party using it?"
+  },
+  "marcas|prioridad_registral": {
+    "question": "¿Cuál es la situación de registro/prioridad de la marca en su caso?",
+    "options": [
+      {
+        "label": "Soy el titular registral y otro perturba mi exclusiva",
+        "adds": "Soy el titular registral de la marca y un tercero perturba mi derecho de exclusiva; mientras no se declare la nulidad de mi signo gozo de plena protección y del ius prohibendi como titular inscrito.",
+        "label_en": "I am the registered proprietor and another disturbs my exclusive right"
+      },
+      {
+        "label": "Discuto quién tiene mejor derecho por la fecha de solicitud",
+        "adds": "Discuto la prioridad registral: hay una solicitud o registro anterior y quiero saber quién tiene mejor derecho atendiendo a la fecha de solicitud.",
+        "label_en": "I dispute who has better right based on filing date"
+      },
+      {
+        "label": "Quiero anular el registro de otro por falta de distintividad o mala fe",
+        "adds": "Quiero impugnar el registro del actual titular alegando falta de distintividad o mala fe para que decaiga su prioridad registral.",
+        "label_en": "I wish to invalidate another's registration for lack of distinctive character or bad faith"
+      }
+    ],
+    "question_en": "What is the registration and priority status of the mark in your case?"
+  },
+  "marcas|prohibiciones_absolutas": {
+    "question": "¿Cuál es tu situación respecto a la firma o identidad personal que deseas proteger como marca?",
+    "options": [
+      {
+        "label": "Artista notorio con firma manuscrita registrada ilegalmente",
+        "adds": "soy artista notorio con firma reconocible en el mercado y percibo que terceros la registran como marca para confundir al consumidor sobre mi vinculación real",
+        "label_en": "Renowned artist with handwritten signature registered without authorisation"
+      },
+      {
+        "label": "Represento a artista famoso cuya firma es apropiada como marca",
+        "adds": "represento a un artista de renombre cuya firma manuscrita constituye su identidad distintiva indisociable de su personalidad, y un tercero intenta apropiarla como marca registrada",
+        "label_en": "I represent a famous artist whose signature is being appropriated as a trade mark"
+      }
+    ],
+    "question_en": "What is your situation regarding the personal signature or identity you wish to protect as a trade mark?"
+  },
+  "marcas|regalia_hipotetica": {
+    "question": "¿Qué tipo de daño buscas resarcir tras la violación de tu marca?",
+    "options": [
+      {
+        "label": "Daño cuantificable por ventas perdidas comprobables",
+        "adds": "cuantifiqué las ventas perdidas por confusión en el mercado y tengo pruebas directas del daño patrimonial causado por la intromisión",
+        "label_en": "Quantifiable damage through proven lost sales"
+      },
+      {
+        "label": "Daño presunto ex re ipsa sin prueba individual",
+        "adds": "no tengo pruebas específicas de ventas perdidas, pero la intromisión en mi exclusiva marcaria genera daño ex re ipsa que se presume necesariamente por ley (manifesta non egent probatione)",
+        "label_en": "Presumed damage ex re ipsa without individual proof"
+      }
+    ],
+    "question_en": "What type of loss do you seek to recover following the infringement of your trade mark?"
+  },
+  "marcas|riesgo_de_confusion": {
+    "question": "¿En qué contexto comparativo surge el presunto conflicto marcario y qué elementos lo caracterizan?",
+    "options": [
+      {
+        "label": "Vocablo común pero sectores y gráficas muy distintos",
+        "adds": "comparto un vocablo genérico con otra marca, pero mis productos (ej. zapatos) son totalmente distintos a los suyos (ropa de bebé) y nuestros elementos gráficos difieren acusadamente",
+        "label_en": "Common term but with very distinct sectors and graphic representations"
+      },
+      {
+        "label": "Dominio internet fonéticamente idéntico con redirección a productos iguales",
+        "adds": "reservaron un dominio fonéticamente casi idéntico al mío para redirigir tráfico a los mismos productos que yo vendo, violando directamente mi ius prohibendi marcario",
+        "label_en": "Internet domain phonetically identical with redirection to identical products"
+      },
+      {
+        "label": "Coexistencia pacífica previa en el mercado sin conflictos",
+        "adds": "hemos coexistido sin problemas de confusión en el mercado durante años; esta coexistencia previa es indicio relevante de ausencia de riesgo de confusión real",
+        "label_en": "Previous peaceful coexistence in the marketplace without conflict"
+      },
+      {
+        "label": "Vocablo muy común con múltiples marcas preexistentes",
+        "adds": "mi vocablo es extremadamente común en el sector con numerosas marcas registradas que lo utilizan, debilitando su distintividad e impidiendo monopolizarlo exclusivamente",
+        "label_en": "Common term with multiple pre-existing trade marks"
+      }
+    ],
+    "question_en": "In what comparative context does the alleged trade mark conflict arise and what elements characterise it?"
+  },
+  "marcas|transmision_marca": {
+    "question": "¿Tu marca está sujeta a condiciones de transmisión o vinculada a un proceso concursal?",
+    "options": [
+      {
+        "label": "Marca vendida bajo condición suspensiva/resolutoria con plan concursal",
+        "adds": "vendí mi marca bajo condición suspensiva/resolutoria y el plan de liquidación concursal posteriormente aprobó y convalidó la transmisión junto con la resolución de licencias previas",
+        "label_en": "Trade mark sold under suspensive or resolutory condition with insolvency plan"
+      },
+      {
+        "label": "Marca con propiedad clara sin condiciones ni concurso",
+        "adds": "mi marca tiene dominio pleno sin sujeción a ningún proceso concursal ni condiciones suspensivas/resolutorias que la afecten",
+        "label_en": "Trade mark with clear ownership without conditions or insolvency proceedings"
+      }
+    ],
+    "question_en": "Is your trade mark subject to transmission conditions or linked to an insolvency proceeding?"
+  },
+  "marcas|uso_efectivo": {
+    "question": "¿Cómo utilizas tu marca en el mercado y qué cobertura real tienes en tus clases registradas?",
+    "options": [
+      {
+        "label": "Uso local en establecimiento (ej. hotel) con cobertura parcial",
+        "adds": "utilizo mi marca en un establecimiento concreto (hotel) para identificar servicios in situ; solo acredito uso efectivo en algunas de mis clases registradas, no en todas",
+        "label_en": "Local use in commercial premises (e.g. hotel) with partial coverage"
+      },
+      {
+        "label": "Uso en subcategorías independientes dentro de la clasificación",
+        "adds": "acredito uso efectivo de mi marca en subcategorías independientes dentro de mi clasificación (ej. láser diodo para belleza o modalidad de franquicia), preservando mi derecho incluso sin uso global",
+        "label_en": "Use in independent sub-categories within the classification"
+      },
+      {
+        "label": "Ausencia de uso en determinadas clases registradas",
+        "adds": "no demuestro uso efectivo en algunas de mis clases registradas (ej. clase 36 servicios financieros); caducará parcialmente respecto de esas categorías concretas del nomenclátor",
+        "label_en": "Absence of use in certain registered classes"
+      },
+      {
+        "label": "Uso infractor en forma de cuasi-copia en mi mismo sector",
+        "adds": "un tercero usa una cuasi-copia de mi marca en el mismo sector de actividad generando riesgo de asociación directo sobre el origen empresarial, con derecho a indemnización por daño resarcible",
+        "label_en": "Infringing use in the form of quasi-reproduction in my own sector"
+      }
+    ],
+    "question_en": "How do you use your trade mark in the marketplace and what actual coverage do you have in your registered classes?"
+  },
+  "marcas|uso_trafico_economico": {
+    "question": "¿En qué contexto económico/comercial terceros están utilizando un signo confundible con tu marca?",
+    "options": [
+      {
+        "label": "Oferta aislada en redes o internet",
+        "adds": "he detectado que terceros ofrecen productos con mi marca en redes sociales sin venta masiva, pero en contexto comercial claro, y tuve que gastar recursos en investigación para probarlo.",
+        "label_en": "Isolated offer on social networks or the internet"
+      },
+      {
+        "label": "Uso sin ánimo de lucro (asociación civil)",
+        "adds": "el uso del signo lo realizan asociaciones civiles sin ánimo de lucro que no actúan en tráfico comercial ni concurrencial, sino en contexto asociativo puro.",
+        "label_en": "Use without profit motive (civil association)"
+      },
+      {
+        "label": "Comerciantes sin nexo mercantil directo",
+        "adds": "terceros utilizan mi marca en el tráfico económico con fines comerciales claros, en plataformas de venta o distribución donde opera un mercado real.",
+        "label_en": "Traders without direct commercial nexus"
+      }
+    ],
+    "question_en": "In what economic/commercial context are third parties using a sign that could be confused with your trade mark?"
+  },
+  "patentes|diseno_industrial": {
+    "question": "¿Cuál es la naturaleza del diseño que reclamas: su apariencia visual o su carácter artístico integrado en la función?",
+    "options": [
+      {
+        "label": "Aplicación de motivo público a nuevo soporte",
+        "adds": "trasladé un estampado del dominio público (como un patrón tradicional) a un nuevo producto, pero la combinación no genera una impresión visual diferenciada respecto de los estándares del sector.",
+        "label_en": "Application of a public design motif to a new support"
+      },
+      {
+        "label": "Diseño utilitario sin relevancia artística",
+        "adds": "mi diseño responde a funciones utilitarias estándar de la industria (como la estructura de un carrito de bebé); un consumidor perspicaz puede distinguirlo funcialmente, pero carece de envergadura artística independiente.",
+        "label_en": "Utilitarian design without artistic relevance"
+      },
+      {
+        "label": "Diseño singular con impresión general distintiva",
+        "adds": "el conjunto de líneas, formas y combinaciones de colores de mi diseño genera una impresión visual diferente en el usuario informado, creando un carácter singular que se aparta del estándar industrial.",
+        "label_en": "Singular design with distinctive overall impression"
+      }
+    ],
+    "question_en": "What is the nature of the design you are claiming: its visual appearance or its artistic character integrated into the function?"
+  },
+  "patentes|patentabilidad": {
+    "question": "¿Cumple tu invención con los requisitos de novedad, actividad inventiva y aplicación industrial conforme el estado de la técnica?",
+    "options": [
+      {
+        "label": "Solución técnica obvia para un experto",
+        "adds": "mi solución técnica es una combinación obvia de documentos y técnicas preexistentes en el estado de la técnica; un experto podría llegar a ella libremente sin actividad inventiva real.",
+        "label_en": "Technical solution obvious to a person skilled in the art"
+      },
+      {
+        "label": "Invención ya comprendida en estado de la técnica",
+        "adds": "un único documento anterior anticipaba ya la esencia de mi invención; carece de novedad al ser comprendida en el estado de la técnica conforme el criterio 'documento por documento'.",
+        "label_en": "Invention already comprised in the state of the art"
+      },
+      {
+        "label": "Actividad inventiva con aplicación industrial real",
+        "adds": "mi invención aporta novedad genuina (no anticipada por documento alguno), implica actividad inventiva no obvia para un experto, y tiene aplicación industrial clara con aptitud para ser fabricada o usada.",
+        "label_en": "Inventive activity with genuine industrial application"
+      }
+    ],
+    "question_en": "Does your invention meet the requirements of novelty, inventive step, and industrial applicability in light of the state of the art?"
+  },
+  "procesal|competencia_objetiva": {
+    "question": "¿Qué acciones distintas de PI necesitas acumular en el mismo procedimiento mercantil?",
+    "options": [
+      {
+        "label": "Acción de infracción de PI + Vulneración de derecho a propia imagen",
+        "adds": "acumulo en los Juzgados de lo Mercantil una acción de propiedad intelectual con una acción de vulneración del derecho a la propia imagen, ambas indisolublemente conectadas por el mismo hecho infractor.",
+        "label_en": "IP infringement action + violation of right to own image"
+      },
+      {
+        "label": "Acciones de PI conexas por mismo hecho",
+        "adds": "requiero competencia objetiva mercantil porque las acciones de PI están indisolublemente unidas en la causa (mismo hecho subyacente), aunque se refieran a derechos distintos.",
+        "label_en": "IP causes of action connected by the same facts"
+      }
+    ],
+    "question_en": "What causes of action distinct from intellectual property do you need to combine in the same commercial proceedings?"
+  },
+  "procesal|cosa_juzgada": {
+    "question": "¿Cuál es tu posición jurídica en relación a un litigio PI anterior o a quien ya fue demandado?",
+    "options": [
+      {
+        "label": "Parcial identidad de objeto procesal",
+        "adds": "mi nuevo proceso comparte parcialmente el objeto con un litigio anterior (identidad objetiva parcial pero no plena), y la cosa juzgada positiva vincula aunque no haya identidad total de pretensiones.",
+        "label_en": "Partial identity of subject-matter of proceedings"
+      },
+      {
+        "label": "Tercero ajena al proceso anterior",
+        "adds": "aunque conozca o apoye un litigio anterior de PI, no fui parte en él ni causahabiente; la cosa juzgada no me vincula porque carecí de identidad subjetiva en ese proceso.",
+        "label_en": "Third party unconnected to prior proceedings"
+      },
+      {
+        "label": "Licenciatario vinculado a licenciante demandado",
+        "adds": "soy licenciatario de derechos de PI y el licenciante fue demandado en un proceso anterior donde recayó sentencia firme; tengo identidad jurídica con él como causahabiente y quedo vinculado por esa cosa juzgada.",
+        "label_en": "Licensee bound to sued licensor"
+      },
+      {
+        "label": "Tribunal debe resolver cuestión en fondo",
+        "adds": "aunque la cosa juzgada positiva pudiera vincular como antecedente lógico, no autoriza al tribunal a sobreseer en audiencia previa; debe resolver la cuestión en el fondo valorando libremente la prueba y motivando.",
+        "label_en": "Court must resolve the matter on its merits"
+      },
+      {
+        "label": "Respeto a declaraciones previas sin vinculación",
+        "adds": "las declaraciones del primer litigio deben ser respetadas, pero no vinculan al nuevo tribunal, que valora libremente la prueba, motiva su decisión y explica si se aparta del criterio anterior.",
+        "label_en": "Respect for prior declarations without binding effect"
+      }
+    ],
+    "question_en": "What is your legal position in relation to a prior IP dispute or to a party who has already been sued?"
+  },
+  "procesal|cuestiones_procesales_pi": {
+    "question": "En tu asunto de propiedad intelectual contra la TV o un club, ¿cuál es la naturaleza de la cuestión que planteas: se trata de una decisión sobre la estructura procesal (recursos, acumulación de demandas) o sobre el fondo del derecho de PI?",
+    "options": [
+      {
+        "label": "Resolución procedimental (recursos, acumulación)",
+        "adds": "Mi disputa es principalmente sobre cómo se tramita el procedimiento, incluyendo recursos procesales y si se pueden acumular mis demandas con las de la otra parte, sin que sea relevante la doctrina sustantiva de propiedad intelectual.",
+        "label_en": "Procedural ruling (appeals, consolidation)"
+      },
+      {
+        "label": "Fondo del derecho de PI",
+        "adds": "Mi controversia va al fondo del derecho de propiedad intelectual, buscando que se declare la infracción, la nulidad del registro o el daño, con fundamentos materiales en PI.",
+        "label_en": "Merits of the IP right"
+      }
+    ],
+    "question_en": "In your intellectual property matter against the broadcaster or club, what is the nature of the issue you raise: does it concern a ruling on procedural structure (appeals, consolidation of claims) or on the merits of the IP right?"
+  },
+  "procesal|desistimiento_renuncia": {
+    "question": "Cuando tu abogado considera no continuar con la demanda, ¿qué pretendes: dejar abierta la posibilidad de volver a demandarte (porque no abandones el derecho) o renunciar definitivamente a la acción?",
+    "options": [
+      {
+        "label": "Desistimiento unilateral previo a la contestación",
+        "adds": "Mi posición es retirar la demanda antes de que el demandado conteste, de forma unilateral, dejando imprejuzgada mi pretensión para poder ejercitarla nuevamente en otro procedimiento, sin que el mero hecho de otras acciones cruzadas conviertan esto en temerario o de mala fe.",
+        "label_en": "Unilateral withdrawal prior to defendant's defence"
+      },
+      {
+        "label": "Renuncia material a la acción",
+        "adds": "Renuncio definitivamente a la acción y abandono mis derechos de forma irrevocable, aceptando que no pueda reiniciarse el procedimiento.",
+        "label_en": "Substantive renunciation of the right of action"
+      },
+      {
+        "label": "Desistimiento bilateral después de personación del demandado",
+        "adds": "El demandado ya se ha personado en el procedimiento pero aún no ha contestado la demanda; necesito su consentimiento para retirarme, aunque la ley permite dar mera audiencia al demandado sin exigir acuerdo explícito (art. 24 CE).",
+        "label_en": "Bilateral withdrawal after defendant's appearance"
+      },
+      {
+        "label": "Impugnación de costas en procedimiento distinto",
+        "adds": "He interpuesto otras demandas (ej. reivindicatoria en otro juzgado) junto a esta; debo dejar claro que las costas de otros procedimientos no pueden decidirse aquí, sino ante el órgano que conoce de ellas.",
+        "label_en": "Costs challenge in separate proceedings"
+      }
+    ],
+    "question_en": "When your counsel considers discontinuing the claim, what is your intention: to leave open the possibility of bringing proceedings again (preserving the right of action) or to renounce definitively from pursuing the claim?"
+  },
+  "procesal|estafa_comercial": {
+    "question": "¿La marca sobre la que se basa la inversión o el proyecto que te propusieron está realmente registrada a nombre de la sociedad o empresa, o descubriste que pertenece de forma exclusiva a una persona física?",
+    "options": [
+      {
+        "label": "Marca registrada a nombre personal del promotor",
+        "adds": "El promotor recaudó inversiones bajo la creencia de que usaba una marca de la sociedad, pero la inscribió exclusivamente a su nombre personal, ocultando dolosamente este hecho; esto constituye penalmente estafa comercial con ánimo de lucro indebido.",
+        "label_en": "Trade mark registered in the promoter's personal name"
+      },
+      {
+        "label": "Marca correctamente inscrita a nombre de la sociedad",
+        "adds": "La marca está correctamente registrada a nombre de la entidad empresarial de la que yo soy inversor, por lo que no hay engaño ni ocultamiento en relación con la titularidad.",
+        "label_en": "Trade mark correctly registered in the company's name"
+      },
+      {
+        "label": "Sin marca registrada; solo uso fáctico",
+        "adds": "El proyecto no cuenta con marca registrada, solo se utilizaba un nombre o signo de forma fáctica sin protección formal.",
+        "label_en": "No registered trade mark; factual use only"
+      }
+    ],
+    "question_en": "Is the trade mark upon which the investment or proposed project is based actually registered in the name of the company or entity, or have you discovered that it belongs exclusively to a natural person?"
+  },
+  "procesal|medidas_cautelares": {
+    "question": "¿Tu marca es conocida solo en tu sector o es ampliamente reconocida por el público en general? ¿Existe riesgo de que el infractor aproveche su reputación o cause dilución de su prestigio?",
+    "options": [
+      {
+        "label": "Marca renombrada con riesgo de dilución",
+        "adds": "Mi marca es renombrada y conocida por el público general en toda España; el infractor la usa de manera que aprovecha indebidamente su poder de atracción en productos o servicios distintos, creando riesgo de dilución, desprestigio o conexión económica injusta, lo que refuerza la tutela cautelar.",
+        "label_en": "Renown trade mark with risk of dilution"
+      },
+      {
+        "label": "Marca notoria en el sector, sin dilución clara",
+        "adds": "Mi marca es bien conocida en mi sector específico (notoria), pero el uso del tercero se limita a mi mercado sin que exista aprovechamiento parasitario evidente de renombre fuera de la clase.",
+        "label_en": "Notoriety in the sector, no apparent dilution"
+      },
+      {
+        "label": "Necesidad de asegurar ejecución de sentencia",
+        "adds": "Mi preocupación principal es que el tribunal no pueda ejecutar una sentencia favorable si el demandado continúa infringiendo durante el proceso; busco medidas para evitar la continuación de la infracción y que no aumenten los daños durante la pendencia.",
+        "label_en": "Need to secure enforcement of judgment"
+      },
+      {
+        "label": "Marca con características visuales únicas (estética comercial)",
+        "adds": "Mi marca tiene elementos visuales muy identificables y renombrados (como la estética de mis establecimientos), y el infractor la copia de forma evidente creando confusión visual que afecta al renombre comercial y prestigio.",
+        "label_en": "Trade mark with distinctive visual features (trade dress)"
+      }
+    ],
+    "question_en": "Is your trade mark known only in your sector or widely recognised by the general public? Is there risk that the infringer may exploit its reputation or cause dilution of its standing?"
+  },
+  "procesal|prescripcion": {
+    "question": "¿Cuánto tiempo ha transcurrido desde que descubriste la infracción de tu marca o derecho, y el infractor ha ocultado hechos o evitado facilitar información sobre su uso?",
+    "options": [
+      {
+        "label": "Tolerancia consciente 5+ años de marca posterior registrada",
+        "adds": "He permanecido inactivo de forma consciente durante 5 años o más frente al uso de una marca posterior ya registrada por el tercero, sin ejercer acciones contra él; esto podría configurar prescripción por tolerancia, aunque solo si la confianza legítima del infractor está consolidada.",
+        "label_en": "Acquiescence for 5+ years; subsequent registered trade mark"
+      },
+      {
+        "label": "Uso fáctico (no registrado) sin riesgo de prescripción",
+        "adds": "El tercero usa un signo de forma puramente fáctica, sin haberlo registrado como marca; por lo tanto, la prescripción por tolerancia no puede aplicarse porque requiere una marca posterior registrada.",
+        "label_en": "Factual use (unregistered) without prescription risk"
+      },
+      {
+        "label": "Ocultamiento de datos e interrupción de prescripción",
+        "adds": "El deudor o infractor ha ocultado dolosamente datos económicos o hechos sobre su uso (ej. negándose a colaborar en liquidaciones), lo que interrumpe el plazo de prescripción de 5 años y me protege de la alegación de caducidad.",
+        "label_en": "Concealment of evidence and interruption of limitation period"
+      },
+      {
+        "label": "Conozco tardío de la infracción; dies a quo reciente",
+        "adds": "Acabo de enterarme de que existe la infracción (o debería haberme enterado con diligencia básica), por lo que el plazo de prescripción comienza a correr ahora desde mi conocimiento o el que debería haber tenido.",
+        "label_en": "Late discovery of infringement; cause of action recently accrued"
+      },
+      {
+        "label": "Mala fe del deudor prevalece sobre mi falta de diligencia",
+        "adds": "El deudor o infractor actuó con mala fe, ocultando activamente la infracción; esto prevalece sobre cualquier falta de diligencia de mi parte para frenar la prescripción.",
+        "label_en": "Infringer's bad faith overrides my lack of diligence"
+      }
+    ],
+    "question_en": "How much time has elapsed since you discovered the infringement of your trade mark or right, and has the infringer concealed facts or withheld information about its use?"
+  },
+  "propiedad_intelectual|acumulacion_pi_diseno": {
+    "question": "¿Cuál es la naturaleza principal de la protección que buscas para tu producto industrial?",
+    "options": [
+      {
+        "label": "Protección por originalidad creativa",
+        "adds": "mi diseño incorpora decisiones creativas libres que van más allá de la singularidad estética funcional, buscando protección por derechos de autor",
+        "label_en": "Protection through creative originality"
+      },
+      {
+        "label": "Protección por singularidad o novedad estética",
+        "adds": "mi producto tiene singularidad o novedad estética para la fabricación masiva, pero sin suficiente altura creativa para derechos de autor; requiero diseño industrial",
+        "label_en": "Protection through distinctiveness or novelty of appearance"
+      },
+      {
+        "label": "Acumulación de ambas protecciones",
+        "adds": "mi diseño reúne tanto originalidad creativa libre como singularidad estética funcional, y busco acumular protección de derechos de autor y diseño industrial",
+        "label_en": "Cumulative protection under both regimes"
+      }
+    ],
+    "question_en": "What is the principal nature of protection you seek for your industrial product?"
+  },
+  "propiedad_intelectual|bases_de_datos": {
+    "question": "¿En qué contexto de bases de datos o contenido visual se plantea tu consulta sobre protección de datos?",
+    "options": [
+      {
+        "label": "Extracción sustancial de base de datos",
+        "adds": "terceros están realizando scraping o extracción sustancial de mi base de datos, vulnerando mi derecho sui generis conforme al artículo 133 TRLPI",
+        "label_en": "Substantial extraction from database"
+      },
+      {
+        "label": "Supresión de marca de agua digital",
+        "adds": "descubrí que han suprimido intencionadamente la marca de agua de mis fotos o contenidos, privando de indicación de origen empresarial, violando artículo 34.4 LM",
+        "label_en": "Removal or suppression of digital watermark"
+      },
+      {
+        "label": "Combinación: extracción y alteración",
+        "adds": "sufro tanto extracción sustancial de mi base de datos como supresión de marcas de agua, atacando simultáneamente el sui generis y el ius prohibendi",
+        "label_en": "Combined: extraction and alteration"
+      }
+    ],
+    "question_en": "In what context of databases or visual content does your query concerning data protection arise?"
+  },
+  "propiedad_intelectual|canon_copia_privada": {
+    "question": "¿Cuál es tu rol en relación con el cobro y gestión del canon de copia privada?",
+    "options": [
+      {
+        "label": "Intermediario que cobra a minoristas",
+        "adds": "actúo como intermediario cobrando la remuneración por copia privada a minoristas, con obligación de depositario de ingresar los fondos a entidades de gestión",
+        "label_en": "Intermediary collecting from retailers"
+      },
+      {
+        "label": "Titular de derechos recibiendo remunación",
+        "adds": "mis derechos de autor generan derecho a remuneración por copia privada, independientemente de nulidades formales en órdenes ministeriales tarifarias",
+        "label_en": "Rights holder receiving remuneration"
+      },
+      {
+        "label": "Entidad de gestión supervisando recaudación",
+        "adds": "como entidad de gestión, superviso que intermediarios cumplan con ingresar correctamente la remuneración y no cometan apropiación indebida",
+        "label_en": "Collecting entity supervising collection"
+      }
+    ],
+    "question_en": "What is your role in relation to collection and management of private copying remuneration?"
+  },
+  "propiedad_intelectual|canon_digital": {
+    "question": "¿Cuál es tu posición respecto a la retención del canon digital cobrado?",
+    "options": [
+      {
+        "label": "Retengo los importes sin entregar",
+        "adds": "como minorista o intermediario, retuve los importes del canon digital cobrados sin entregarlos a entidades de gestión como EGEDA, constituyendo depósito irregular",
+        "label_en": "I retain the amounts without remitting"
+      },
+      {
+        "label": "Superviso que se entreguen correctamente",
+        "adds": "como entidad de gestión, verifico que los minoristas e intermediarios no cometan apropiación indebida al retener fondos del canon digital",
+        "label_en": "I supervise correct remittance"
+      },
+      {
+        "label": "Recibí notificación de no entrega",
+        "adds": "descubrí que un intermediario retuvo el canon digital que cobró en mi nombre sin entregarlo a mis entidades de gestión, consumando apropiación indebida",
+        "label_en": "I received notification of non-remittance"
+      }
+    ],
+    "question_en": "What is your position regarding retention of digital remuneration collected?"
+  },
+  "propiedad_intelectual|cesion_multiuso_pi_marca": {
+    "question": "¿Qué tipo de explotación y registro buscas para una creación que combina elementos de derechos de autor y marca?",
+    "options": [
+      {
+        "label": "Cesión exclusiva de derechos de explotación",
+        "adds": "cedo total y en exclusiva mis derechos de explotación sobre mi personaje animado, comprendiendo legítimamente que el cesionario puede registrarlo como marca propia",
+        "label_en": "Exclusive assignment of exploitation rights"
+      },
+      {
+        "label": "Protección acumulada como autor y marca",
+        "adds": "mi obra (personaje, logotipo, creación) es simultáneamente objeto de propiedad intelectual y requiere registro como signo distintivo distintivo sin conflicto",
+        "label_en": "Cumulative protection as author and trade mark proprietor"
+      },
+      {
+        "label": "Disputa sobre facultad de registrar como marca",
+        "adds": "después de una cesión exclusiva, existe disputa sobre si el cesionario puede registrar como marca propia o si el alcance de la cesión no incluye esa facultad",
+        "label_en": "Dispute concerning entitlement to register as trade mark"
+      }
+    ],
+    "question_en": "What type of exploitation and registration do you seek for a creation combining copyright and trade mark elements?"
+  },
+  "propiedad_intelectual|cesion_tecnologia": {
+    "question": "¿Cuál es tu relación con los derechos industriales que pretendes ceder o licenciar?",
+    "options": [
+      {
+        "label": "Titular exclusivo de los derechos",
+        "adds": "Soy titular en exclusiva de los derechos industriales y puedo licenciar libremente su uso a terceros sin incurrir en incumplimiento grave de cesión de tecnología.",
+        "label_en": "Exclusive title holder of the rights"
+      },
+      {
+        "label": "Derechos licenciados/no exclusivos",
+        "adds": "Tengo derechos industriales licenciados o no exclusivos, por lo que conceder nuevas licencias de uso sobre ellos sin titularidad en exclusiva constituiría incumplimiento grave del contrato mercantil de cesión de tecnología.",
+        "label_en": "Licensed rights / non-exclusive"
+      },
+      {
+        "label": "Tercero con derechos limitados",
+        "adds": "Intento ceder o licenciar derechos industriales sobre los que no tengo titularidad en exclusiva, lo que devengará responsabilidad por incumplimiento grave en cesión de tecnología.",
+        "label_en": "Third party with limited rights"
+      }
+    ],
+    "question_en": "What is your relationship to the industrial property rights you intend to assign or licence?"
+  },
+  "propiedad_intelectual|comunicacion_publica": {
+    "question": "¿Qué tipo de establecimiento es el tuyo y cómo se reproduce la señal audiovisual?",
+    "options": [
+      {
+        "label": "Hostelería con TV en salas comunes",
+        "adds": "Mi establecimiento de hostelería tiene aparatos de televisión o radio visibles en zonas comunes dirigida al esparcimiento de la clientela; existe presunción iuris tantum de comunicación pública habitual que genera remuneración obligatoria a entidades de gestión, incluyendo mora e intereses.",
+        "label_en": "Hospitality venue with TV in common areas"
+      },
+      {
+        "label": "Centro sanitario con TV en habitaciones y común",
+        "adds": "Mi clínica o hospital dispone de televisores en habitaciones y salas de esparcimiento para pacientes y acompañantes; la pluralidad indeterminada de usuarios devenga comunicación pública y remuneración ex lege a entidades de gestión según tarifas.",
+        "label_en": "Healthcare facility with TV in rooms and common areas"
+      },
+      {
+        "label": "Establecimiento público sin aparatos visibles",
+        "adds": "Mi local abierto al público carece de aparatos de televisión o radio visibles; no concurre la presunción iuris tantum de comunicación pública habitual, salvo prueba en contrario del carácter deliberado de emisión.",
+        "label_en": "Public establishment with no visible apparatus"
+      },
+      {
+        "label": "Habitación privada en hotel familiar",
+        "adds": "Tengo habitaciones privadas en mi hotel con televisión; aunque parecen espacios privados, el carácter de uso potencial continuo por clientes cambiantes genera comunicación pública según doctrina TJCE, con deuda de remuneración según tarifas.",
+        "label_en": "Private room in family-run hotel"
+      },
+      {
+        "label": "Incumplimiento de pago con mora",
+        "adds": "Tenía obligación de pago por comunicación pública de fonogramas/audiovisuales en mi establecimiento y no pagué; al estar fijada la cantidad por tarifas, me resultan aplicables automáticamente los intereses moratorios sobre la deuda dineraria.",
+        "label_en": "Non-payment in breach and default"
+      }
+    ],
+    "question_en": "What type of establishment is yours and how is the audiovisual signal reproduced?"
+  },
+  "propiedad_intelectual|diseno_industrial": {
+    "question": "¿Es la obra un diseño bidimensional integrado en un producto industrial o una creación plástica autónoma?",
+    "options": [
+      {
+        "label": "Obra plástica individualizada en producto",
+        "adds": "Realicé una obra plástica individualizada (p.ej., estampado artístico) que se incorpora como elemento decorativo en un producto industrial como bolso o prenda; la reproducción no autorizada cae bajo la jurisdicción penal de PI (art. 270 CP).",
+        "label_en": "Creative work individualised within a product"
+      },
+      {
+        "label": "Diseño industrial del producto completo",
+        "adds": "El bien que comercializo es un producto industrial cuya forma o decoración constituye diseño industrial; su imitación se rige por el régimen legal de diseño industrial, no por los delitos penales contra PI.",
+        "label_en": "Industrial design of the complete product"
+      },
+      {
+        "label": "Comercialización de imitación burda",
+        "adds": "Mi producto imita otro con diseño incorporado; el grado de calidad burda del producto imitador es irrelevante: lo que importa es si la obra es plástica individualizada (PI penal) o mero diseño industrial (régimen civil de diseño).",
+        "label_en": "Marketing of a slavish imitation"
+      }
+    ],
+    "question_en": "Is the work a two-dimensional design incorporated into an industrial product or an autonomous creative work?"
+  },
+  "propiedad_intelectual|infraccion": {
+    "question": "¿Se ha registrado la marca infringida y cuál es el impacto en el consumidor?",
+    "options": [
+      {
+        "label": "Marca registrada, acto penal consumado",
+        "adds": "La marca infringida está inscrita en el Registro; mi acto de imitación o reproduccción constituye delito contra la propiedad industrial; la inscripción registral es hecho notorio y el bien jurídico tutelado es el derecho de exclusiva, independientemente del engaño al consumidor.",
+        "label_en": "Registered trade mark, criminal act consummated"
+      },
+      {
+        "label": "Falsificación burda pero registrada",
+        "adds": "Falsifiqué una marca registrada con mala calidad y materiales inferiores; aunque la falsificación sea burda y el consumidor no sea engañado, incurro en delito penal porque la tutela protege la exclusiva registral, no el patrimonio de los consumidores.",
+        "label_en": "Slavish imitation but registered"
+      },
+      {
+        "label": "Marca sin registro oficial",
+        "adds": "La marca que imité no está inscrita en Registro oficial; sin constancia registral notoria del derecho, la consumación penal presenta mayores dificultades probatorias del derecho de exclusiva.",
+        "label_en": "Trade mark with no official registration"
+      },
+      {
+        "label": "Consumidor no engañado",
+        "adds": "Reproducí la marca de un tercero pero el consumidor es consciente de la imitación y no es engañado; sin embargo, el grado de credulidad del consumidor es irrelevante para la consumación del delito contra PI.",
+        "label_en": "Consumer not misled"
+      }
+    ],
+    "question_en": "Is the infringed trade mark registered and what is the impact upon the consumer?"
+  },
+  "propiedad_intelectual|nfts_fair_use": {
+    "question": "¿Tienes un soporte físico original y pretende crear una versión digital o NFT?",
+    "options": [
+      {
+        "label": "Soy propietario del soporte físico",
+        "adds": "Soy propietario del soporte físico original de la obra (cuadro, fotografía, etc.); mi derecho de exhibición (art. 56.2 TRLPI) no me autoriza a digitalizarla, transformarla ni crear NFTs en el metaverso sin autorización del titular de PI.",
+        "label_en": "I am the owner of the physical medium"
+      },
+      {
+        "label": "Intento crear NFT sin autorización",
+        "adds": "Tengo un soporte físico original y pretendo digitalizar y transformar la obra para crear un NFT en el metaverso; esto requiere autorización expresa del titular de derechos de autor, no está cubierto por mi derecho de exhibición del propietario.",
+        "label_en": "I am attempting to create an NFT without authorisation"
+      },
+      {
+        "label": "Pretendo aplicar fair use de EE.UU.",
+        "adds": "Creo que la doctrina anglosajona del fair use me permite digitalizar el soporte físico y crear NFTs con fines lícitos; sin embargo, la doctrina fair use es inaplicable en España, que aplica sistema numerus clausus de excepciones a PI.",
+        "label_en": "I intend to rely on US fair use"
+      },
+      {
+        "label": "Uso educativo o transformativo",
+        "adds": "Mi plan es digitalizar y transformar la obra para propósito educativo o transformativo que podría considerarse uso justo en EE.UU.; en España, tales usos requieren estar expresamente tipificados en la ley, no basta el criterio de equidad del fair use.",
+        "label_en": "Educational or transformative use"
+      }
+    ],
+    "question_en": "Do you hold an original physical medium and intend to create a digital version or NFT?"
+  },
+  "propiedad_intelectual|obra_protegible": {
+    "question": "¿Tu obra contiene expresión creativa y pormenorizada, o es principalmente una idea, concepto o proyecto general?",
+    "options": [
+      {
+        "label": "Obra con decisiones creativas concretas",
+        "adds": "mi obra expresa decisiones creativas libres y plasmadas de forma pormenorizada (como un formato de televisión detallado o un símbolo gráfico original para merchandising), no meras ideas",
+        "label_en": "Work with concrete creative choices"
+      },
+      {
+        "label": "Estampado o diseño aplicado a producto útil",
+        "adds": "mi estampado original está incorporado a un producto útil como un bolso, y goza de protección completa de propiedad intelectual sin quedar absorbido por derechos de diseño industrial",
+        "label_en": "Pattern or design applied to a useful product"
+      },
+      {
+        "label": "Dibujo o símbolo comercial con personalidad",
+        "adds": "mi símbolo gráfico (smiling, puzzlito) refleja mi personalidad y estilo como autor, fue creado para merchandising, y lo registré como obra protegible",
+        "label_en": "Commercial drawing or symbol with distinctive character"
+      },
+      {
+        "label": "Idea general sin concreción precisa",
+        "adds": "mi concepto es general (crear un jardín botánico interactivo, montar un proyecto logístico) sin identificarse con precisión en una expresión objetiva y pormenorizada",
+        "label_en": "General idea without precise elaboration"
+      }
+    ],
+    "question_en": "Does your work contain detailed creative expression, or is it primarily a general idea, concept or project outline?"
+  },
+  "propiedad_intelectual|plagio": {
+    "question": "¿Utilizaron elementos de mi obra sin autorización, o emplearon componentes del acervo común de mi género (TV, publicidad)?",
+    "options": [
+      {
+        "label": "Adaptación comercial sin autorización",
+        "adds": "adaptaron públicamente mi obra (o su núcleo esencial) en un anuncio publicitario o campaña comercial sin mi consentimiento, aunque introdujeron cambios",
+        "label_en": "Commercial adaptation without authorisation"
+      },
+      {
+        "label": "Elementos del imaginario colectivo",
+        "adds": "el tercero utilizó componentes estructurales que pertenecen al acervo común de mi género televisivo; mi registro genérico no otorga protección sobre esos elementos",
+        "label_en": "Elements of collective imagination"
+      },
+      {
+        "label": "Daño moral por cuestionamiento de autoría",
+        "adds": "el plagio afecta mi reputación, cuestiona mi originalidad y neutraliza el recorrido comercial de mi obra; reclamo daño moral por pérdida de lenguaje artístico",
+        "label_en": "Moral damage through questioning of authorship"
+      },
+      {
+        "label": "Daño patrimonial cuantificable",
+        "adds": "por la adaptación comercial inconsentida de mi obra reclamo pérdida patrimonial (gastos de investigación), lucro cesante (método de regalía hipotética) y beneficios ilícitos del infractor",
+        "label_en": "Quantifiable patrimonial harm"
+      }
+    ],
+    "question_en": "Were elements of your work used without authorisation, or did they use components from the common cultural stock of your genre (TV, advertising)?"
+  },
+  "propiedad_intelectual|regalia_hipotetica": {
+    "question": "¿Tu obra plástica fue alterada o mostrada en televisión sin consentimiento, y reclamas indemnización por uso no autorizado?",
+    "options": [
+      {
+        "label": "Exhibición y transformación en TV",
+        "adds": "mi obra plástica fue exhibida y transformada en televisión sin mi autorización; devengo indemnización por regalía hipotética y daño moral in re ipsa por intromisión inconsentida",
+        "label_en": "Exhibition and transformation on television"
+      },
+      {
+        "label": "Daño moral por alteración de derechos morales",
+        "adds": "el daño moral se reconoce de forma automática ante la alteración e intromisión inconsentida en mis derechos morales de autor sobre la obra plástica",
+        "label_en": "Moral damage through infringement of moral rights"
+      }
+    ],
+    "question_en": "Was your artistic work altered or broadcast on television without consent, and do you claim compensation for unauthorised use?"
+  },
+  "propiedad_intelectual|software": {
+    "question": "¿Eres autor de un software, trabajador asalariado, cliente que encargó el desarrollo, o tercero que usa/distribuye el programa?",
+    "options": [
+      {
+        "label": "Autor programador, iniciativa propia",
+        "adds": "programé una plataforma por iniciativa propia fuera de instrucciones directas de mi empleador; conservo plenamente la titularidad de derechos patrimoniales y morales irrenunciables de la obra",
+        "label_en": "Programmer author, own initiative"
+      },
+      {
+        "label": "Desarrollador contratado dentro de funciones",
+        "adds": "el empleador encargó el desarrollo como función de mi contrato laboral siguiendo instrucciones; los derechos de explotación corresponden al empleador, no a mí",
+        "label_en": "Developer contracted within job functions"
+      },
+      {
+        "label": "Software personalizado sin titularidad transmitida",
+        "adds": "encarqué un desarrollo informático a medida; el código fue reproducido y comercializado por terceros bajo otra denominación, vulnerando derechos de PI y constituyendo incumplimiento contractual esencial",
+        "label_en": "Customised software without title transmission"
+      },
+      {
+        "label": "Instalación de software craqueado o copia no autorizada",
+        "adds": "instalé un programa pirata saltándome protecciones técnicas, o copié código fuente para fabricar piezas; la mera instalación consuma la infracción sin importar el uso posterior",
+        "label_en": "Installation of cracked software or unauthorised copy"
+      },
+      {
+        "label": "Subcontratación no autorizada de desarrollos",
+        "adds": "mi contratista subcontrató sin permiso el desarrollo de software, ocultó contratos de licencia e incumplió sustancialmente mis obligaciones de propiedad intelectual",
+        "label_en": "Unauthorised subcontracting of development works"
+      }
+    ],
+    "question_en": "Are you the author of the software, an employed developer, the client who commissioned the development, or a third party who uses or distributes the program?"
+  },
+  "propiedad_intelectual|titulo_obra": {
+    "question": "¿El título de tu obra original fue registrado por terceros como marca sin tu consentimiento?",
+    "options": [
+      {
+        "label": "Título de obra registrado como marca ajena",
+        "adds": "soy el creador original del título de mi videojuego u otra obra; un tercero lo registró como marca aprovechando mi posición, lo cual configura mala fe y procede acción reivindicatoria a mi favor",
+        "label_en": "Work title registered as third-party trade mark"
+      },
+      {
+        "label": "Protección de título sin depender de volumen de uso",
+        "adds": "mi título original de obra es protegible por propiedad intelectual independientemente del volumen de uso en la UE; el tercero que lo registró incurre en mala fe",
+        "label_en": "Title protection independent of use volume"
+      }
+    ],
+    "question_en": "Was the title of your original work registered by third parties as a trade mark without your consent?"
+  }
+}

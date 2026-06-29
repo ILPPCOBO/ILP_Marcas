@@ -1,0 +1,85 @@
+/* Panel interno — estilos mínimos, sin diseño avanzado. */
+:root {
+  --tinta: #1c2230;
+  --suave: #5b6473;
+  --linea: #d9dee7;
+  --fondo: #f5f7fa;
+  --acento: #2f54eb;
+  --ok: #237804;
+  --warn: #a8071a;
+  --warn-bg: #fff1f0;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--tinta); background: var(--fondo); }
+
+.cabecera {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;
+  padding: 14px 20px; background: #fff; border-bottom: 1px solid var(--linea);
+}
+.cabecera h1 { margin: 0; font-size: 1.25rem; }
+.interno { margin: 4px 0 0; font-size: 0.82rem; color: var(--suave); max-width: 60ch; }
+.revisor { font-size: 0.85rem; white-space: nowrap; }
+.revisor input { display: block; margin-top: 4px; padding: 6px 8px; border: 1px solid var(--linea); border-radius: 6px; }
+
+.layout { display: grid; grid-template-columns: 280px 1fr; gap: 18px; padding: 18px 20px; align-items: start; }
+
+.lista { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 12px; }
+.lista-cabecera { display: flex; justify-content: space-between; align-items: center; }
+.lista h2 { margin: 0; font-size: 1rem; }
+.lista ul { list-style: none; margin: 10px 0 0; padding: 0; }
+.lista li { padding: 8px 10px; border: 1px solid var(--linea); border-radius: 8px; margin-bottom: 6px; cursor: pointer; }
+.lista li:hover { border-color: var(--acento); }
+.lista li.activo { border-color: var(--acento); background: #f0f4ff; }
+.lista li .cid { font-weight: 600; font-size: 0.85rem; }
+.lista li .meta { font-size: 0.75rem; color: var(--suave); }
+.lista li .bloqueo { color: var(--warn); font-size: 0.72rem; }
+.vacio { color: var(--suave); font-size: 0.85rem; }
+
+.detalle { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 16px; }
+.placeholder { color: var(--suave); padding: 24px; }
+fieldset { border: 1px solid var(--linea); border-radius: 8px; margin: 0 0 14px; padding: 12px; }
+legend { font-weight: 600; font-size: 0.85rem; padding: 0 6px; }
+.fuente-meta { font-size: 0.85rem; margin-bottom: 8px; }
+.campo-ro { font-size: 0.78rem; color: var(--suave); margin: 6px 0 0; }
+label { display: block; font-size: 0.82rem; margin-bottom: 10px; }
+label small { color: var(--suave); font-weight: normal; }
+input[type="text"], textarea, select { width: 100%; font: inherit; padding: 7px 9px; border: 1px solid var(--linea); border-radius: 6px; margin-top: 3px; }
+textarea[readonly] { background: var(--fondo); color: var(--suave); }
+.fila { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+
+.estado-aprobacion { font-size: 0.85rem; padding: 8px 10px; border-radius: 8px; margin-bottom: 12px; }
+.estado-aprobacion.ok { background: #f6ffed; color: var(--ok); border: 1px solid #b7eb8f; }
+.estado-aprobacion.bloqueado { background: var(--warn-bg); color: var(--warn); border: 1px solid #ffa39e; }
+
+.acciones { display: flex; gap: 10px; }
+.btn { font: inherit; font-weight: 600; padding: 9px 16px; border: 1px solid var(--linea); border-radius: 8px; background: #fff; cursor: pointer; }
+.btn.aprobar { background: var(--ok); color: #fff; border-color: var(--ok); }
+.btn.aprobar:disabled { background: #b5b5b5; border-color: #b5b5b5; cursor: not-allowed; }
+.btn.rechazar { color: var(--warn); border-color: #ffa39e; }
+.mensaje { font-size: 0.85rem; margin-top: 10px; min-height: 1.2em; }
+.mensaje.error { color: var(--warn); }
+.mensaje.exito { color: var(--ok); }
+.oculto { display: none; }
+
+/* Subida de resolución (corpus document). */
+.subida {
+  margin: 0 16px 12px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid var(--linea, #d9dee7);
+  border-radius: 10px;
+}
+.subida h2 { margin: 0 0 4px; font-size: 1.05rem; }
+.subida .fila { display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0; }
+.subida .fila label { display: flex; flex-direction: column; font-size: 0.8rem; gap: 2px; flex: 1; min-width: 160px; }
+.texto-fuente {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 240px;
+  overflow: auto;
+  background: var(--fondo, #f5f7fa);
+  border: 1px solid var(--linea, #d9dee7);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,90 @@
+{
+  "_warning": "⚠️ DATOS DE PRUEBA FICTICIOS, PENDIENTES DE REVISIÓN. Estos criterios NO son derecho real y además están en pending_review: el motor NUNCA puede usarlos para responder (Reglas 5 y 14). Sirven para probar que la puerta de servibilidad los excluye. BORRAR antes de cargar el corpus real.",
+  "dataset": {
+    "name": "pending_mock_criteria",
+    "fictitious": true,
+    "purpose": "Probar que los criterios pending_review quedan excluidos de toda respuesta (puerta isServable / retriever).",
+    "delete_before_production": true,
+    "authorized_by_owner": "2026-06-11"
+  },
+  "criteria": [
+    {
+      "id": "crit-mock-pending-0001",
+      "judgment_id": "jdg-mock-0002",
+      "area": "marcas",
+      "topic": "marca_renombrada",
+      "subtopic": "proteccion_reforzada",
+      "criterion_text": "FICTICIO (datos de prueba, PENDIENTE) — Según la doctrina de ensayo de la resolución MOCK-202/2019, el signo de prueba 'renombrado de ensayo' goza de una protección reforzada de prueba que alcanza productos de ensayo no similares. Este criterio NO está revisado y no puede usarse para responder.",
+      "conditions_for_application": [
+        "FICTICIO — Que el signo de ensayo acredite renombre de prueba en el territorio ficticio."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre el renombre de ensayo sobrevenido tras la solicitud de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba PENDIENTE de revisión: excluido de toda respuesta."
+      ],
+      "source_excerpt": "FICTICIO — «...el renombre de ensayo extiende la tutela de prueba más allá de la similitud aplicativa...» (texto inventado de la resolución de prueba MOCK-202/2019).",
+      "source_reference": "Fundamento de prueba 6.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "pending_review",
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-pending-0002",
+      "judgment_id": "jdg-mock-0004",
+      "area": "propiedad_intelectual",
+      "topic": "transformacion",
+      "subtopic": "obra_derivada",
+      "criterion_text": "FICTICIO (datos de prueba, PENDIENTE) — Conforme a la resolución de prueba MOCK-404/2022, la transformación de ensayo de una obra de prueba requiere autorización del titular de ensayo cuando genera una obra derivada de prueba reconocible. Este criterio NO está revisado y no puede usarse para responder.",
+      "conditions_for_application": [
+        "FICTICIO — Que la obra derivada de ensayo incorpore elementos protegidos de prueba de la obra originaria."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la parodia de ensayo ni otros límites de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba PENDIENTE de revisión: excluido de toda respuesta."
+      ],
+      "source_excerpt": "FICTICIO — «...la transformación de ensayo exige el consentimiento de prueba del titular originario...» (texto inventado de la resolución de prueba MOCK-404/2022).",
+      "source_reference": "Fundamento de prueba 5.º (ficticio)",
+      "confidence_level": "low",
+      "review_status": "pending_review",
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-pending-0003",
+      "judgment_id": "jdg-mock-0005",
+      "area": "procesal",
+      "topic": "medidas_cautelares",
+      "subtopic": "caucion",
+      "criterion_text": "FICTICIO (datos de prueba, PENDIENTE) — Según el auto de prueba MOCK-505/2018, la caución de ensayo se fija en proporción al perjuicio de prueba que la medida pueda causar al demandado de ensayo. Este criterio NO está revisado y no puede usarse para responder.",
+      "conditions_for_application": [
+        "FICTICIO — Que la medida cautelar de ensayo haya sido acordada en el proceso de prueba."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre los requisitos de ensayo para acordar la medida (ver criterio aprobado de prueba crit-mock-0008)."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba PENDIENTE de revisión: excluido de toda respuesta."
+      ],
+      "source_excerpt": "FICTICIO — «...la caución de ensayo guarda proporción con el perjuicio potencial de prueba...» (texto inventado de la resolución de prueba MOCK-505/2018).",
+      "source_reference": "Razonamiento de prueba 4.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "pending_review",
+      "approved": false,
+      "approved_by": null,
+      "approved_at": null,
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    }
+  ]
+}

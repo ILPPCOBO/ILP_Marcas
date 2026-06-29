@@ -1,0 +1,31 @@
+{
+  "criteria": [
+    {
+      "id": "crit-ECLI-ES-APB-2021-3348A-002",
+      "judgment_id": "ECLI-ES-APB-2021-3348A",
+      "area": "procesal",
+      "topic": "cosa_juzgada",
+      "subtopic": "identidad_objetiva_parcial",
+      "criterion_text": "La cosa juzgada material en sentido positivo no exige identidad objetiva plena, sino que basta con que el objeto del proceso posterior sea parcialmente idéntico (si la identidad de objeto fuese plena operaría el efecto excluyente); en cambio, sí es exigible la identidad subjetiva.",
+      "conditions_for_application": [
+        "Que se invoque la cosa juzgada positiva (art. 222.4 LEC)."
+      ],
+      "does_not_answer": [
+        "No define cuándo concurre la identidad subjetiva (ver criterio sobre el elemento subjetivo)."
+      ],
+      "limits": [
+        "Recoge doctrina del Tribunal Supremo citada en el auto.",
+        "Procesal, no marcario."
+      ],
+      "source_excerpt": "la apreciación de la cosa juzgada material en sentido positivo no exige identidades objetivas, sino que el objeto del ulterior recurso sea parcialmente idéntico ya que si se produjese la identidad de objeto plena estaríamos ante el efecto excluyente y, por otra parte, la identidad de la causa de pedir no puede exigirse desde el momento que ésta es presupuesto del objeto del proceso. Sin embargo, es exigible la identidad subjetiva ( FJ 5.2)",
+      "source_reference": "Fundamento Jurídico Tercero, apartado 10 (cita STS 164/2021, de 23 de marzo, ECLI:ES:TS:2021:1083, FJ 5.2)",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "William (revisión del propietario)",
+      "approved_at": "2026-06-16T09:31:15.567502+00:00",
+      "created_at": "2026-06-13T12:00:00Z",
+      "updated_at": "2026-06-16T09:31:15.567502+00:00"
+    }
+  ]
+}

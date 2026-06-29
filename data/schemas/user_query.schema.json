@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://locked-legal-advisor.local/schemas/user_query.schema.json",
+  "title": "UserQuery",
+  "description": "Pregunta del usuario tal como entró y como la clasificó el pipeline. Sin PII más allá de la pregunta. Espejo TS: services/models/userQuery.ts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "original_question",
+    "normalized_question",
+    "detected_language",
+    "classified_area",
+    "classified_topic",
+    "missing_facts",
+    "out_of_scope",
+    "created_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "original_question": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Pregunta literal del usuario, sin tocar (Regla 16)."
+    },
+    "normalized_question": { "type": "string", "minLength": 1 },
+    "detected_language": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+    "classified_area": {
+      "enum": ["marcas", "propiedad_intelectual", "patentes", "procesal", null],
+      "description": "null = no clasificable (distinto de fuera de alcance)."
+    },
+    "classified_topic": { "type": ["string", "null"], "minLength": 1 },
+    "missing_facts": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Datos que faltan para responder; alimenta las repreguntas (Regla 7)."
+    },
+    "out_of_scope": {
+      "type": "boolean",
+      "description": "true si el pipeline determinó que la consulta está fuera del corpus (Regla 8)."
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    }
+  }
+}

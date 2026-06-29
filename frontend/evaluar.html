@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evaluador de Caso — ILP Asesor Informativo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="acceptance.css" />
+    <link rel="stylesheet" href="evaluar.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="ILP — inicio">
+          <span class="brand-mark">ILP<span class="dot">.</span></span>
+          <span class="brand-sub">Asesor Informativo</span>
+        </a>
+        <a class="brand-sub" href="index.html" style="text-decoration:none">← Volver al inicio</a>
+      </div>
+    </header>
+    <main class="contenedor">
+      <section class="hero">
+        <p class="kicker">Evaluador de caso · Case Fit Grade</p>
+        <h1>Evaluador de Caso</h1>
+        <p class="subtitulo">Calificación de <em>alineación</em> con los criterios del corpus. No predice el resultado de un procedimiento.</p>
+      </section>
+      <p class="aviso-fijo" role="note" data-disclaimer-banner></p>
+
+      <nav class="menu" aria-label="Menú principal">
+        <a class="menu-item" href="index.html">Pregunta asistida</a>
+        <a class="menu-item" href="catalog.html">Catálogo</a>
+        <span class="menu-item activo">Evaluar caso</span>
+      </nav>
+
+      <form id="form-eval" class="caja">
+        <label for="ev-nombre">Nombre del caso (opcional)</label>
+        <input id="ev-nombre" type="text" placeholder="Ej.: NÓVALU vs NOVALÚ" />
+
+        <label for="ev-desc">Descripción breve del caso</label>
+        <textarea id="ev-desc" rows="5" placeholder="Cuenta con tus palabras qué ocurrió (hechos, no preguntes si vas a ganar)…"></textarea>
+
+        <label for="ev-asunto">Tipo de asunto</label>
+        <select id="ev-asunto">
+          <option value="No estoy seguro">No estoy seguro</option>
+          <option value="Marcas">Marcas</option>
+          <option value="Propiedad intelectual">Propiedad intelectual</option>
+          <option value="Patentes">Patentes</option>
+          <option value="Procesal">Procesal</option>
+        </select>
+
+        <label id="label-ev-mat">Documentos del caso (PDF, DOCX, TXT, PNG, JPG, JPEG)</label>
+        <div id="ev-zona" class="dropzone dropzone-archivos">
+          <p class="dropzone-ayuda"><span>Arrastra aquí tus documentos o</span>
+            <button type="button" id="ev-examinar" class="enlace">examinar…</button>
+            <input id="ev-file" type="file" accept=".pdf,.docx,.txt,.png,.jpg,.jpeg" multiple hidden /></p>
+          <p class="nota-evidencia">Solo material factual del caso. No son fuente jurídica, no crean criterios y no predicen el resultado. Se procesan en local.</p>
+          <ul id="ev-lista" class="materiales" aria-live="polite"></ul>
+        </div>
+
+        <button id="ev-analizar" type="submit">Analizar caso</button>
+      </form>
+
+      <section id="ev-resultado" class="caja eval-result oculto" aria-live="polite"></section>
+    </main>
+    <script src="acceptance.js"></script>
+    <script src="evaluar.js"></script>
+  </body>
+</html>

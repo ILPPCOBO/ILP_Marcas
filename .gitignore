@@ -1,0 +1,28 @@
+# Dependencias y builds
+node_modules/
+dist/
+.next/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Materiales de caso y subidas del usuario (DATOS PERSONALES — NUNCA al repositorio)
+data/case_materials/
+data/uploads/
+
+# Registros de auditoría (contienen preguntas de usuarios — nunca al repositorio)
+data/audit/*.jsonl
+data/audit/*.log
+
+# Historial de revisión editorial (se regenera; metadatos operativos)
+data/review_log.jsonl
+data/catalog_review_log.jsonl
+
+# Registro de aceptaciones del aviso (consentimiento; minimizado, sin PII)
+data/acceptance_log.jsonl
+
+# Entorno
+.env
+.env.*
+.DS_Store

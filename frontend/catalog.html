@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo de preguntas estándar — ILP Asesor Informativo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="catalog.css" />
+    <link rel="stylesheet" href="acceptance.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="ILP — inicio">
+          <span class="brand-mark">ILP<span class="dot">.</span></span>
+          <span class="brand-sub">Asesor Informativo</span>
+        </a>
+        <a class="brand-sub" href="index.html" style="text-decoration:none">← Volver al inicio</a>
+      </div>
+    </header>
+    <main class="contenedor">
+      <section class="hero">
+        <p class="kicker">Catálogo · respuestas preaprobadas</p>
+        <h1>Preguntas estándar</h1>
+        <p class="subtitulo">Respuestas preaprobadas, basadas en criterios aprobados del corpus.</p>
+      </section>
+
+      <p class="aviso-fijo" role="note" data-disclaimer-banner>
+        Esta herramienta ofrece orientación informativa basada en un corpus cerrado.
+        No constituye asesoramiento jurídico.
+      </p>
+
+      <div class="layout">
+        <!-- Navegación por área y tema -->
+        <nav id="navegacion" class="navegacion" aria-label="Áreas y temas"></nav>
+
+        <!-- Contenido: lista de preguntas del tema, o detalle -->
+        <section class="contenido">
+          <div id="lista-preguntas" class="lista-preguntas">
+            <p class="placeholder">Seleccione un área y un tema para ver las preguntas estándar.</p>
+          </div>
+          <article id="detalle-pregunta" class="detalle-pregunta oculto"></article>
+        </section>
+      </div>
+    </main>
+    <script src="acceptance.js"></script>
+    <script src="catalog.js"></script>
+  </body>
+</html>

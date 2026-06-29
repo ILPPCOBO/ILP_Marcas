@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panel de ingesta (interno) — ILP Asesor Informativo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html" aria-label="ILP — inicio">
+          <span class="brand-mark">ILP<span class="dot">.</span></span>
+          <span class="brand-sub">Panel de ingesta · interno</span>
+        </a>
+        <a class="brand-sub" href="index.html" style="text-decoration:none">← Volver al inicio</a>
+      </div>
+    </header>
+    <main class="contenedor admin">
+      <section class="hero">
+        <p class="kicker">Editorial · Reglas 13–15</p>
+        <h1>Panel de ingesta de sentencias</h1>
+        <p class="subtitulo">Hace crecer el corpus: registrar resolución → criterios <em>pending</em> → aprobación humana.</p>
+      </section>
+      <p class="aviso-fijo" role="note">
+        Esto NO es la herramienta del usuario. Aquí cargas resoluciones y apruebas criterios. Solo los
+        criterios <strong>aprobados</strong> se usan para responder. La extracción no inventa: los criterios
+        los redactas tú a partir del texto fuente.
+      </p>
+
+      <section id="resumen" class="caja"></section>
+
+      <!-- 1. Registrar resolución -->
+      <section class="caja">
+        <h2>1. Registrar una resolución</h2>
+        <div class="grid2">
+          <label>Título<input id="j-title" type="text" placeholder="STS / Auto AP…" /></label>
+          <label>Nº de resolución<input id="j-resnum" type="text" placeholder="3348/2021" /></label>
+          <label>Tribunal<input id="j-court" type="text" placeholder="Audiencia Provincial de…" /></label>
+          <label>Fecha (AAAA-MM-DD)<input id="j-date" type="text" placeholder="2021-05-10" /></label>
+          <label>Jurisdicción<input id="j-juris" type="text" placeholder="ES" /></label>
+          <label>Área
+            <select id="j-area">
+              <option value="marcas">marcas</option>
+              <option value="propiedad_intelectual">propiedad_intelectual</option>
+              <option value="patentes">patentes</option>
+              <option value="procesal">procesal</option>
+            </select>
+          </label>
+        </div>
+        <label>Temas (separados por coma)<input id="j-topics" type="text" placeholder="cosa juzgada, prueba" /></label>
+        <label>Texto de la resolución (pega aquí, o arrastra un PDF/TXT)</label>
+        <div id="j-zona" class="dropzone dropzone-archivos">
+          <textarea id="j-text" rows="5" placeholder="Pega el texto de la sentencia… (o suelta un PDF digital / .txt)"></textarea>
+          <p class="dropzone-ayuda"><span>Arrastra un PDF/TXT o</span>
+            <button type="button" id="j-examinar" class="enlace">examinar…</button>
+            <input id="j-file" type="file" accept=".pdf,.txt" hidden /></p>
+        </div>
+        <button id="j-registrar" type="button">Registrar resolución</button>
+        <p id="j-msg" class="admin-msg"></p>
+      </section>
+
+      <!-- 2. Añadir criterio -->
+      <section class="caja">
+        <h2>2. Añadir un criterio (queda pending_review)</h2>
+        <p class="hint">Redáctalo a partir del texto fuente. Distingue: el <em>criterio</em> (criterion_text), sus <em>límites</em>, lo que <em>no responde</em>, y pega el <em>extracto verbatim</em> + su <em>localización</em>.</p>
+        <div class="grid2">
+          <label>Resolución (judgment_id)<input id="c-jid" type="text" list="jids" placeholder="ECLI-…" /></label>
+          <label>Área
+            <select id="c-area">
+              <option value="marcas">marcas</option>
+              <option value="propiedad_intelectual">propiedad_intelectual</option>
+              <option value="patentes">patentes</option>
+              <option value="procesal">procesal</option>
+            </select>
+          </label>
+          <label>Tema (topic)<input id="c-topic" type="text" placeholder="riesgo de confusión" /></label>
+          <label>Subtema (opcional)<input id="c-subtopic" type="text" /></label>
+          <label>Confianza
+            <select id="c-conf"><option value="low">low</option><option value="medium">medium</option><option value="high">high</option></select>
+          </label>
+          <label>Fuente / localización (source_reference)<input id="c-ref" type="text" placeholder="FJ 3º, apartados 9-10" /></label>
+        </div>
+        <datalist id="jids"></datalist>
+        <label>Criterio (criterion_text)<textarea id="c-text" rows="3"></textarea></label>
+        <label>Extracto verbatim (source_excerpt)<textarea id="c-excerpt" rows="2"></textarea></label>
+        <div class="grid2">
+          <label>Condiciones de aplicación (una por línea)<textarea id="c-cond" rows="3"></textarea></label>
+          <label>Qué NO responde (una por línea)<textarea id="c-dna" rows="3"></textarea></label>
+        </div>
+        <label>Límites (una por línea)<textarea id="c-limits" rows="3"></textarea></label>
+        <button id="c-add" type="button">Guardar como pending</button>
+        <p id="c-msg" class="admin-msg"></p>
+      </section>
+
+      <!-- 3. Revisión -->
+      <section class="caja">
+        <h2>3. Pendientes de revisión</h2>
+        <label>Tu nombre (revisor)<input id="rev-by" type="text" placeholder="William" /></label>
+        <button id="rev-reload" type="button">Recargar</button>
+        <div id="pendientes"></div>
+      </section>
+    </main>
+    <script src="admin.js"></script>
+  </body>
+</html>

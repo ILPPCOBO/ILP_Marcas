@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panel interno de revisión — Locked Legal Advisor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <div>
+        <h1>Panel de revisión de criterios</h1>
+        <p class="interno">
+          Herramienta INTERNA. Las resoluciones originales no se usan para responder; solo los
+          criterios <strong>aprobados</strong> pasan al corpus servible.
+        </p>
+      </div>
+      <label class="revisor">
+        Revisor:
+        <input id="revisor" type="text" placeholder="su nombre" autocomplete="off" />
+      </label>
+    </header>
+
+    <!-- Subida de RESOLUCIÓN (corpus document). Se registra + extrae texto; los
+         criterios candidatos quedan pending_review hasta aprobación manual. -->
+    <section class="subida">
+      <h2>Cargar resolución (Corpus Document)</h2>
+      <p class="interno">
+        Se registra como sentencia y se extrae su texto (TXT real; PDF/DOCX/imagen requieren extractor
+        configurado). Los criterios candidatos quedan en <code>pending_review</code> hasta su aprobación
+        manual (Reglas 13-15). <strong>No</strong> se usa para responder hasta aprobar.
+      </p>
+      <div class="fila">
+        <label>Archivo<input id="up-archivo" type="file" accept=".pdf,.docx,.txt,.png,.jpg,.jpeg" /></label>
+        <label>id (opcional)<input id="up-id" type="text" placeholder="auto" /></label>
+        <label>área
+          <select id="up-area">
+            <option value="marcas">marcas</option>
+            <option value="propiedad_intelectual">propiedad_intelectual</option>
+            <option value="patentes">patentes</option>
+            <option value="procesal">procesal</option>
+          </select>
+        </label>
+      </div>
+      <div class="fila">
+        <label>título<input id="up-title" type="text" /></label>
+        <label>tribunal<input id="up-court" type="text" /></label>
+        <label>fecha (YYYY-MM-DD)<input id="up-date" type="text" placeholder="2021-05-10" /></label>
+      </div>
+      <div class="fila">
+        <label>nº resolución<input id="up-resnum" type="text" /></label>
+        <label>jurisdicción<input id="up-jur" type="text" placeholder="ES" /></label>
+        <label>temas (coma)<input id="up-topics" type="text" placeholder="riesgo_de_confusion" /></label>
+      </div>
+      <button id="up-subir" type="button" class="btn">Subir y extraer texto</button>
+      <p id="up-mensaje" class="mensaje"></p>
+      <details id="up-texto-wrap" class="oculto">
+        <summary>Texto extraído</summary>
+        <pre id="up-texto" class="texto-fuente"></pre>
+      </details>
+    </section>
+
+    <main class="layout">
+      <!-- Lista de pendientes -->
+      <section class="lista" aria-label="Criterios pendientes">
+        <div class="lista-cabecera">
+          <h2>Pendientes</h2>
+          <button id="recargar" type="button" title="Recargar">↻</button>
+        </div>
+        <ul id="pendientes"></ul>
+        <p id="vacio" class="vacio oculto">No hay criterios en <code>pending_review</code>.</p>
+      </section>
+
+      <!-- Detalle / edición -->
+      <section id="detalle" class="detalle oculto" aria-label="Detalle del criterio">
+        <div class="estado-aprobacion" id="estado-aprobacion"></div>
+
+        <fieldset class="fuente">
+          <legend>Resolución fuente</legend>
+          <div id="fuente-meta" class="fuente-meta"></div>
+          <label>Extracto fuente (solo lectura)
+            <textarea id="source_excerpt" rows="3" readonly></textarea>
+          </label>
+          <p class="campo-ro">judgment_id: <code id="judgment_id_ro"></code></p>
+        </fieldset>
+
+        <fieldset class="edicion">
+          <legend>Criterio (editable)</legend>
+          <div class="fila">
+            <label>area
+              <select id="area">
+                <option value="marcas">marcas</option>
+                <option value="propiedad_intelectual">propiedad_intelectual</option>
+                <option value="patentes">patentes</option>
+                <option value="procesal">procesal</option>
+              </select>
+            </label>
+            <label>topic <input id="topic" type="text" /></label>
+            <label>subtopic <input id="subtopic" type="text" placeholder="(vacío = ninguno)" /></label>
+          </div>
+          <label>criterion_text
+            <textarea id="criterion_text" rows="4"></textarea>
+          </label>
+          <label>conditions_for_application <small>(una por línea)</small>
+            <textarea id="conditions_for_application" rows="3"></textarea>
+          </label>
+          <label>does_not_answer <small>(una por línea)</small>
+            <textarea id="does_not_answer" rows="2"></textarea>
+          </label>
+          <label>limits <small>(una por línea — obligatorio para aprobar)</small>
+            <textarea id="limits" rows="2"></textarea>
+          </label>
+          <label>source_reference <input id="source_reference" type="text" /></label>
+        </fieldset>
+
+        <div class="acciones">
+          <button id="guardar" type="button" class="btn">Guardar cambios</button>
+          <button id="aprobar" type="button" class="btn aprobar">Aprobar</button>
+          <button id="rechazar" type="button" class="btn rechazar">Rechazar</button>
+        </div>
+        <p id="mensaje" class="mensaje"></p>
+      </section>
+      <p id="placeholder" class="placeholder">Seleccione un criterio de la lista para revisarlo.</p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

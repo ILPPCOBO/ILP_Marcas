@@ -1,0 +1,40 @@
+{
+  "_note": "Preguntas de catálogo de CONTENIDO REAL en estado BORRADOR (approved:false). NO se sirven al usuario hasta que una persona las revise y apruebe en el panel de ingesta. Son fieles a criterios YA aprobados del corpus; la aprobación de la PREGUNTA del catálogo es un acto humano separado (last_reviewed_by se rellena al aprobar).",
+  "dataset": {
+    "name": "catalog_pending_real",
+    "fictitious": false,
+    "purpose": "Cola de preguntas estándar reales pendientes de revisión humana.",
+    "delete_before_production": false
+  },
+  "questions": [
+    {
+      "id": "cat-procesal-cj-001",
+      "area": "Procesal",
+      "topic": "cosa juzgada",
+      "question": "¿Cuándo opera el efecto positivo de la cosa juzgada material y a quién vincula?",
+      "short_answer": "BORRADOR (pendiente de revisión) — Según los criterios del corpus, el efecto positivo de la cosa juzgada material (art. 222.4 LEC) no autoriza a sobreseer en la audiencia previa: la cuestión se resuelve en sentencia. No exige identidad objetiva plena (basta la parcial), pero sí identidad subjetiva, y solo alcanza a las partes del proceso anterior y a sus causahabientes.",
+      "full_answer": "BORRADOR PENDIENTE DE REVISIÓN HUMANA — Según los criterios aprobados del corpus (auto ECLI:ES:APB:2021:3348A): (1) el efecto o función positiva de la cosa juzgada material (art. 222.4 LEC) no permite sobreseer el procedimiento en la audiencia previa; aunque el tribunal pueda quedar vinculado por lo resuelto antes como antecedente lógico, la cuestión debe resolverse en sentencia, porque el objeto del proceso anterior y el del posterior no son idénticos (art. 421.1, párrafo segundo, LEC). (2) Ese efecto positivo no exige identidad objetiva plena —basta con que el objeto del proceso posterior sea parcialmente idéntico; si fuese plena, operaría el efecto excluyente—, pero sí es exigible la identidad subjetiva. (3) La cosa juzgada solo se extiende a las partes del proceso anterior y a sus causahabientes (art. 222.3 y 222.4 LEC); no la genera el mero conocimiento del litigio anterior, la decisión de no intervenir ni el apoyo extraprocesal a una parte, si bien el licenciatario cuyos derechos derivan de quien fue parte sí puede ser causahabiente. (4) Descartado el efecto positivo, las declaraciones del primer litigio se respetan pero no vinculan al tribunal del segundo proceso, que valora libremente la prueba y motiva, en su caso, por qué se aparta del criterio anterior. Es orientación informativa sobre estos criterios procesales; el corpus no anticipa ningún resultado.",
+      "related_criteria_ids": [
+        "crit-ECLI-ES-APB-2021-3348A-001",
+        "crit-ECLI-ES-APB-2021-3348A-002",
+        "crit-ECLI-ES-APB-2021-3348A-003",
+        "crit-ECLI-ES-APB-2021-3348A-004"
+      ],
+      "source_references": [
+        "Auto ECLI:ES:APB:2021:3348A, Fundamento Jurídico Tercero, apartados 9-10",
+        "Auto ECLI:ES:APB:2021:3348A, Fundamento Jurídico Tercero, apartado 10 (cita STS 164/2021, de 23 de marzo, ECLI:ES:TS:2021:1083)",
+        "Auto ECLI:ES:APB:2021:3348A, Fundamento Jurídico Cuarto, apartados 13-23"
+      ],
+      "limits": [
+        "Criterio PROCESAL sobre cosa juzgada (LEC); la materia de fondo del caso era propiedad intelectual.",
+        "Extraído de un auto de apelación que recoge doctrina del Tribunal Supremo citada en él.",
+        "No convierte el desenlace del caso en regla general: versa sobre los requisitos de la cosa juzgada.",
+        "El resultado real depende de los hechos, la prueba y la normativa vigente, que esta herramienta no valora."
+      ],
+      "approved": false,
+      "version": "0.1.0",
+      "last_reviewed_at": null,
+      "last_reviewed_by": null
+    }
+  ]
+}

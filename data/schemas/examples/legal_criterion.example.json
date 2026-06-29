@@ -1,0 +1,26 @@
+{
+  "id": "crit-ejemplo-ficticio-0001",
+  "judgment_id": "jdg-ejemplo-ficticio-0001",
+  "area": "marcas",
+  "topic": "riesgo_de_confusion",
+  "subtopic": "comparacion_denominativa",
+  "criterion_text": "EJEMPLO FICTICIO — La comparación entre marcas denominativas debe atender a la impresión de conjunto que producen en el consumidor medio. (Texto de ejemplo para validar el esquema; no procede de ninguna resolución real.)",
+  "conditions_for_application": [
+    "EJEMPLO — Que ambos signos en conflicto sean denominativos."
+  ],
+  "does_not_answer": [
+    "EJEMPLO — No resuelve la comparación entre signos mixtos o figurativos."
+  ],
+  "limits": [
+    "EJEMPLO — Criterio ficticio: existe solo para ilustrar la estructura de datos."
+  ],
+  "source_excerpt": "EJEMPLO FICTICIO — \"...la comparación ha de hacerse atendiendo a la impresión de conjunto...\" (extracto inventado con fines de documentación del esquema).",
+  "source_reference": "Fundamento Jurídico 3º (ficticio)",
+  "confidence_level": "medium",
+  "review_status": "pending_review",
+  "approved": false,
+  "approved_by": null,
+  "approved_at": null,
+  "created_at": "2026-06-11T00:00:00Z",
+  "updated_at": "2026-06-11T00:00:00Z"
+}

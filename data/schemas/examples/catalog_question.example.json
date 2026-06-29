@@ -1,0 +1,15 @@
+{
+  "id": "cat-ejemplo-ficticio-0001",
+  "area": "Marcas",
+  "topic": "riesgo de confusión",
+  "question": "FICTICIO — ¿Cómo se compara si dos signos pueden confundirse?",
+  "short_answer": "FICTICIO — Según los criterios disponibles, se atiende a la impresión de conjunto y a la similitud de productos.",
+  "full_answer": "FICTICIO (ejemplo) — Restitución de prueba de los criterios del corpus; solo orienta, no anticipa resultado.",
+  "related_criteria_ids": ["crit-ejemplo-ficticio-0001"],
+  "source_references": ["Resolución EJEMPLO-123/2020 (ficticia), Fundamento Jurídico 3.º"],
+  "limits": ["FICTICIO — No resuelve signos figurativos.", "Depende de la prueba y de la normativa vigente."],
+  "approved": true,
+  "version": "1.0.0",
+  "last_reviewed_at": "2026-06-13T09:00:00Z",
+  "last_reviewed_by": "ejemplo — autorización de prueba (no es revisión jurídica real)"
+}

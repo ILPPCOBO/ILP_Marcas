@@ -1,0 +1,23 @@
+/* Panel de ingesta interno. */
+.admin .subtitulo { margin-bottom: 12px; }
+.admin .caja { margin-bottom: 16px; }
+.admin h2 { font-size: 1.05rem; margin: 0 0 8px; }
+.admin label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; }
+.admin input[type="text"], .admin select, .admin textarea {
+  font: inherit; padding: 8px; border: 1px solid var(--linea); border-radius: 8px; width: 100%;
+}
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 8px; }
+@media (max-width: 620px) { .grid2 { grid-template-columns: 1fr; } }
+.hint { font-size: 0.85rem; color: var(--suave); margin: 0 0 8px; }
+.admin-msg { font-size: 0.9rem; font-weight: 600; margin: 8px 0 0; }
+.resumen-temas { columns: 2; font-size: 0.85rem; color: var(--suave); margin: 6px 0 0; }
+.fuente-text {
+  white-space: pre-wrap; word-break: break-word; font-size: 0.8rem; max-height: 240px; overflow: auto;
+  background: var(--fondo); border: 1px solid var(--linea); border-radius: 8px; padding: 10px; margin: 8px 0;
+}
+.btn-sec { background: #fff; color: var(--tinta); border: 1px solid var(--linea); }
+.pend-card { border: 1px solid var(--linea); border-radius: 10px; padding: 12px; margin-bottom: 10px; }
+.pend-card h3 { font-size: 0.95rem; margin: 0 0 4px; }
+.pend-jid, .pend-ex, .pend-lim { font-size: 0.82rem; color: var(--suave); margin: 2px 0; }
+.pend-falta { color: #a8071a; font-weight: 600; font-size: 0.85rem; margin: 4px 0; }
+.pend-acts { display: flex; gap: 8px; margin-top: 8px; }

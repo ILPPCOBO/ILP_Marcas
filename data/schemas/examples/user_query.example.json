@@ -1,0 +1,11 @@
+{
+  "id": "qry-ejemplo-0001",
+  "original_question": "¿Puede registrarse una marca con un nombre muy parecido a otra ya registrada para productos similares?",
+  "normalized_question": "puede registrarse una marca con un nombre muy parecido a otra ya registrada para productos similares",
+  "detected_language": "es",
+  "classified_area": "marcas",
+  "classified_topic": "riesgo_de_confusion",
+  "missing_facts": [],
+  "out_of_scope": false,
+  "created_at": "2026-06-11T00:00:00Z"
+}

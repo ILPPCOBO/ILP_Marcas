@@ -1,0 +1,279 @@
+{
+  "_warning": "⚠️ DATOS DE PRUEBA FICTICIOS. Estos criterios NO son derecho real: doctrina, condiciones y citas son inventadas para probar la lógica del motor cerrado. Su estado 'approved' NO procede de una revisión jurídica (Regla 15): es una autorización expresa del propietario del proyecto LIMITADA a pruebas, registrada en approved_by. BORRAR este archivo antes de cargar el corpus real.",
+  "dataset": {
+    "name": "mock_criteria",
+    "fictitious": true,
+    "purpose": "Probar la lógica del sistema (recuperación, decisión, composición) antes de cargar resoluciones reales.",
+    "delete_before_production": true,
+    "authorized_by_owner": "2026-06-11"
+  },
+  "criteria": [
+    {
+      "id": "crit-mock-0001",
+      "judgment_id": "jdg-mock-0001",
+      "area": "marcas",
+      "topic": "riesgo_de_confusion",
+      "subtopic": "similitud_de_signos",
+      "criterion_text": "FICTICIO (datos de prueba) — En este corpus de ensayo, la comparación entre dos signos de prueba se realiza atendiendo al 'elemento de ensayo dominante' definido en la resolución MOCK-101/2021, considerando conjuntamente la similitud visual y fonética de prueba.",
+      "conditions_for_application": [
+        "FICTICIO — Que ambos signos pertenezcan a la categoría de prueba 'denominativa de ensayo'.",
+        "FICTICIO — Que exista identidad o similitud de prueba entre los productos de ensayo comparados."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre signos de la categoría de prueba 'figurativa de ensayo'.",
+        "FICTICIO — No responde sobre la validez registral de los signos de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la comparación de los signos de ensayo Alfa y Beta debe partir del elemento de ensayo dominante...» (texto inventado de la resolución de prueba MOCK-101/2021).",
+      "source_reference": "Fundamento de prueba 2.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0002",
+      "judgment_id": "jdg-mock-0001",
+      "area": "marcas",
+      "topic": "riesgo_de_confusion",
+      "subtopic": "similitud_de_productos",
+      "criterion_text": "FICTICIO (datos de prueba) — Según la regla de ensayo de la 'doble coincidencia' de la resolución MOCK-101/2021, a mayor similitud entre los productos de prueba comparados, menor grado de semejanza entre los signos de ensayo basta para apreciar el riesgo de confusión de prueba.",
+      "conditions_for_application": [
+        "FICTICIO — Que los productos de ensayo comparados estén en la misma 'clase de prueba'."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la comparación de servicios de ensayo de clases de prueba distintas."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la interdependencia de ensayo entre signos y productos de prueba se gradúa de forma inversa...» (texto inventado de la resolución de prueba MOCK-101/2021).",
+      "source_reference": "Fundamento de prueba 3.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0003",
+      "judgment_id": "jdg-mock-0002",
+      "area": "marcas",
+      "topic": "mala_fe",
+      "subtopic": "registro_obstaculizador",
+      "criterion_text": "FICTICIO (datos de prueba) — Conforme a la doctrina de ensayo de la resolución MOCK-202/2019, registra de mala fe de prueba quien solicita el signo de ensayo con el único propósito de bloquear la actividad del operador de prueba preexistente, sin intención de uso propio de ensayo.",
+      "conditions_for_application": [
+        "FICTICIO — Que el solicitante de prueba conociera la actividad previa del operador de ensayo.",
+        "FICTICIO — Que no exista plan de uso propio de ensayo documentado."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la mala fe de ensayo en renovaciones de registro de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...el ánimo obstaculizador de ensayo, acreditado en el caso de prueba, vicia la solicitud...» (texto inventado de la resolución de prueba MOCK-202/2019).",
+      "source_reference": "Fundamento de prueba 4.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0004",
+      "judgment_id": "jdg-mock-0002",
+      "area": "marcas",
+      "topic": "prioridad_registral",
+      "subtopic": "fecha_de_solicitud",
+      "criterion_text": "FICTICIO (datos de prueba) — En el sistema de ensayo de la resolución MOCK-202/2019, la prioridad entre signos de prueba en conflicto se determina por la fecha de solicitud de ensayo, salvo que se acredite la excepción de prueba de uso notorio anterior de ensayo.",
+      "conditions_for_application": [
+        "FICTICIO — Que existan dos solicitudes de prueba en conflicto sobre signos de ensayo semejantes."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la prioridad de ensayo derivada de solicitudes internacionales de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la fecha de la solicitud de ensayo marca la prelación de prueba entre los signos enfrentados...» (texto inventado de la resolución de prueba MOCK-202/2019).",
+      "source_reference": "Fundamento de prueba 2.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0005",
+      "judgment_id": "jdg-mock-0003",
+      "area": "propiedad_intelectual",
+      "topic": "autoria",
+      "subtopic": "presuncion_de_autoria",
+      "criterion_text": "FICTICIO (datos de prueba) — Según la presunción de ensayo de la resolución MOCK-303/2020, se presume autor de prueba a quien figura como tal en el 'registro de ensayo' del corpus, salvo prueba de ensayo en contrario aportada por quien discuta la autoría de prueba.",
+      "conditions_for_application": [
+        "FICTICIO — Que la obra de ensayo conste inscrita en el registro de prueba del corpus."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la coautoría de ensayo de obras colectivas de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la inscripción de ensayo despliega una presunción de autoría de prueba que admite demostración en contrario...» (texto inventado de la resolución de prueba MOCK-303/2020).",
+      "source_reference": "Fundamento de prueba 1.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0006",
+      "judgment_id": "jdg-mock-0003",
+      "area": "propiedad_intelectual",
+      "topic": "obra_laboral",
+      "subtopic": "cesion_al_empleador",
+      "criterion_text": "FICTICIO (datos de prueba) — Conforme a la regla de ensayo de la resolución MOCK-303/2020, cuando la obra de prueba se crea en ejecución de un 'contrato laboral de ensayo', los derechos de explotación de prueba se entienden cedidos al empleador de ensayo en el alcance necesario para su actividad ordinaria de prueba, salvo pacto de ensayo en contrario.",
+      "conditions_for_application": [
+        "FICTICIO — Que la obra de ensayo se haya creado dentro de las funciones del puesto de prueba.",
+        "FICTICIO — Que no exista pacto de ensayo en contrario por escrito."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre los derechos morales de ensayo del trabajador de prueba.",
+        "FICTICIO — No responde sobre obras de ensayo creadas por colaboradores autónomos de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la cesión de ensayo alcanza solo la actividad ordinaria de prueba del empleador ficticio...» (texto inventado de la resolución de prueba MOCK-303/2020).",
+      "source_reference": "Fundamento de prueba 5.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0007",
+      "judgment_id": "jdg-mock-0004",
+      "area": "propiedad_intelectual",
+      "topic": "comunicacion_publica",
+      "subtopic": "puesta_a_disposicion",
+      "criterion_text": "FICTICIO (datos de prueba) — Según la resolución de prueba MOCK-404/2022, hay comunicación pública de ensayo cuando la obra de prueba se pone a disposición de una 'pluralidad de ensayo' — umbral inventado por esa resolución: más de cinco personas de prueba — ajenas al grupo cerrado de ensayo del titular, con independencia de que accedan efectivamente a ella.",
+      "conditions_for_application": [
+        "FICTICIO — Que el acto de ensayo permita el acceso de más de cinco personas de prueba (umbral inventado).",
+        "FICTICIO — Que los destinatarios de ensayo sean ajenos al grupo cerrado de prueba del titular."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la reproducción de ensayo ni la distribución de prueba de ejemplares."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...basta la puesta a disposición de ensayo, sin necesidad de acceso efectivo de prueba...» (texto inventado de la resolución de prueba MOCK-404/2022).",
+      "source_reference": "Fundamento de prueba 3.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0008",
+      "judgment_id": "jdg-mock-0005",
+      "area": "procesal",
+      "topic": "medidas_cautelares",
+      "subtopic": "requisitos_acumulativos",
+      "criterion_text": "FICTICIO (datos de prueba) — Conforme al auto de prueba MOCK-505/2018, la medida cautelar de ensayo exige la concurrencia ACUMULATIVA de los dos requisitos de prueba — denominaciones inventadas por esa resolución: el 'indicio cualificado de ensayo' del derecho invocado y el 'peligro de espera de prueba'; la falta de cualquiera de los dos impide acordarla en el sistema de ensayo.",
+      "conditions_for_application": [
+        "FICTICIO — Que el solicitante de ensayo acredite indiciariamente su derecho de prueba.",
+        "FICTICIO — Que la espera al proceso de ensayo principal pueda frustrar la efectividad de prueba."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la caución de ensayo ni su cuantía de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...ambos presupuestos de ensayo han de concurrir cumulativamente en el caso de prueba...» (texto inventado de la resolución de prueba MOCK-505/2018).",
+      "source_reference": "Razonamiento de prueba 2.º (ficticio)",
+      "confidence_level": "high",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0009",
+      "judgment_id": "jdg-mock-0006",
+      "area": "procesal",
+      "topic": "prueba",
+      "subtopic": "carga_de_la_prueba",
+      "criterion_text": "FICTICIO (datos de prueba) — Según la resolución de prueba MOCK-606/2023, en el proceso de ensayo corresponde a quien afirma un hecho de prueba la carga de acreditarlo, con la regla de ensayo de la 'cercanía a la fuente' (denominación inventada): la carga de prueba se desplaza a la parte de ensayo que tenga mejor acceso a la fuente de prueba.",
+      "conditions_for_application": [
+        "FICTICIO — Que el hecho de ensayo afirmado sea controvertido en el proceso de prueba."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la valoración de ensayo de la prueba ya practicada."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...la cercanía de ensayo a la fuente desplaza la carga de prueba hacia quien la domina...» (texto inventado de la resolución de prueba MOCK-606/2023).",
+      "source_reference": "Fundamento de prueba 2.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    },
+    {
+      "id": "crit-mock-0010",
+      "judgment_id": "jdg-mock-0006",
+      "area": "procesal",
+      "topic": "prueba",
+      "subtopic": "prueba_pericial",
+      "criterion_text": "FICTICIO (datos de prueba) — Conforme a la resolución de prueba MOCK-606/2023, el dictamen pericial de ensayo se valora según las reglas de 'ponderación metodológica de ensayo' (denominación inventada), atendiendo a la metodología de ensayo empleada y a la cualificación de prueba del perito ficticio, sin que vincule automáticamente al tribunal de ensayo.",
+      "conditions_for_application": [
+        "FICTICIO — Que el dictamen de ensayo haya sido ratificado en la vista de prueba."
+      ],
+      "does_not_answer": [
+        "FICTICIO — No responde sobre la designación de ensayo del perito ni sus honorarios de prueba."
+      ],
+      "limits": [
+        "FICTICIO — Criterio de prueba sin valor jurídico alguno; no aplicable a ningún caso real."
+      ],
+      "source_excerpt": "FICTICIO — «...el tribunal de ensayo pondera la solvencia metodológica de prueba del dictamen...» (texto inventado de la resolución de prueba MOCK-606/2023).",
+      "source_reference": "Fundamento de prueba 4.º (ficticio)",
+      "confidence_level": "medium",
+      "review_status": "approved",
+      "approved": true,
+      "approved_by": "propietario-proyecto — autorización de DATOS DE PRUEBA (no es revisión jurídica real)",
+      "approved_at": "2026-06-11T12:00:00Z",
+      "created_at": "2026-06-11T12:00:00Z",
+      "updated_at": "2026-06-11T12:00:00Z"
+    }
+  ]
+}

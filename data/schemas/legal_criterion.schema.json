@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://locked-legal-advisor.local/schemas/legal_criterion.schema.json",
+  "title": "LegalCriterion",
+  "description": "Criterio jurídico estructurado extraído de una Judgment. Solo es servible si review_status es 'approved' (Regla 5). Espejo TS: services/models/legalCriterion.ts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "judgment_id",
+    "area",
+    "topic",
+    "subtopic",
+    "criterion_text",
+    "conditions_for_application",
+    "does_not_answer",
+    "limits",
+    "source_excerpt",
+    "source_reference",
+    "confidence_level",
+    "review_status",
+    "approved",
+    "approved_by",
+    "approved_at",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "judgment_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Judgment de origen — un criterio sin resolución no existe (Regla 9)."
+    },
+    "area": { "enum": ["marcas", "propiedad_intelectual", "patentes", "procesal"] },
+    "topic": { "type": "string", "minLength": 1 },
+    "subtopic": { "type": ["string", "null"], "minLength": 1 },
+    "criterion_text": { "type": "string", "minLength": 1 },
+    "conditions_for_application": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "does_not_answer": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Qué NO responde este criterio (anti-sobreextensión, Reglas 8 y 10)."
+    },
+    "limits": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "source_excerpt": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Extracto VERBATIM de la resolución (Regla 9)."
+    },
+    "source_reference": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Localización dentro de la resolución, p. ej. 'Fundamento Jurídico 3º'."
+    },
+    "confidence_level": { "enum": ["high", "medium", "low"] },
+    "review_status": {
+      "enum": ["pending_review", "approved", "rejected"],
+      "description": "Estado canónico. Extracción automática => siempre 'pending_review' (Regla 14)."
+    },
+    "approved": {
+      "type": "boolean",
+      "description": "Redundante por diseño: DEBE equivaler a review_status === 'approved'. En BD real: columna generada o CHECK constraint."
+    },
+    "approved_by": { "type": ["string", "null"], "minLength": 1 },
+    "approved_at": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    }
+  },
+  "allOf": [
+    {
+      "description": "Coherencia approved/review_status, dirección 1: approved=true exige review_status='approved' (Regla 5).",
+      "if": { "properties": { "approved": { "const": true } }, "required": ["approved"] },
+      "then": { "properties": { "review_status": { "const": "approved" } } }
+    },
+    {
+      "description": "Coherencia, dirección 2: review_status='approved' exige approved=true y aprobación humana registrada (Regla 15).",
+      "if": {
+        "properties": { "review_status": { "const": "approved" } },
+        "required": ["review_status"]
+      },
+      "then": {
+        "properties": {
+          "approved": { "const": true },
+          "approved_by": { "type": "string", "minLength": 1 },
+          "approved_at": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+          }
+        }
+      }
+    },
+    {
+      "description": "No aprobado => approved=false y sin metadatos de aprobación.",
+      "if": {
+        "properties": { "review_status": { "enum": ["pending_review", "rejected"] } },
+        "required": ["review_status"]
+      },
+      "then": {
+        "properties": {
+          "approved": { "const": false },
+          "approved_by": { "const": null },
+          "approved_at": { "const": null }
+        }
+      }
+    }
+  ]
+}

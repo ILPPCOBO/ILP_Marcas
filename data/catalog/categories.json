@@ -1,0 +1,65 @@
+{
+ "_note": "Materias del catálogo, derivadas del corpus REAL (temas con criterios aprobados).",
+ "areas": [
+  {
+   "area": "Marcas",
+   "topics": [
+    "riesgo de confusión",
+    "mala fe",
+    "prioridad registral",
+    "marca renombrada",
+    "acción reivindicatoria",
+    "agotamiento",
+    "distintividad",
+    "eslogan",
+    "indemnizacion",
+    "ius prohibendi",
+    "libre imitacion competencia",
+    "prohibiciones absolutas",
+    "regalia hipotetica",
+    "transmision marca",
+    "uso efectivo",
+    "uso trafico economico"
+   ]
+  },
+  {
+   "area": "Propiedad intelectual",
+   "topics": [
+    "comunicación pública",
+    "regalía hipotética",
+    "acumulacion pi diseno",
+    "bases de datos",
+    "canon copia privada",
+    "canon digital",
+    "cesion multiuso pi marca",
+    "cesion tecnologia",
+    "diseno industrial",
+    "infraccion",
+    "nfts fair use",
+    "obra protegible",
+    "plagio",
+    "software",
+    "titulo obra"
+   ]
+  },
+  {
+   "area": "Patentes",
+   "topics": [
+    "diseno industrial",
+    "patentabilidad"
+   ]
+  },
+  {
+   "area": "Procesal",
+   "topics": [
+    "cosa juzgada",
+    "medidas cautelares",
+    "prescripción",
+    "competencia objetiva",
+    "cuestiones procesales pi",
+    "desistimiento renuncia",
+    "estafa comercial"
+   ]
+  }
+ ]
+}
