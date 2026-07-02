@@ -642,6 +642,8 @@ h2 {
 .paste-fallback textarea { width: 100%; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 8px; }
 .paste-fallback .enlace { align-self: flex-start; }
 .ocr-prog { font-size: 0.85rem; color: var(--gold-dark); margin: 8px 0 0; min-height: 1.1em; }
+/* Botón «quitar» por documento (borrado inmediato de la memoria de la sesión) */
+.quitar-doc { font-size: 0.8rem; margin-left: 6px; }
 
 /* ---- Pie de marca -------------------------------------------------------- */
 .pie {

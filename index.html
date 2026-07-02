@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>ILP · Asesor Informativo — versión de escritorio (offline)</title>
+<title>ILP · Asesor Informativo — marcas y propiedad intelectual</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" />
 <style>
 /* =========================================================================
@@ -650,6 +650,8 @@ h2 {
 .paste-fallback textarea { width: 100%; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 8px; }
 .paste-fallback .enlace { align-self: flex-start; }
 .ocr-prog { font-size: 0.85rem; color: var(--gold-dark); margin: 8px 0 0; min-height: 1.1em; }
+/* Botón «quitar» por documento (borrado inmediato de la memoria de la sesión) */
+.quitar-doc { font-size: 0.8rem; margin-left: 6px; }
 
 /* ---- Pie de marca -------------------------------------------------------- */
 .pie {
@@ -765,7 +767,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
 <header class="topbar"><div class="topbar-inner">
   <span class="brand"><span class="brand-mark">ILP<span class="dot">.</span></span><span class="brand-sub">Asesor Informativo</span></span>
   <span style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
-    <span class="brand-sub" data-i18n="escritorio" style="letter-spacing:.2em">Escritorio · offline</span>
+    <span class="brand-sub" data-i18n="escritorio" style="letter-spacing:.2em">Versión web</span>
     <span class="barra-idioma"><span id="idioma-label" data-i18n="idioma">Idioma:</span><button type="button" id="lang-es" class="lang activo">Español</button><button type="button" id="lang-en" class="lang">English</button></span>
   </span>
 </div></header>
@@ -773,7 +775,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
   <section class="hero">
     <p class="kicker" data-i18n="kicker">Marcas · Propiedad intelectual · Patentes · Procesal</p>
     <h1 data-i18n-html="heroH1">Inteligencia que <em>entiende</em> tu caso.</h1>
-    <p class="subtitulo" data-i18n="subtituloHero">Versión de escritorio · funciona sin conexión. Orientación basada en un corpus cerrado de criterios aprobados de resoluciones reales.</p>
+    <p class="subtitulo" data-i18n="subtituloHero">Orientación basada en un corpus cerrado de criterios aprobados de resoluciones reales. Sus documentos se procesan en su navegador: no se guardan ni se suben a ningún servidor.</p>
   </section>
   <p class="aviso-fijo" role="note" data-disclaimer-banner></p>
   <section class="dos-caminos" aria-label="Elige cómo empezar">
@@ -821,7 +823,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
       <p class="dropzone-ayuda"><span data-i18n="dropAyuda">Arrastra aquí tus archivos o</span>
         <button type="button" id="examinar-materiales" class="enlace" data-i18n="examinar">examinar…</button>
         <input type="file" id="archivo-materiales" accept=".pdf,.docx,.txt,.png,.jpg,.jpeg" multiple hidden /></p>
-      <p class="nota-evidencia" data-i18n="notaEvidencia">Evidencia del caso, no fuente jurídica. No constituye asesoramiento ni predice el resultado. Se procesa en tu equipo (offline).</p>
+      <p class="nota-evidencia" data-i18n="notaEvidencia">Evidencia del caso, no fuente jurídica. No constituye asesoramiento ni predice el resultado. Se procesa en tu navegador: no se sube a ningún servidor y se borra al refrescar o cerrar la página.</p>
       <ul id="lista-materiales" class="materiales" aria-live="polite"></ul>
       <div id="hechos-detectados" class="hechos-detectados oculto"></div>
     </div>
@@ -879,7 +881,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
         <p class="dropzone-ayuda"><span>Arrastra aquí tus documentos o</span>
           <button type="button" id="ev-examinar" class="enlace">examinar…</button>
           <input id="ev-file" type="file" accept=".pdf,.docx,.txt,.png,.jpg,.jpeg" multiple hidden /></p>
-        <p class="nota-evidencia">Solo material factual del caso. No son fuente jurídica, no crean criterios y no predicen el resultado. Se procesan en tu equipo (offline).</p>
+        <p class="nota-evidencia">Solo material factual del caso. No son fuente jurídica, no crean criterios y no predicen el resultado. Se procesan en tu navegador: no se suben a ningún servidor y se borran al refrescar o cerrar la página.</p>
         <ul id="ev-lista" class="materiales" aria-live="polite"></ul>
       </div>
       <button id="ev-analizar" type="submit">Analizar caso</button>
@@ -898,7 +900,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
     <p>+34 914 582 492</p>
     <p><a id="pie-email" href="mailto:atencionalcliente@ilpabogados.com">atencionalcliente@ilpabogados.com</a></p>
   </div>
-  <p class="pie-legal" data-i18n="pieLegal">Versión de escritorio offline · Corpus cerrado · Sin conexión a internet · La aprobación de criterios es siempre un acto humano.</p>
+  <p class="pie-legal" data-i18n="pieLegal">Versión web · Corpus cerrado · Los documentos del usuario se procesan en el navegador, no se suben a ningún servidor y se borran al salir · La aprobación de criterios es siempre un acto humano.</p>
 </div></footer>
 <div id="popup-score" class="popup-overlay oculto" role="dialog" aria-modal="true" aria-labelledby="popup-score-titulo">
   <div class="popup-box">
@@ -1525,10 +1527,10 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
   var LANG = (function () { try { return localStorage.getItem("lla:lang") === "en" ? "en" : "es"; } catch (e) { return "es"; } })();
   var T = {
     es: {
-      escritorio: "Escritorio · offline", idioma: "Idioma:",
+      escritorio: "Versión web", idioma: "Idioma:",
       kicker: "Marcas · Propiedad intelectual · Patentes · Procesal",
       heroH1: "Inteligencia que <em>entiende</em> tu caso.",
-      subtituloHero: "Versión de escritorio · funciona sin conexión. Orientación basada en un corpus cerrado de criterios aprobados de resoluciones reales.",
+      subtituloHero: "Orientación basada en un corpus cerrado de criterios aprobados de resoluciones reales. Sus documentos se procesan en su navegador: no se guardan ni se suben a ningún servidor.",
       c1Titulo: "Preguntas estándar",
       c1P: "Catálogo navegable por materias —marcas, propiedad intelectual, patentes y procesal—. Cada pregunta tiene una respuesta validada de antemano, fiel a los criterios del corpus y con la resolución de la que procede.",
       c1Nota: "El camino rápido, predecible y de máxima fiabilidad.", c1Cta: "Abrir catálogo →",
@@ -1539,13 +1541,14 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
       labelConsulta: "Escriba su consulta", phConsulta: "Ej.: Una empresa usa un logo parecido a mi marca registrada…",
       labelHechos: "Hechos o reporte del caso (opcional)", phHechos: "Pega aquí el reporte del caso…",
       labelMateriales: "Materiales del caso (archivos: PDF, DOCX, TXT, PNG, JPG, JPEG)", dropAyuda: "Arrastra aquí tus archivos o", examinar: "examinar…",
-      notaEvidencia: "Evidencia del caso, no fuente jurídica. No constituye asesoramiento ni predice el resultado. Se procesa en tu equipo (offline).",
+      notaEvidencia: "Evidencia del caso, no fuente jurídica. No constituye asesoramiento ni predice el resultado. Se procesa en tu navegador: no se sube a ningún servidor y se borra al refrescar o cerrar la página.",
       enviar: "Enviar consulta",
       etDecision: "Decisión del sistema", etArea: "Área detectada", etTema: "Tema detectado", etCriterios: "Criterios usados", etFuentes: "Fuentes usadas",
       labelAclaracion: "Responda a las preguntas anteriores", phAclaracion: "Añada aquí los datos que le piden…", enviarAclaracion: "Enviar respuesta",
       pieAviso: "Asesor informativo de marcas y propiedad intelectual. Responde solo con criterios aprobados de resoluciones reales, cita su fuente, declara sus límites y nunca predice el resultado. No es asesoramiento jurídico.",
       contacto: "Contacto", pieDir: "Paseo de la Castellana 120, 5º Izq.<br />28046 Madrid, España",
-      pieLegal: "Versión de escritorio offline · Corpus cerrado · Sin conexión a internet · La aprobación de criterios es siempre un acto humano.",
+      pieLegal: "Versión web · Corpus cerrado · Los documentos del usuario se procesan en el navegador, no se suben a ningún servidor y se borran al salir · La aprobación de criterios es siempre un acto humano.",
+      quitar: "quitar",
       titulos: { answer: "Orientación informativa", clarify: "Necesito algunas aclaraciones", out_of_scope: "Consulta fuera del corpus", insufficient_criteria: "Sin criterios aprobados suficientes" },
       limite: {
         titulo: "Su caso necesita la valoración de un profesional",
@@ -1564,10 +1567,10 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
       popup: { altoTit: "Para tu caso concreto, cuenta con ILP Abogados", altoTxt: "Esta herramienta solo orienta sobre el corpus: no valora tu caso ni anticipa ningún resultado. Para tu situación concreta, en ILP Abogados podemos orientarte: escríbenos.", bajoTit: "Tu caso conviene valorarlo con un profesional", bajoTxt: "Tu consulta queda en parte fuera de los criterios analizados, así que esta herramienta no alcanza a orientarte del todo. Para tu situación concreta, busca ayuda profesional en ILP Abogados.", aviso: "La alineación mide cuánto cubre el corpus tu caso; no es un pronóstico del resultado ni una recomendación de actuación.", boton: "Contactar con ILP Abogados" }
     },
     en: {
-      escritorio: "Desktop · offline", idioma: "Language:",
+      escritorio: "Web version", idioma: "Language:",
       kicker: "Trademarks · Intellectual property · Patents · Procedure",
       heroH1: "Intelligence that <em>understands</em> your case.",
-      subtituloHero: "Desktop version · works offline. Guidance based on a closed corpus of approved criteria from real court decisions.",
+      subtituloHero: "Guidance based on a closed corpus of approved criteria from real court decisions. Your documents are processed in your browser: never stored, never uploaded to any server.",
       c1Titulo: "Standard questions",
       c1P: "Catalogue browsable by area —trademarks, intellectual property, patents and procedure—. Each question has a pre-validated answer, faithful to the corpus criteria and showing the decision it comes from.",
       c1Nota: "The fast, predictable, maximum-reliability path.", c1Cta: "Open catalogue →",
@@ -1578,13 +1581,14 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
       labelConsulta: "Type your query", phConsulta: "E.g.: A company uses a logo similar to my registered trademark…",
       labelHechos: "Case facts or report (optional)", phHechos: "Paste the case report here…",
       labelMateriales: "Case materials (files: PDF, DOCX, TXT, PNG, JPG, JPEG)", dropAyuda: "Drag your files here or", examinar: "browse…",
-      notaEvidencia: "Case evidence, not a legal source. It is not legal advice and does not predict the outcome. Processed on your device (offline).",
+      notaEvidencia: "Case evidence, not a legal source. It is not legal advice and does not predict the outcome. Processed in your browser: never uploaded to any server, and erased when you refresh or close the page.",
       enviar: "Send query",
       etDecision: "System decision", etArea: "Detected area", etTema: "Detected topic", etCriterios: "Criteria used", etFuentes: "Sources used",
       labelAclaracion: "Answer the questions above", phAclaracion: "Add here the details requested…", enviarAclaracion: "Send answer",
       pieAviso: "Informational advisor on trademarks and intellectual property. It answers only with approved criteria from real court decisions, cites its source, states its limits and never predicts the outcome. It is not legal advice.",
       contacto: "Contact", pieDir: "Paseo de la Castellana 120, 5º Izq.<br />28046 Madrid, Spain",
-      pieLegal: "Offline desktop version · Closed corpus · No internet connection · Approving criteria is always a human act.",
+      pieLegal: "Web version · Closed corpus · Your documents are processed in the browser, never uploaded to any server and erased when you leave · Approving criteria is always a human act.",
+      quitar: "remove",
       titulos: { answer: "Informational guidance", clarify: "I need some clarifications", out_of_scope: "Query outside the corpus", insufficient_criteria: "Not enough approved criteria" },
       limite: {
         titulo: "Your case needs a professional's assessment",
@@ -1820,6 +1824,21 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
   // ---- Materiales del caso ----
   function rid() { return "upl-" + Math.random().toString(36).slice(2); }
   function extOf(n) { var m = /\.([a-z0-9]+)$/i.exec(n || ""); return m ? m[1].toLowerCase() : ""; }
+  // Botón «quitar»: elimina el documento de la memoria de la sesión al instante.
+  // Los documentos NUNCA se guardan: viven solo en esta pestaña (memoria JS) y
+  // se borran también al refrescar o cerrar la página. Helper con parámetros
+  // para capturar el registro correcto (el bucle usa var + await).
+  function quitarBtn(rec, li) {
+    var b = el("button", "enlace quitar-doc", tt().quitar); b.type = "button";
+    b.addEventListener("click", function () {
+      var ix = SESSION.files.indexOf(rec); if (ix >= 0) SESSION.files.splice(ix, 1);
+      if (li.parentNode) li.parentNode.removeChild(li);
+      var panel = $("hechos-detectados");
+      if (!SESSION.files.length) { panel.textContent = ""; panel.classList.add("oculto"); }
+      else renderFacts(SESSION.files[SESSION.files.length - 1]);
+    });
+    return b;
+  }
   async function handleFiles(list) {
     var allowed = ["pdf", "docx", "txt", "png", "jpg", "jpeg"], lista = $("lista-materiales");
     for (var i = 0; i < list.length; i++) {
@@ -1833,7 +1852,8 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
         var ex = await LLA.extractFile(ext, file.name, opts);
         var f = { id: rid(), original_filename: file.name, file_type: ext, upload_type: "case_material", extraction_status: ex.status, extracted_text: ex.text, warnings: ex.warnings, source_locations: ex.source_locations, _file: file };
         SESSION.files.push(f);
-        item.className = "ok"; item.textContent = "✓ " + file.name + " (" + ex.status + ")";
+        item.className = "ok"; item.textContent = "✓ " + file.name + " (" + ex.status + ") ";
+        item.appendChild(quitarBtn(f, item));
         renderFacts(f);
       } catch (e) { item.className = "mal"; item.textContent = "✗ " + file.name + " (error al leer)"; }
     }
@@ -2048,6 +2068,17 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
     // ---- Evaluar Caso (offline) ----
     var EVAL_FILES = [];
     function evExt(n) { var m = /\.([a-z0-9]+)$/i.exec(n || ""); return m ? m[1].toLowerCase() : ""; }
+    // «quitar» en el evaluador: borra el documento de la memoria al instante
+    // (nada se guarda: la memoria muere al refrescar o cerrar la página).
+    function evQuitar(rec, li, avisoLi) {
+      var b = el("button", "enlace quitar-doc", tt().quitar); b.type = "button";
+      b.addEventListener("click", function () {
+        var ix = EVAL_FILES.indexOf(rec); if (ix >= 0) EVAL_FILES.splice(ix, 1);
+        if (li.parentNode) li.parentNode.removeChild(li);
+        if (avisoLi && avisoLi.parentNode) avisoLi.parentNode.removeChild(avisoLi);
+      });
+      return b;
+    }
     async function evHandle(list) {
       var allowed = ["pdf", "docx", "txt", "png", "jpg", "jpeg"], lista = $("ev-lista");
       for (var i = 0; i < list.length; i++) {
@@ -2058,17 +2089,21 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
         try {
           if (ext === "txt") opts.text = await file.text(); else opts.bytes = new Uint8Array(await file.arrayBuffer());
           var ex = await LLA.extractFile(ext, file.name, opts);
-          EVAL_FILES.push({ id: "upl-" + Math.random().toString(36).slice(2), case_id: "case-local", original_filename: file.name, file_type: ext, upload_type: "case_material", extraction_status: ex.status, extracted_text: ex.text, warnings: ex.warnings, source_locations: ex.source_locations });
+          var rec = { id: "upl-" + Math.random().toString(36).slice(2), case_id: "case-local", original_filename: file.name, file_type: ext, upload_type: "case_material", extraction_status: ex.status, extracted_text: ex.text, warnings: ex.warnings, source_locations: ex.source_locations };
+          EVAL_FILES.push(rec);
           item.className = ex.status === "completed" ? "ok" : "mal";
-          item.textContent = (ex.status === "completed" ? "✓ " : "⚠ ") + file.name + " (" + ex.status + ")";
+          item.textContent = (ex.status === "completed" ? "✓ " : "⚠ ") + file.name + " (" + ex.status + ") ";
+          var avisoLi = null;
           if (ex.status !== "completed" && ex.warnings.length) {
             // Esta vista NO tiene botón de OCR: no prometer un control inexistente
             // (Regla 10, honestidad). Se sustituye ese aviso por la vía real.
             var avisoEv = /«Escanear con OCR»/.test(ex.warnings[0])
               ? "No se pudo leer el documento (escaneado o imagen) y esta vista no tiene OCR; no se inventa contenido (Regla 4)."
               : ex.warnings[0];
-            lista.appendChild(el("li", "cargando", "   " + avisoEv + " (pega el texto en la descripción)"));
+            avisoLi = el("li", "cargando", "   " + avisoEv + " (pega el texto en la descripción)");
+            lista.appendChild(avisoLi);
           }
+          item.appendChild(evQuitar(rec, item, avisoLi));
         } catch (e) { item.className = "mal"; item.textContent = "✗ " + file.name + " (error al leer)"; }
       }
     }

@@ -4,14 +4,25 @@ Herramienta **informativa** de orientación sobre derecho marcario y de propieda
 intelectual, basada en un **corpus cerrado** de criterios aprobados extraídos de
 resoluciones judiciales reales.
 
-`index.html` es una versión **offline de un solo archivo**: funciona sin servidor
-ni conexión (salvo el OCR opcional, que descarga su motor la primera vez). Apta
-para publicarse en **GitHub Pages**.
+`index.html` es la **versión web** en un solo archivo, desplegable tal cual en
+**Vercel** o **GitHub Pages** (sin backend). Toda la lógica corre en el navegador
+del usuario.
+
+## Privacidad de los documentos
+- Los documentos del caso se procesan **solo en el navegador del usuario**:
+  **nunca se suben a ningún servidor** ni se almacenan en ninguna base de datos.
+- Viven únicamente en la memoria de la pestaña: se **borran al refrescar o
+  cerrar la página**, y cada documento tiene un botón **«quitar»** para
+  eliminarlo al instante.
+- El OCR (imágenes/PDF escaneados) también corre localmente en el navegador;
+  solo descarga su motor la primera vez.
 
 ## Características
 - Catálogo de preguntas estándar con respuestas preaprobadas y su fuente.
 - Consulta asistida: orienta solo con los criterios del corpus, citando la
   resolución de origen; repregunta o declara falta de cobertura ante la duda.
+- Tras 3 intentos sin una orientación completa, deriva la consulta a
+  [ILP Abogados](https://ilpabogados.com).
 - Score de alineación con los criterios del corpus y evaluación factual de casos.
 - OCR en el navegador (imágenes/PDF) — el documento nunca se sube.
 - Idiomas: **español / inglés** (las fuentes y citas se mantienen siempre en español).
