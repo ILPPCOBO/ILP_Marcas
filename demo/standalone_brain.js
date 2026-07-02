@@ -521,10 +521,13 @@
       var txt = (await pdfText(opts.bytes)).replace(/[ \t]+/g, " ").trim();
       var letters = (txt.match(/[a-záéíóúñ]/gi) || []).length;
       if (letters >= 40) return extractionOut("completed", txt, [], chunkText(txt), "native_text", "high");
-      return extractionOut("failed", "", ["Este PDF no tiene capa de texto (es un ESCANEADO de imágenes). En modo offline no hay OCR y no se inventa contenido (Regla 4). Extrae el texto con Vista Previa de macOS (Live Text → seleccionar todo → copiar) y pégalo en la descripción del caso."], [], "manual_description_needed", "low");
+      return extractionOut("failed", "", ["Este PDF no tiene capa de texto (es un ESCANEADO de imágenes). Puede leerlo aquí mismo con el botón «Escanear con OCR» que aparece justo debajo (funciona en su navegador; el documento no se sube a ningún sitio) o pegar el texto a mano. No se inventa contenido (Regla 4)."], [], "manual_description_needed", "low");
     }
-    if (fileType === "docx" || fileType === "png" || fileType === "jpg" || fileType === "jpeg" || fileType === "pdf") {
-      return extractionOut("failed", "", ["No puedo leer este archivo aquí (sin OCR/descompresión de DOCX en modo offline). Pega el texto del documento abajo."], [], "manual_description_needed", "low");
+    if (fileType === "png" || fileType === "jpg" || fileType === "jpeg" || fileType === "pdf") {
+      return extractionOut("failed", "", ["No puedo leer este archivo directamente y no se inventa contenido (Regla 4). Puede escanearlo aquí mismo con el botón «Escanear con OCR» que aparece justo debajo (en su navegador; no se sube a ningún sitio) o pegar el texto que contiene."], [], "manual_description_needed", "low");
+    }
+    if (fileType === "docx") {
+      return extractionOut("failed", "", ["No puedo leer este DOCX aquí (sin descompresión de DOCX en modo offline). Pegue el texto del documento en el recuadro de abajo."], [], "manual_description_needed", "low");
     }
     return extractionOut("failed", "", ["Tipo de archivo no soportado: " + fileType], [], "manual_description_needed", "low");
   }

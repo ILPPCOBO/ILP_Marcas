@@ -83,6 +83,10 @@
     (data.file && data.file.warnings ? data.file.warnings : []).forEach(function (w) {
       panel.appendChild(el("p", "warning-item", "⚠ " + w));
     });
+    // El botón de OCR va JUSTO debajo del aviso que lo anuncia (no al final del panel).
+    var conOCR = data.file && data.file.extraction_status !== "completed" &&
+      fileObj && ["pdf", "png", "jpg", "jpeg"].indexOf(extOf(fileObj.name)) >= 0;
+    if (conOCR) panel.appendChild(ocrBox(fileObj));
     if (facts.case_summary) panel.appendChild(el("p", "resumen", facts.case_summary));
 
     if (facts.relevant_facts && facts.relevant_facts.length) {
@@ -104,13 +108,10 @@
     }
     (facts.uncertainties || []).forEach(function (u) { panel.appendChild(el("p", "warning-item", "⚠ " + u)); });
 
-    // Si no se pudo extraer el texto (PDF escaneado, imagen, DOCX raro), ofrece
-    // leerlo con OCR en el navegador (imágenes/PDF) y/o pegar el texto a mano
-    // (el usuario transcribe; no se inventa).
+    // Si no se pudo extraer el texto (PDF escaneado, imagen, DOCX raro), queda el
+    // fallback de pegar el texto a mano (el usuario transcribe; no se inventa).
+    // El botón de OCR ya se pintó arriba, junto al aviso que lo anuncia.
     if (data.file && data.file.extraction_status !== "completed") {
-      if (fileObj && ["pdf", "png", "jpg", "jpeg"].indexOf(extOf(fileObj.name)) >= 0) {
-        panel.appendChild(ocrBox(fileObj));
-      }
       panel.appendChild(pasteFallback());
     }
 
@@ -211,7 +212,7 @@
   function ocrBox(fileObj) {
     var box = el("div", "paste-fallback");
     box.appendChild(el("label", null,
-      "¿Es un escaneo o una imagen? Léelo aquí mismo con OCR (en tu navegador; el documento NO se sube para reconocerlo):"));
+      "¿Es un escaneo o una imagen? Léelo aquí mismo con OCR (en tu navegador; el documento NO se sube para reconocerlo; la primera vez descarga el motor y necesita internet):"));
     var b = el("button", "enlace", "Escanear con OCR");
     b.type = "button";
     var prog = el("p", "ocr-prog", "");

@@ -487,6 +487,16 @@ h2 {
   margin: 0; white-space: pre-wrap; word-break: break-word;
   font-family: var(--sans); font-size: 0.95rem; line-height: 1.65; color: var(--text);
 }
+/* Lectura de criterios en tarjetas: SOLO presentación (contenido verbatim, Regla 4) */
+.fc-body.fc-fmt { white-space: normal; }
+.fc-item { margin: 10px 0; padding: 10px 14px; background: var(--aviso-bg); border: 1px solid var(--line); border-radius: 10px; }
+.fc-item-head { margin: 0; }
+.crit-tit { color: var(--ink); font-size: 1.02em; }
+.crit-id { color: var(--muted); font-size: 0.78rem; font-family: ui-monospace, Menlo, Consolas, monospace; white-space: nowrap; }
+.fc-item-txt { margin: 5px 0 0; }
+.fc-fuente { margin: 6px 0 0; color: var(--gold-dark); font-size: 0.85rem; }
+.fc-bullet { margin: 7px 0; }
+.fc-par { margin: 7px 0; }
 .fc-nav { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 14px; }
 .fc-btn {
   width: 40px; height: 40px; flex: 0 0 auto;

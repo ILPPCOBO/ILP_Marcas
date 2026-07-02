@@ -67,6 +67,12 @@ UI = r"""
   "use strict";
   var V = LLA_DATA.disclaimer.version;
   var SESSION = { files: [] };
+  // Intentos consecutivos sin respuesta de fondo (límite de 3 → derivar a ILP).
+  // BASE = consulta original del formulario (una consulta NUEVA reinicia el contador:
+  // la Regla 7 exige repreguntar ante cada consulta ambigua fresca). ULTIMA = texto
+  // acumulado (consulta + aclaraciones), para que las respuestas NO se pierdan
+  // entre rondas (espejo del patrón ultimaConsulta de la app servida).
+  var SIN_RESPUESTA = 0, BASE = "", ULTIMA = "";
 
   // ---- Idioma (capa fina de presentación; el contenido jurídico NO se traduce) ----
   var LANG = (function () { try { return localStorage.getItem("lla:lang") === "en" ? "en" : "es"; } catch (e) { return "es"; } })();
@@ -94,6 +100,10 @@ UI = r"""
       contacto: "Contacto", pieDir: "Paseo de la Castellana 120, 5º Izq.<br />28046 Madrid, España",
       pieLegal: "Versión de escritorio offline · Corpus cerrado · Sin conexión a internet · La aprobación de criterios es siempre un acto humano.",
       titulos: { answer: "Orientación informativa", clarify: "Necesito algunas aclaraciones", out_of_scope: "Consulta fuera del corpus", insufficient_criteria: "Sin criterios aprobados suficientes" },
+      limite: {
+        titulo: "Su caso necesita la valoración de un profesional",
+        texto: "Hemos hecho varios intentos y esta herramienta no ha logrado darle una orientación completa con el corpus disponible, así que no le hacemos más preguntas. Su caso tiene matices que conviene valorar con un abogado: contacte con ILP Abogados con el botón de abajo y el equipo le orientará."
+      },
       respuesta: "Respuesta", verTodo: "Ver todo el texto", verTarjetas: "Ver en tarjetas",
       clarifyDefault: "Elija la opción que encaje con su caso:",
       cta: {
@@ -129,6 +139,10 @@ UI = r"""
       contacto: "Contact", pieDir: "Paseo de la Castellana 120, 5º Izq.<br />28046 Madrid, Spain",
       pieLegal: "Offline desktop version · Closed corpus · No internet connection · Approving criteria is always a human act.",
       titulos: { answer: "Informational guidance", clarify: "I need some clarifications", out_of_scope: "Query outside the corpus", insufficient_criteria: "Not enough approved criteria" },
+      limite: {
+        titulo: "Your case needs a professional's assessment",
+        texto: "After several attempts, this tool has not been able to give you complete guidance with the available corpus, so we will not ask you further questions. Your case has nuances best assessed by a lawyer: contact ILP Abogados with the button below and the team will guide you."
+      },
       respuesta: "Response", verTodo: "Show full text", verTarjetas: "Show as cards",
       clarifyDefault: "Choose the option that fits your case:",
       cta: {
@@ -218,6 +232,40 @@ UI = r"""
     var fc = $("flashcards"), prev = fc && fc.querySelector(".fc-prev"), next = fc && fc.querySelector(".fc-next");
     if (prev) prev.disabled = i === 0; if (next) next.disabled = i === cards.length - 1;
   }
+  // Presentación LEGIBLE del cuerpo de una tarjeta (solo tipografía; el contenido
+  // es VERBATIM, Regla 4). Destaca el TÍTULO del criterio en los ítems
+  // "• [crit-id] Título: texto" y atenúa la línea "Fuente:". Si una línea no
+  // encaja en ese patrón, se muestra tal cual (sin transformar).
+  function fcBody(text) {
+    var raw = String(text == null ? "" : text).replace(/\s+$/, "");
+    var box = el("div", "fc-body fc-fmt");
+    var lines = raw.split("\n");
+    for (var i = 0; i < lines.length; i++) {
+      var ln = lines[i];
+      if (!ln.trim()) continue;
+      var m = ln.match(/^\s*•\s*\[([^\]]+)\]\s*([^:]{3,110}):\s*(.*)$/);
+      if (m) {
+        var item = el("div", "fc-item");
+        var head = el("p", "fc-item-head");
+        head.appendChild(el("strong", "crit-tit", m[2].trim()));
+        head.appendChild(el("span", "crit-id", " · " + m[1]));
+        item.appendChild(head);
+        if (m[3]) item.appendChild(el("p", "fc-item-txt", m[3]));
+        while (i + 1 < lines.length && /^\s{2,}\S/.test(lines[i + 1]) && !/^\s*•/.test(lines[i + 1])) {
+          i++;
+          var cont = lines[i].trim();
+          item.appendChild(el("p", /^(Fuente|Source)/.test(cont) ? "fc-fuente" : "fc-item-txt", cont));
+        }
+        box.appendChild(item);
+      } else {
+        var lnT = ln.trim();
+        var cls = /^\s*•/.test(ln) ? "fc-bullet" : (/^(Fuente:|Source \(in Spanish\):|Source:)/.test(lnT) ? "fc-fuente" : "fc-par");
+        box.appendChild(el("p", cls, lnT));
+      }
+    }
+    if (!box.childNodes.length) { box.className = "fc-body"; box.textContent = raw; }
+    return box;
+  }
   function renderFlashcards(text) {
     var fc = $("flashcards"); if (!fc) return false;
     var cards = parseCards(text); FC.cards = cards; FC.idx = 0; fc.textContent = "";
@@ -226,7 +274,7 @@ UI = r"""
     cards.forEach(function (c) {
       var card = el("article", "fc-card");
       if (c.title) { var head = el("div", "fc-card-head"); if (c.num) head.appendChild(el("span", "fc-num", c.num)); head.appendChild(el("h3", "fc-title", c.title)); card.appendChild(head); }
-      card.appendChild(el("div", "fc-body", (c.body || "").replace(/\s+$/, ""))); track.appendChild(card);
+      card.appendChild(fcBody(c.body)); track.appendChild(card);
     });
     vp.appendChild(track); fc.appendChild(vp);
     if (cards.length > 1) {
@@ -241,31 +289,43 @@ UI = r"""
     var x0 = null;
     vp.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; }, { passive: true });
     vp.addEventListener("touchend", function (e) { if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) fcGoTo(FC.idx + (dx < 0 ? 1 : -1)); x0 = null; }, { passive: true });
-    fc.classList.remove("oculto"); fcGoTo(0, true); return true;
+    fc.classList.remove("oculto"); fcGoTo(0, true);
+    // Re-medir cuando terminen de cargar las webfonts (el font-swap cambia la altura).
+    if (document.fonts && document.fonts.ready && document.fonts.ready.then) document.fonts.ready.then(function () { fcGoTo(FC.idx, true); });
+    return true;
   }
   document.addEventListener("keydown", function (e) {
     var fc = $("flashcards"); if (!fc || fc.classList.contains("oculto")) return;
     var tag = (document.activeElement && document.activeElement.tagName) || ""; if (tag === "TEXTAREA" || tag === "INPUT") return;
     if (e.key === "ArrowRight") { fcGoTo(FC.idx + 1); e.preventDefault(); } else if (e.key === "ArrowLeft") { fcGoTo(FC.idx - 1); e.preventDefault(); }
   });
+  // Re-medir la tarjeta activa al redimensionar (la altura fija recortaría el texto).
+  window.addEventListener("resize", function () { fcGoTo(FC.idx, true); });
 
   function pintar(r) {
     var a = r.answer, scope = r.scope, esFondo = a.decision === "answer";
+    // Límite de interacciones (petición del despacho): tras 3 intentos seguidos sin
+    // respuesta de fondo, la herramienta deja de repreguntar y deriva a ILP Abogados.
+    // Es una política de PRESENTACIÓN (deny-by-default hacia el profesional, Regla 17);
+    // el motor y su decisión no cambian. Los fallos técnicos (_tecnico) no cuentan.
+    var tecnico = !!r._tecnico;
+    if (esFondo) { SIN_RESPUESTA = 0; } else if (!tecnico) { SIN_RESPUESTA += 1; }
+    var limite = !esFondo && !tecnico && SIN_RESPUESTA >= 3;
     $("decision").textContent = a.decision; $("decision").className = "valor badge " + a.decision;
     $("area").textContent = scope.area ? (LANG === "en" ? (LLA_DATA.area_en[scope.area] || scope.area) : scope.area) : "—";
     $("tema").textContent = scope.topic ? (LANG === "en" ? (LLA_DATA.topic_en[scope.topic] || scope.topic) : scope.topic) : "—";
     $("criterios").textContent = esFondo && a.criteria_used.length ? a.criteria_used.join(", ") : "—";
     if (esFondo && a.sources_used.length) { var nn = [], vs = {}; a.sources_used.forEach(function (s) { var n = s.resolution || (s.criterion_id + " → " + s.judgment_id); if (!vs[n]) { vs[n] = 1; nn.push(n); } }); $("fuentes").textContent = nn.join("; "); } else $("fuentes").textContent = "—";
-    $("titulo-respuesta").textContent = tt().titulos[a.decision] || tt().respuesta;
-    $("texto-respuesta").textContent = a.answer_text;
+    $("titulo-respuesta").textContent = limite ? tt().limite.titulo : (tt().titulos[a.decision] || tt().respuesta);
+    $("texto-respuesta").textContent = limite ? tt().limite.texto : a.answer_text;
     $("texto-respuesta").classList.add("oculto");
     $("aviso-respuesta").textContent = a.disclaimer;
-    renderClarifyOpts(a.decision === "clarify" ? r.clarify_options : null);
+    renderClarifyOpts(!limite && a.decision === "clarify" ? r.clarify_options : null);
     var fa = $("form-aclaracion");
-    if (a.decision === "clarify") { $("aclaracion").value = ""; fa.classList.remove("oculto"); } else fa.classList.add("oculto");
+    if (!limite && a.decision === "clarify") { $("aclaracion").value = ""; fa.classList.remove("oculto"); } else fa.classList.add("oculto");
     var cta = $("cta-ilp");
     if (cta) {
-      var fuerte = a.decision === "out_of_scope" || a.decision === "insufficient_criteria" || a.decision === "clarify";
+      var fuerte = limite || a.decision === "out_of_scope" || a.decision === "insufficient_criteria" || a.decision === "clarify";
       var ctaT = tt().cta;
       $("cta-ilp-titulo").textContent = fuerte ? ctaT.tituloFuerte : ctaT.titulo;
       $("cta-ilp-texto").textContent = fuerte ? ctaT.textoFuerte : ctaT.texto;
@@ -275,8 +335,13 @@ UI = r"""
       cta.classList.remove("oculto");
     }
     $("resultado").classList.remove("oculto");
-    var hayCards = renderFlashcards(a.answer_text), tg = $("toggle-texto");
+    var hayCards = !limite && renderFlashcards(a.answer_text), tg = $("toggle-texto");
+    if (limite) { var fc = $("flashcards"); if (fc) { fc.textContent = ""; fc.classList.add("oculto"); } }
     if (tg) { if (hayCards) { $("texto-respuesta").classList.add("oculto"); tg.textContent = tt().verTodo; tg.classList.remove("oculto"); } else { $("texto-respuesta").classList.remove("oculto"); tg.classList.add("oculto"); } }
+    // La vista aterriza al INICIO de la respuesta, no en el CTA del final.
+    // (Instantáneo tras asentarse el layout: el suave lo cancelan los ajustes
+    // de altura de las tarjetas.)
+    requestAnimationFrame(function () { $("resultado").scrollIntoView({ block: "start" }); });
   }
   function renderClarifyOpts(groups) {
     var cont = $("clarify-options"); if (!cont) return;
@@ -288,14 +353,22 @@ UI = r"""
       var row = el("div", "clarify-opts");
       (g.options || []).forEach(function (o) {
         var b = document.createElement("button"); b.type = "button"; b.className = "opt-btn"; b.textContent = o.label;
-        b.addEventListener("click", function () { enviar(currentQuestion() + "\n" + (o.adds || o.label)); });
+        b.addEventListener("click", function () { enviar((ULTIMA || currentQuestion()) + "\n" + (o.adds || o.label)); });
         row.appendChild(b);
       });
       blk.appendChild(row); cont.appendChild(blk);
     });
     cont.classList.remove("oculto");
   }
-  function enviar(texto) { try { pintar(LLA.runQuery(texto, LANG)); } catch (e) { pintar({ scope: { area: null, topic: null }, answer: { decision: "insufficient_criteria", answer_text: LANG === "en" ? "Technical error; for safety, no substantive guidance is offered." : "Error técnico; por seguridad no se ofrece orientación de fondo.", criteria_used: [], sources_used: [], disclaimer: LANG === "en" ? (LLA_DATA.disclaimer.short_en || LLA_DATA.disclaimer.short) : LLA_DATA.disclaimer.short } }); } }
+  function enviar(texto) {
+    ULTIMA = texto;
+    try { pintar(LLA.runQuery(texto, LANG)); }
+    catch (e) {
+      // _tecnico: los fallos técnicos NO cuentan para el límite de 3 intentos
+      // (el mensaje de derivación no debe enmascarar una avería).
+      pintar({ _tecnico: true, scope: { area: null, topic: null }, answer: { decision: "insufficient_criteria", answer_text: LANG === "en" ? "Technical error; for safety, no substantive guidance is offered." : "Error técnico; por seguridad no se ofrece orientación de fondo.", criteria_used: [], sources_used: [], disclaimer: LANG === "en" ? (LLA_DATA.disclaimer.short_en || LLA_DATA.disclaimer.short) : LLA_DATA.disclaimer.short } });
+    }
+  }
 
   // ---- Materiales del caso ----
   function rid() { return "upl-" + Math.random().toString(36).slice(2); }
@@ -322,6 +395,9 @@ UI = r"""
     var facts = LLA.extractCaseFacts(currentQuestion(), SESSION.files);
     var panel = $("hechos-detectados"); panel.textContent = ""; panel.classList.remove("oculto");
     (f.warnings || []).forEach(function (w) { panel.appendChild(el("p", "warning-item", "⚠ " + w)); });
+    // El botón de OCR va JUSTO debajo del aviso que lo anuncia (no al final del panel).
+    var conOCR = f.extraction_status !== "completed" && f._file && ["png", "jpg", "jpeg", "pdf"].indexOf(f.file_type) >= 0;
+    if (conOCR) panel.appendChild(ocrBox(f));
     panel.appendChild(el("p", "resumen", facts.case_summary));
     if (facts.relevant_facts.length) {
       panel.appendChild(el("h3", null, "Hechos detectados (evidencia, trazados al documento)"));
@@ -332,7 +408,6 @@ UI = r"""
     if (facts.missing_facts.length) { panel.appendChild(el("h3", null, "Datos esenciales que faltan")); var um = el("ul", "faltan-lista"); facts.missing_facts.forEach(function (m) { um.appendChild(el("li", null, m)); }); panel.appendChild(um); }
     facts.uncertainties.forEach(function (u) { panel.appendChild(el("p", "warning-item", "⚠ " + u)); });
     if (f.extraction_status !== "completed") {
-      if (f._file && ["png", "jpg", "jpeg", "pdf"].indexOf(f.file_type) >= 0) panel.appendChild(ocrBox(f));
       panel.appendChild(pasteBox());
     }
     panel.appendChild(el("p", "aviso-item", "Esto es evidencia del caso, no fuente jurídica, no asesoramiento y no predice el resultado. Se compara con los criterios aprobados del corpus."));
@@ -378,7 +453,7 @@ UI = r"""
   }
   function ocrBox(f) {
     var box = el("div", "paste-fallback");
-    box.appendChild(el("label", null, "¿Es un escaneo o una imagen? Léelo aquí mismo con OCR (en tu navegador; el documento NO se sube a ningún sitio):"));
+    box.appendChild(el("label", null, "¿Es un escaneo o una imagen? Léelo aquí mismo con OCR (en tu navegador; el documento NO se sube a ningún sitio; la primera vez descarga el motor y necesita internet):"));
     var b = el("button", "enlace", "Escanear con OCR"); b.type = "button";
     var prog = el("p", "ocr-prog", "");
     b.addEventListener("click", async function () {
@@ -438,8 +513,16 @@ UI = r"""
     var be = $("lang-es"), ben = $("lang-en");
     if (be) be.addEventListener("click", function () { if (LANG !== "es") setLang("es"); });
     if (ben) ben.addEventListener("click", function () { if (LANG !== "en") setLang("en"); });
-    $("formulario").addEventListener("submit", function (e) { e.preventDefault(); var t = currentQuestion(); if (t) enviar(t); });
-    $("form-aclaracion").addEventListener("submit", function (e) { e.preventDefault(); var r = $("aclaracion").value.trim(); if (!r) return; enviar(currentQuestion() + "\n" + r); });
+    $("formulario").addEventListener("submit", function (e) {
+      e.preventDefault(); var t = currentQuestion(); if (!t) return;
+      // Consulta NUEVA → contador de intentos a cero (Regla 7: cada consulta
+      // fresca tiene derecho a sus preguntas de aclaración).
+      if (t !== BASE) { BASE = t; SIN_RESPUESTA = 0; }
+      enviar(t);
+    });
+    // Las aclaraciones se ACUMULAN sobre el texto anterior (ULTIMA), no sobre el
+    // formulario: así lo ya contestado no se pierde entre rondas.
+    $("form-aclaracion").addEventListener("submit", function (e) { e.preventDefault(); var r = $("aclaracion").value.trim(); if (!r) return; enviar((ULTIMA || currentQuestion()) + "\n" + r); });
     var tg = $("toggle-texto"); if (tg) tg.addEventListener("click", function () { var pre = $("texto-respuesta"), fc = $("flashcards"), full = pre.classList.contains("oculto"); if (full) { pre.classList.remove("oculto"); if (fc) fc.classList.add("oculto"); tg.textContent = tt().verTarjetas; } else { pre.classList.add("oculto"); if (fc) fc.classList.remove("oculto"); tg.textContent = tt().verTodo; fcGoTo(FC.idx); } });
     var ovsc = $("popup-score"); if (ovsc) { var xb = $("popup-score-cerrar"); var cerrar = function () { ovsc.classList.add("oculto"); }; if (xb) xb.addEventListener("click", cerrar); ovsc.addEventListener("click", function (e) { if (e.target === ovsc) cerrar(); }); document.addEventListener("keydown", function (e) { if (e.key === "Escape") cerrar(); }); }
     var zona = $("zona-materiales"), inp = $("archivo-materiales");
@@ -531,7 +614,14 @@ UI = r"""
           EVAL_FILES.push({ id: "upl-" + Math.random().toString(36).slice(2), case_id: "case-local", original_filename: file.name, file_type: ext, upload_type: "case_material", extraction_status: ex.status, extracted_text: ex.text, warnings: ex.warnings, source_locations: ex.source_locations });
           item.className = ex.status === "completed" ? "ok" : "mal";
           item.textContent = (ex.status === "completed" ? "✓ " : "⚠ ") + file.name + " (" + ex.status + ")";
-          if (ex.status !== "completed" && ex.warnings.length) lista.appendChild(el("li", "cargando", "   " + ex.warnings[0] + " (pega el texto en la descripción)"));
+          if (ex.status !== "completed" && ex.warnings.length) {
+            // Esta vista NO tiene botón de OCR: no prometer un control inexistente
+            // (Regla 10, honestidad). Se sustituye ese aviso por la vía real.
+            var avisoEv = /«Escanear con OCR»/.test(ex.warnings[0])
+              ? "No se pudo leer el documento (escaneado o imagen) y esta vista no tiene OCR; no se inventa contenido (Regla 4)."
+              : ex.warnings[0];
+            lista.appendChild(el("li", "cargando", "   " + avisoEv + " (pega el texto en la descripción)"));
+          }
         } catch (e) { item.className = "mal"; item.textContent = "✗ " + file.name + " (error al leer)"; }
       }
     }

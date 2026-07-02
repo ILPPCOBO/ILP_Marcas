@@ -1345,8 +1345,9 @@ def extract_text(file_type, filename, text=None, base64=None):
                 return _extraction("completed", otext, o["warnings"],
                                    o["source_locations"] or chunk_text(otext), "ocr", "medium")
         return _extraction("failed", "",
-                           ["Es un PDF ESCANEADO (imagen, sin capa de texto) y no hay motor OCR disponible. "
-                            "Extrae el texto con Vista Previa de macOS (Live Text) y pégalo en el recuadro de abajo. "
+                           ["Es un PDF ESCANEADO (imagen, sin capa de texto) y este equipo no tiene motor OCR. "
+                            "Puede leerlo aquí mismo con el botón «Escanear con OCR» que aparece justo debajo "
+                            "(en su navegador; el documento no se sube a ningún sitio) o pegar el texto en el recuadro. "
                             "No se inventa contenido (Regla 4)."],
                            [], "manual_description_needed", "low")
     if file_type == "docx":
@@ -1369,8 +1370,9 @@ def extract_text(file_type, filename, text=None, base64=None):
             if sum(ch.isalpha() for ch in t) >= 20:
                 return _extraction("completed", re.sub(r"[ \t]+", " ", t), [], chunk_text(t), "ocr", "medium")
         return _extraction("failed", "",
-                           ["No puedo leer la imagen sin OCR y no invento contenido visual (Regla 4). No hay motor OCR "
-                            "disponible; describe la imagen o pega abajo el texto que muestra."],
+                           ["No puedo leer la imagen directamente y no invento contenido visual (Regla 4). "
+                            "Puede escanearla aquí mismo con el botón «Escanear con OCR» que aparece justo debajo "
+                            "(en su navegador; no se sube a ningún sitio) o pegar abajo el texto que muestra."],
                            [], "manual_description_needed", "low")
     return _extraction("failed", "", [f"Tipo de archivo no soportado: {file_type}"], [],
                        "manual_description_needed", "low")

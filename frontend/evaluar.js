@@ -42,7 +42,12 @@
         var okk = d && d.ok; item.className = okk ? "ok" : "mal";
         item.textContent = (okk ? "✓ " : "✗ ") + file.name + (okk ? " (" + d.file.extraction_status + ")" : " (" + ((d && d.error) || "error") + ")");
         if (okk && d.file.extraction_status !== "completed" && d.file.warnings && d.file.warnings.length) {
-          lista.appendChild(el("li", "cargando", "   ⚠ " + d.file.warnings[0] + " (pega el texto en la descripción)"));
+          // Esta vista NO tiene botón de OCR: no prometer un control inexistente
+          // (Regla 10, honestidad). Se sustituye ese aviso por la vía real.
+          var avisoEv = /«Escanear con OCR»/.test(d.file.warnings[0])
+            ? "No se pudo leer el documento (escaneado o imagen) y esta vista no tiene OCR; no se inventa contenido (Regla 4)."
+            : d.file.warnings[0];
+          lista.appendChild(el("li", "cargando", "   ⚠ " + avisoEv + " (pega el texto en la descripción)"));
         }
       }).catch(function () { item.className = "mal"; item.textContent = "✗ " + file.name + " (error de red)"; });
     });

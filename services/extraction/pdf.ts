@@ -22,8 +22,11 @@ export const unconfiguredPdfExtractor: TextExtractor = {
       status: "pending",
       text: "",
       warnings: [
-        "Extractor de PDF no disponible (motor OCR local no instalado) y no se inventa contenido " +
-          "(Regla 4). Compile tools/ocr (build.sh) o pegue el texto del documento.",
+        // El botón «Escanear con OCR» lo pinta el frontend (uploads.js) bajo este aviso.
+        // Para OCR en el servidor: compilar tools/ocr (build.sh).
+        "No se pudo leer este PDF en el servidor y no se inventa contenido (Regla 4). " +
+          "Puede leerlo aquí mismo con el botón «Escanear con OCR» que aparece justo debajo " +
+          "(en su navegador; el documento no se sube a ningún sitio) o pegar el texto del documento.",
       ],
       source_locations: [],
       extraction_method: "manual_description_needed",

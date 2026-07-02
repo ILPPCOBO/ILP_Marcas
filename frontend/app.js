@@ -40,6 +40,11 @@
 
   // Guarda la última consulta enviada para poder COMBINARLA con la aclaración.
   var ultimaConsulta = "";
+  // Intentos consecutivos sin respuesta de fondo (límite de 3 → derivar a ILP).
+  // baseConsulta = consulta original del formulario: una consulta NUEVA reinicia
+  // el contador (Regla 7: cada consulta fresca tiene derecho a sus aclaraciones).
+  var sinRespuesta = 0;
+  var baseConsulta = "";
 
   // Aviso de respaldo (fuente única: services/legal/disclaimer.ts). El aviso de
   // cada respuesta llega del servidor (answer.disclaimer); esto es solo el
@@ -87,6 +92,11 @@
         out_of_scope: "Consulta fuera del corpus",
         insufficient_criteria: "Sin criterios aprobados suficientes",
       },
+      limite: {
+        titulo: "Su caso necesita la valoración de un profesional",
+        texto:
+          "Hemos hecho varios intentos y esta herramienta no ha logrado darle una orientación completa con el corpus disponible, así que no le hacemos más preguntas. Su caso tiene matices que conviene valorar con un abogado: contacte con ILP Abogados con el botón de abajo y el equipo le orientará.",
+      },
       cta: {
         titulo: "¿Su caso tiene más matices?",
         texto:
@@ -132,6 +142,11 @@
         clarify: "I need some clarifications",
         out_of_scope: "Query outside the corpus",
         insufficient_criteria: "Not enough approved criteria",
+      },
+      limite: {
+        titulo: "Your case needs a professional's assessment",
+        texto:
+          "After several attempts, this tool has not been able to give you complete guidance with the available corpus, so we will not ask you further questions. Your case has nuances best assessed by a lawyer: contact ILP Abogados with the button below and the team will guide you.",
       },
       cta: {
         titulo: "Does your case have further nuances?",
@@ -282,6 +297,47 @@
     if (next) next.disabled = i === cards.length - 1;
   }
 
+  // Presentación LEGIBLE del cuerpo de una tarjeta (solo tipografía; el contenido
+  // es VERBATIM, Regla 4). Destaca el TÍTULO del criterio en los ítems
+  // "• [crit-id] Título: texto" y atenúa la línea "Fuente:". Si una línea no
+  // encaja en ese patrón, se muestra tal cual (sin transformar).
+  function fcBody(text) {
+    function mk(tag, cls, txt) {
+      var e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (txt != null) e.textContent = txt;
+      return e;
+    }
+    var raw = String(text == null ? "" : text).replace(/\s+$/, "");
+    var box = mk("div", "fc-body fc-fmt");
+    var lines = raw.split("\n");
+    for (var i = 0; i < lines.length; i++) {
+      var ln = lines[i];
+      if (!ln.trim()) continue;
+      var m = ln.match(/^\s*•\s*\[([^\]]+)\]\s*([^:]{3,110}):\s*(.*)$/);
+      if (m) {
+        var item = mk("div", "fc-item");
+        var head = mk("p", "fc-item-head");
+        head.appendChild(mk("strong", "crit-tit", m[2].trim()));
+        head.appendChild(mk("span", "crit-id", " · " + m[1]));
+        item.appendChild(head);
+        if (m[3]) item.appendChild(mk("p", "fc-item-txt", m[3]));
+        while (i + 1 < lines.length && /^\s{2,}\S/.test(lines[i + 1]) && !/^\s*•/.test(lines[i + 1])) {
+          i++;
+          var cont = lines[i].trim();
+          item.appendChild(mk("p", /^(Fuente|Source)/.test(cont) ? "fc-fuente" : "fc-item-txt", cont));
+        }
+        box.appendChild(item);
+      } else {
+        var lnT = ln.trim();
+        var cls = /^\s*•/.test(ln) ? "fc-bullet" : (/^(Fuente:|Source \(in Spanish\):|Source:)/.test(lnT) ? "fc-fuente" : "fc-par");
+        box.appendChild(mk("p", cls, lnT));
+      }
+    }
+    if (!box.childNodes.length) { box.className = "fc-body"; box.textContent = raw; }
+    return box;
+  }
+
   function renderFlashcards(text) {
     if (!elFlashcards) return false;
     var cards = parseCards(text);
@@ -315,10 +371,7 @@
         head.appendChild(h);
         card.appendChild(head);
       }
-      var body = document.createElement("div");
-      body.className = "fc-body";
-      body.textContent = (c.body || "").replace(/\s+$/, "");
-      card.appendChild(body);
+      card.appendChild(fcBody(c.body));
       track.appendChild(card);
     });
     vp.appendChild(track);
@@ -374,8 +427,12 @@
 
     elFlashcards.classList.remove("oculto");
     fcGoTo(0, true); // posición + altura + contador iniciales (contenedor ya visible)
+    // Re-medir cuando terminen de cargar las webfonts (el font-swap cambia la altura).
+    if (document.fonts && document.fonts.ready && document.fonts.ready.then) document.fonts.ready.then(function () { fcGoTo(fcState.idx, true); });
     return true;
   }
+  // Re-medir la tarjeta activa al redimensionar (la altura fija recortaría el texto).
+  window.addEventListener("resize", function () { fcGoTo(fcState.idx, true); });
 
   // teclado: ←/→ cambian de tarjeta (si no se está escribiendo en un campo)
   document.addEventListener("keydown", function (e) {
@@ -407,6 +464,15 @@
   function pintar(data) {
     var decision = data && data.decision ? String(data.decision) : "insufficient_criteria";
     var esRespuestaDeFondo = decision === "answer";
+    // Límite de interacciones (petición del despacho): tras 3 intentos seguidos sin
+    // respuesta de fondo, la herramienta deja de repreguntar y deriva a ILP Abogados.
+    // Política de PRESENTACIÓN (deny-by-default hacia el profesional, Regla 17);
+    // el motor, su decisión y la trazabilidad no cambian. Los resultados sintéticos
+    // (_tecnico: error de red, falta de aceptación) no cuentan ni activan el límite.
+    var tecnico = !!(data && data._tecnico);
+    if (esRespuestaDeFondo) { sinRespuesta = 0; } else if (!tecnico) { sinRespuesta += 1; }
+    var limite = !esRespuestaDeFondo && !tecnico && sinRespuesta >= 3;
+    var LIM = (UI[getLocale()] || UI.es).limite;
 
     elDecision.textContent = decision;
     elDecision.className = "valor badge " + decision;
@@ -434,20 +500,22 @@
       elFuentes.textContent = "—";
     }
 
-    elTitulo.textContent = TITULOS[decision] || "Respuesta del sistema";
+    elTitulo.textContent = limite ? LIM.titulo : (TITULOS[decision] || "Respuesta del sistema");
     // El texto ya viene gobernado por la decisión (el backend nunca envía fondo
     // salvo "answer"); se muestra tal cual. El <pre> queda como texto completo
     // alternativo (oculto por defecto: la presentación principal son flashcards).
-    elTexto.textContent = texto(data.answer_text);
+    // Con el límite alcanzado se muestra la derivación a ILP en lugar de repreguntar.
+    elTexto.textContent = limite ? LIM.texto : texto(data.answer_text);
     elTexto.classList.add("oculto");
     elAviso.textContent = data.disclaimer || DISCLAIMER_FIJO();
 
     // Aclaración GUIADA con opciones (multiple choice) cuando el cerebro repregunta.
-    renderClarifyOptions(decision === "clarify" ? data.clarify_options : null);
+    // Con el límite alcanzado deja de repreguntar (se deriva a ILP).
+    renderClarifyOptions(!limite && decision === "clarify" ? data.clarify_options : null);
 
     // La caja de aclaración (texto libre) acompaña a las opciones como alternativa.
     if (formAcl) {
-      if (decision === "clarify") {
+      if (!limite && decision === "clarify") {
         if (inputAcl) inputAcl.value = "";
         formAcl.classList.remove("oculto");
       } else {
@@ -459,7 +527,8 @@
     // redirige (catálogo / profesional) en vez de improvisar para complacer.
     var sug = document.getElementById("sugerencia");
     if (sug) {
-      if (decision === "out_of_scope" || decision === "insufficient_criteria") {
+      // Con el límite alcanzado no se sugiere "seguir probando": solo la derivación.
+      if (!limite && (decision === "out_of_scope" || decision === "insufficient_criteria")) {
         sug.classList.remove("oculto");
       } else {
         sug.classList.add("oculto");
@@ -472,7 +541,7 @@
     var cta = document.getElementById("cta-ilp");
     if (cta) {
       var ctaT = (UI[getLocale()] || UI.es).cta;
-      var fuerte = decision === "out_of_scope" || decision === "insufficient_criteria" || decision === "clarify";
+      var fuerte = limite || decision === "out_of_scope" || decision === "insufficient_criteria" || decision === "clarify";
       var setTxt = function (id, val) { var e = document.getElementById(id); if (e) e.textContent = val; };
       setTxt("cta-ilp-titulo", fuerte ? ctaT.tituloFuerte : ctaT.titulo);
       setTxt("cta-ilp-texto", fuerte ? ctaT.textoFuerte : ctaT.texto);
@@ -487,8 +556,10 @@
 
     // Flashcards: se construyen con #resultado YA visible (para medir alturas) y
     // sustituyen al bloque de texto. El botón alterna a "ver todo el texto".
+    // Con el límite alcanzado se muestra solo la derivación (sin tarjetas).
     var loc = getLocale();
-    var hayCards = renderFlashcards(texto(data.answer_text));
+    var hayCards = !limite && renderFlashcards(texto(data.answer_text));
+    if (limite && elFlashcards) { elFlashcards.textContent = ""; elFlashcards.classList.add("oculto"); }
     if (toggleTexto) {
       if (hayCards) {
         elTexto.classList.add("oculto");
@@ -499,10 +570,18 @@
         toggleTexto.classList.add("oculto");
       }
     }
+
+    // La vista aterriza al INICIO de la respuesta, no en el CTA del final.
+    // (Instantáneo tras asentarse el layout: el suave lo cancelan los ajustes
+    // de altura de las tarjetas.)
+    requestAnimationFrame(function () { resultado.scrollIntoView({ block: "start" }); });
   }
 
   function falloSeguro() {
     pintar({
+      // _tecnico: los fallos técnicos NO cuentan para el límite de 3 intentos
+      // (el mensaje de derivación no debe enmascarar una avería).
+      _tecnico: true,
       decision: "insufficient_criteria",
       area: null,
       topic: null,
@@ -541,6 +620,7 @@
       .then(function (data) {
         if (data && data.acceptance_required) {
           pintar({
+            _tecnico: true, // no cuenta para el límite: solo falta aceptar el aviso
             decision: "insufficient_criteria", area: null, topic: null,
             answer_text: data.message || "Debe aceptar el aviso informativo antes de usar la herramienta.",
             criteria_used: [], sources_used: [], disclaimer: DISCLAIMER_FIJO(),
@@ -565,6 +645,8 @@
     var partes = [input.value.trim(), hechos ? hechos.value.trim() : ""].filter(Boolean);
     var texto = partes.join("\n\n");
     if (!texto) return;
+    // Consulta NUEVA → contador de intentos a cero (Regla 7).
+    if (texto !== baseConsulta) { baseConsulta = texto; sinRespuesta = 0; }
     enviarConsulta(texto, "principal");
   });
 

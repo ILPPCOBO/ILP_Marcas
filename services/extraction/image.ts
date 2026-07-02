@@ -21,8 +21,10 @@ export const unconfiguredOcrExtractor: TextExtractor = {
       status: "failed",
       text: "",
       warnings: [
-        "OCR no disponible (motor local no instalado) y no se inventa contenido visual (Regla 4). " +
-          "Describa por escrito lo que muestra la imagen, o suba una versión más clara y legible.",
+        // El botón «Escanear con OCR» lo pinta el frontend (uploads.js) bajo este aviso.
+        "No se pudo leer la imagen en el servidor y no se inventa contenido visual (Regla 4). " +
+          "Puede escanearla aquí mismo con el botón «Escanear con OCR» que aparece justo debajo " +
+          "(en su navegador; no se sube a ningún sitio) o describir por escrito lo que muestra.",
       ],
       source_locations: [],
       extraction_method: "manual_description_needed",
