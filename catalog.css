@@ -1,0 +1,70 @@
+/* Catálogo — identidad ILP (navy + oro + crema). */
+:root {
+  --ink: #0f1e35; --ink-2: #1a2340; --gold: #c5a55a; --gold-dark: #8a6a3f; --gold-soft: #d4ba7a;
+  --cream: #f5f2ec; --beige: #e8e2d4; --paper: #ffffff; --text: #2e2e38; --muted: #6b6b76; --line: #e6ded0;
+  --aviso-bg: #fbf7ee; --aviso-borde: var(--gold);
+  --tinta: var(--ink); --suave: var(--muted); --linea: var(--line); --fondo: var(--cream); --acento: var(--gold-dark);
+  --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--sans); color: var(--text); background: var(--cream); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+.contenedor { max-width: 940px; margin: 0 auto; padding: 28px 20px 64px; }
+h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.9rem, 4vw, 2.4rem); color: var(--ink); }
+.subtitulo { margin: 6px 0 18px; color: var(--muted); }
+.aviso-fijo { background: var(--aviso-bg); border: 1px solid var(--aviso-borde); border-radius: 8px; padding: 10px 14px; font-size: 0.9rem; margin: 0 0 20px; }
+
+.layout { display: grid; grid-template-columns: 260px 1fr; gap: 18px; align-items: start; }
+
+.navegacion { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 10px; }
+.navegacion .area { margin-bottom: 6px; }
+.navegacion .area > .titulo { font-weight: 600; padding: 8px 10px; cursor: pointer; border-radius: 8px; }
+.navegacion .area > .titulo:hover { background: var(--fondo); }
+.navegacion .temas { list-style: none; margin: 2px 0 8px; padding: 0 0 0 8px; }
+.navegacion .temas li { padding: 6px 10px; border-radius: 8px; cursor: pointer; font-size: 0.9rem; display: flex; justify-content: space-between; gap: 8px; }
+.navegacion .temas li:hover { background: var(--fondo); }
+.navegacion .temas li.activo { background: rgba(197, 165, 90, 0.14); color: var(--gold-dark); font-weight: 600; }
+.navegacion .temas li.sin-preguntas { color: var(--suave); cursor: default; }
+.navegacion .conteo { font-size: 0.75rem; color: var(--suave); }
+
+.contenido { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 16px; min-height: 200px; }
+.placeholder { color: var(--suave); }
+.lista-preguntas ul { list-style: none; margin: 0; padding: 0; }
+.lista-preguntas li { padding: 12px 14px; border: 1px solid var(--linea); border-radius: 8px; margin-bottom: 8px; cursor: pointer; }
+.lista-preguntas li:hover { border-color: var(--acento); }
+.lista-preguntas li .preg { font-weight: 600; }
+.lista-preguntas li .corta { font-size: 0.88rem; color: var(--suave); margin-top: 4px; }
+.lista-preguntas li .aviso-item { font-size: 0.72rem; color: var(--suave); margin-top: 6px; font-style: italic; }
+
+.detalle-pregunta h2 { font-size: 1.15rem; margin: 0 0 10px; }
+.volver { font-size: 0.85rem; color: var(--acento); cursor: pointer; display: inline-block; margin-bottom: 10px; }
+.detalle-pregunta h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--suave); margin: 16px 0 6px; }
+.detalle-pregunta p, .detalle-pregunta li { font-size: 0.95rem; }
+.detalle-pregunta ul { margin: 0; padding-left: 20px; }
+.disclaimer { margin-top: 18px; padding: 10px 12px; background: var(--aviso-bg); border: 1px solid var(--aviso-borde); border-radius: 8px; font-size: 0.85rem; }
+.oculto { display: none; }
+
+/* ---- Panorama visual del tema (metadatos del corpus; solo presentación) ---- */
+.cat-visual { margin-top: 18px; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; box-shadow: 0 1px 2px rgba(15, 30, 53, 0.05); }
+.cat-visual h3 { margin: 0 0 14px; font-size: 1.02rem; color: var(--ink); }
+.cv-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.cv-tile { background: var(--aviso-bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 12px 10px; text-align: center; }
+.cv-num { display: block; font-size: 1.45rem; font-weight: 700; color: var(--ink); line-height: 1.1; }
+.cv-label { display: block; font-size: 0.72rem; color: var(--suave); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 4px; }
+.cv-sub { margin: 12px 0 6px; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--suave); }
+.cv-courts { margin: 0 0 4px; }
+.cv-court { display: flex; align-items: center; gap: 10px; margin: 7px 0; font-size: 0.87rem; }
+.cv-court .cv-name { flex: 0 0 215px; color: var(--text); }
+.cv-court .cv-bar { flex: 1; height: 8px; background: var(--beige); border-radius: 4px; overflow: hidden; display: block; }
+.cv-court .cv-fill { display: block; height: 100%; background: var(--gold); border-radius: 4px; }
+.cv-court .cv-count { flex: 0 0 auto; color: var(--suave); font-size: 0.8rem; min-width: 1.2em; text-align: right; }
+.cv-timeline { display: block; }
+.cv-caption { margin: 12px 0 0; font-size: 0.75rem; color: var(--suave); font-style: italic; }
+.cv-donut-wrap { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; margin: 4px 0 2px; }
+.cv-donut { width: 168px; height: 168px; flex: 0 0 auto; }
+.cv-legend { flex: 1; min-width: 220px; }
+.cv-leg-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-size: 0.9rem; }
+.cv-leg-swatch { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 auto; }
+.cv-leg-name { flex: 1; color: var(--text); }
+.cv-leg-count { color: var(--suave); font-size: 0.82rem; }
+@media (max-width: 640px) { .cv-court .cv-name { flex-basis: 130px; } .cv-donut { margin: 0 auto; } }
