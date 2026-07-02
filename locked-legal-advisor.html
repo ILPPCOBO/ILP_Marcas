@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ILP · Asesor Informativo — marcas y propiedad intelectual</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAACr1BMVEUMM1sLMlsSOF4RNV5HcEwLMloLMloMM1sLM1sLM1sNMlsLM1sMM1sKMlkLMlsIMloLM1oJMVoRN14SMl0UOGAQNFwNNFwNNV0rSW0aPWMKM1sLNFsNMlsLM1sMM1sKM1scQmYONFwMM1sYOWMYN2EMNFwLM1sLM1sMMloWNmUPNF4LM1sIMVkMNFsMM1sLMloFLlf29/jBydMJMVkzUHIlRmrd4eYKMloyUnQKMVkHLlcJMFkFMFhFYX+5ws0IMVoWOF4KM1sHL1jy9PYQNl4IMFjY3OL///8KMVoMM1wEKlQgQ2kZPWMONV0ROF8HMFkIMlofQmcJMVq0v8sZO2EnSm0NNFtMZoR2iZ/z9PYTOWAdQGWbqLn09fdRa4jy8/YQNFsmRmolSGuXpbZyhp4VNFwHL1cXOF/t7/IQN14PNl5xhZ0pSWyDlKg1UnQRN17b3+Vzh50iRGgGL1hvhJx3iaAROWBbcY0kRGnAyNIlRmkzVHXe4ujV2eD7+/wELFUFLlhjeZISNV0tTW8IL1hedZBZco7R1999jqMrS26rtsQ9WnoEKlPS2N9wg5sTN16irr6uucZmepRwhJwUOF+fq7svUHIuTG/w8vSgrbyuuMWBk6fO09yksL86V3cnRWpbco55i6EDLFUbP2Vje5SIl6trgJkuSGxEYH65wc22v8tGYX/CytSst8VHY4FJYoG4wMwbPmQYPmSFlqrU2uEmR2uAkKUYPGIxT3FCW3srSGwMNFuFlaj29/lpfpgyUHEVO2ILMlsWNl5ne5Rcco0cQWcHKlTj5uo6WXkFLVY2UXOHl6wWOmDf4+htgplleJJJZIKSoLIDKFPJ0NmSobPP1d0zUXIyUnNWbYoyU3To6u44VHXT2OBYcY3L0dokQmfh5epCXHtXb4vq7O8lQmdB5vHtAAAALnRSTlO19QIEADT10fU0Bv0y/cOh+/vji6U6RBYWLrkezeGjLGanxSpwOPut+UjHv9F+Sc6lnQAAAhFJREFUOMtjYGGWVuBnwA4UVZSZGZhEpQT0cAE1JVUGCRFBR5wK9BzVGSSFzGE8fXNLS319VBUaDKyMEMkWY33P6KrECl80FQysbGDaszPQMqp8T2WMtyWaAk4OENUQ3r52k2P6zr1GicZYFdQ3ZmxJMjbYb2hkil2Bvk/rut16BiY4Feh5pDnp41GgDwYQBdb6UICkQF/fxSUrE6KgytEly8/Yc3F0mLE+XIFH1IKFyaUJYAVPHpZeyT26b9vS2dP89eEm+IYuiV2VClZQEfjowdXTR3YtjwkONUa4wcDWeeUhiBtcLczqzh/TN57eOzdBH+4LG1tnOweoIy3MHhf56+mHTJyR54SkIB5JQa2fvp5+/0z3SV44FNzzBdqaP9W9owfdimsQBXfygSZMmeDeh2TC6kiggpN5EAW3AkFumBXZbQD3xaIVsRtS7b1OGVbeNwD64sYlR/35c7qaYL4wd5kX4bxmfdGOwxmXy29bmNVcvHAmPTe42RIWDkF+bZNTspeZxJWkZJfcvW5Wm3OusDAixxUeknrmTlZWVk7GrkAyrfimmVumvo+PpStKdCNAQHWNW5m5R5C+Hk4FZ4EKMBItAhw8cbzgAHKqZkSVLw5PLnDbHBcGS/0M8rKoCvS3J3l7b92oB1XAyyAux42qwtweCAJgyrUYmMRkeHFmTW4dTQYWLh5hPnbsQFuXhwsAcFP4giDG+/QAAAAASUVORK5CYII=" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" />
 <style>
 /* =========================================================================
@@ -66,7 +67,23 @@ body {
   justify-content: space-between;
   gap: 16px;
 }
-.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+/* Logotipo ILP Abogados RECREADO en HTML/CSS (no es imagen: nítido a toda escala).
+   Caja blanca con «ilp» en serifa navy + «ABOGADOS» en blanco, como en ilpabogados.com */
+.logo-ilp { display: inline-flex; align-items: center; gap: 9px; line-height: 1; }
+.logo-caja {
+  background: #fff; color: var(--ink);
+  font-family: var(--serif); font-weight: 700; font-size: 1.5rem;
+  line-height: 1; padding: 5px 8px 8px; border-radius: 9px;
+  letter-spacing: 0.01em;
+}
+.logo-palabra {
+  color: #fff; font-family: var(--sans);
+  font-weight: 800; font-size: 1.14rem; letter-spacing: 0.04em;
+}
+/* Separador vertical entre el logo y el nombre del producto (como el «|» de la web) */
+.brand .logo-ilp + .brand-sub { border-left: 1px solid rgba(255,255,255,0.35); padding-left: 12px; }
+.pie .logo-ilp.logo-pie { margin: 0 0 12px; }
 .brand-mark {
   font-family: var(--serif);
   font-size: 1.5rem;
@@ -790,7 +807,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
 </head>
 <body>
 <header class="topbar"><div class="topbar-inner">
-  <span class="brand"><span class="brand-mark">ILP<span class="dot">.</span></span><span class="brand-sub">Asesor Informativo</span></span>
+  <span class="brand"><span class="logo-ilp" role="img" aria-label="ILP Abogados"><span class="logo-caja">ilp</span><span class="logo-palabra">ABOGADOS</span></span><span class="brand-sub">Asesor Informativo</span></span>
   <span style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
     <span class="brand-sub" data-i18n="escritorio" style="letter-spacing:.2em">Versión web</span>
     <span class="barra-idioma"><span id="idioma-label" data-i18n="idioma">Idioma:</span><button type="button" id="lang-es" class="lang activo">Español</button><button type="button" id="lang-en" class="lang">English</button></span>
@@ -917,7 +934,7 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
 </main>
 <footer class="pie"><div class="pie-inner">
   <div>
-    <span class="brand-mark">ILP<span class="dot">.</span></span>
+    <span class="logo-ilp logo-pie" role="img" aria-label="ILP Abogados"><span class="logo-caja">ilp</span><span class="logo-palabra">ABOGADOS</span></span>
     <p class="pie-aviso" data-i18n="pieAviso">Asesor informativo de marcas y propiedad intelectual. Responde solo con criterios aprobados de resoluciones reales, cita su fuente, declara sus límites y nunca predice el resultado. No es asesoramiento jurídico.</p>
   </div>
   <div>
@@ -1817,9 +1834,11 @@ h1 { margin: 0; font-family: var(--serif); font-weight: 500; font-size: clamp(1.
     if (limite) { var fc = $("flashcards"); if (fc) { fc.textContent = ""; fc.classList.add("oculto"); } }
     if (tg) { if (hayCards) { $("texto-respuesta").classList.add("oculto"); tg.textContent = tt().verTodo; tg.classList.remove("oculto"); } else { $("texto-respuesta").classList.remove("oculto"); tg.classList.add("oculto"); } }
     // La vista aterriza al INICIO de la respuesta, no en el CTA del final.
-    // (Instantáneo tras asentarse el layout: el suave lo cancelan los ajustes
-    // de altura de las tarjetas.)
-    requestAnimationFrame(function () { $("resultado").scrollIntoView({ block: "start" }); });
+    // setTimeout(0), NO requestAnimationFrame: rAF no dispara nunca en pestañas
+    // en segundo plano (el usuario cambiaría de pestaña y no habría scroll).
+    // Instantáneo tras asentarse el layout: el scroll suave lo cancelan los
+    // ajustes de altura de las tarjetas.
+    setTimeout(function () { $("resultado").scrollIntoView({ block: "start" }); }, 0);
   }
   function renderClarifyOpts(groups) {
     var cont = $("clarify-options"); if (!cont) return;

@@ -10,6 +10,7 @@ de las MISMAS fuentes de verdad que usa el demo Python, para que no diverja.
 
 Uso:  python3 demo/build_standalone.py   →  demo/locked-legal-advisor.html
 """
+import base64
 import json
 import sys
 from pathlib import Path
@@ -63,6 +64,10 @@ CSS = (ROOT / "frontend" / "styles.css").read_text(encoding="utf-8")
 CSS += "\n" + (ROOT / "frontend" / "evaluar.css").read_text(encoding="utf-8")
 CSS += "\n" + (ROOT / "frontend" / "catalog.css").read_text(encoding="utf-8")
 BRAIN = (ROOT / "demo" / "standalone_brain.js").read_text(encoding="utf-8")
+# Favicon corporativo de ilpabogados.com embebido en base64 (un solo archivo).
+# El logotipo de la cabecera/pie NO es una imagen: está recreado en HTML/CSS
+# (clases .logo-caja / .logo-palabra) para que sea nítido a cualquier escala.
+FAVICON_B64 = base64.b64encode((ROOT / "frontend" / "assets" / "favicon.png").read_bytes()).decode()
 DATA_JSON = json.dumps(DATA, ensure_ascii=False).replace("</", "<\\/")
 
 UI = r"""
@@ -344,9 +349,11 @@ UI = r"""
     if (limite) { var fc = $("flashcards"); if (fc) { fc.textContent = ""; fc.classList.add("oculto"); } }
     if (tg) { if (hayCards) { $("texto-respuesta").classList.add("oculto"); tg.textContent = tt().verTodo; tg.classList.remove("oculto"); } else { $("texto-respuesta").classList.remove("oculto"); tg.classList.add("oculto"); } }
     // La vista aterriza al INICIO de la respuesta, no en el CTA del final.
-    // (Instantáneo tras asentarse el layout: el suave lo cancelan los ajustes
-    // de altura de las tarjetas.)
-    requestAnimationFrame(function () { $("resultado").scrollIntoView({ block: "start" }); });
+    // setTimeout(0), NO requestAnimationFrame: rAF no dispara nunca en pestañas
+    // en segundo plano (el usuario cambiaría de pestaña y no habría scroll).
+    // Instantáneo tras asentarse el layout: el scroll suave lo cancelan los
+    // ajustes de altura de las tarjetas.
+    setTimeout(function () { $("resultado").scrollIntoView({ block: "start" }); }, 0);
   }
   function renderClarifyOpts(groups) {
     var cont = $("clarify-options"); if (!cont) return;
@@ -878,6 +885,7 @@ SHELL = r"""<!doctype html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ILP · Asesor Informativo — marcas y propiedad intelectual</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,__FAVICON__" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" />
 <style>
 __CSS__
@@ -889,7 +897,7 @@ __CSS__
 </head>
 <body>
 <header class="topbar"><div class="topbar-inner">
-  <span class="brand"><span class="brand-mark">ILP<span class="dot">.</span></span><span class="brand-sub">Asesor Informativo</span></span>
+  <span class="brand"><span class="logo-ilp" role="img" aria-label="ILP Abogados"><span class="logo-caja">ilp</span><span class="logo-palabra">ABOGADOS</span></span><span class="brand-sub">Asesor Informativo</span></span>
   <span style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
     <span class="brand-sub" data-i18n="escritorio" style="letter-spacing:.2em">Versión web</span>
     <span class="barra-idioma"><span id="idioma-label" data-i18n="idioma">Idioma:</span><button type="button" id="lang-es" class="lang activo">Español</button><button type="button" id="lang-en" class="lang">English</button></span>
@@ -1016,7 +1024,7 @@ __CSS__
 </main>
 <footer class="pie"><div class="pie-inner">
   <div>
-    <span class="brand-mark">ILP<span class="dot">.</span></span>
+    <span class="logo-ilp logo-pie" role="img" aria-label="ILP Abogados"><span class="logo-caja">ilp</span><span class="logo-palabra">ABOGADOS</span></span>
     <p class="pie-aviso" data-i18n="pieAviso">Asesor informativo de marcas y propiedad intelectual. Responde solo con criterios aprobados de resoluciones reales, cita su fuente, declara sus límites y nunca predice el resultado. No es asesoramiento jurídico.</p>
   </div>
   <div>
@@ -1048,6 +1056,7 @@ __CSS__
 
 html = (SHELL
         .replace("__CSS__", CSS)
+        .replace("__FAVICON__", FAVICON_B64)
         .replace("__DATA__", DATA_JSON)
         .replace("__BRAIN__", BRAIN)
         .replace("__UI__", UI))

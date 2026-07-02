@@ -58,7 +58,23 @@ body {
   justify-content: space-between;
   gap: 16px;
 }
-.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+/* Logotipo ILP Abogados RECREADO en HTML/CSS (no es imagen: nítido a toda escala).
+   Caja blanca con «ilp» en serifa navy + «ABOGADOS» en blanco, como en ilpabogados.com */
+.logo-ilp { display: inline-flex; align-items: center; gap: 9px; line-height: 1; }
+.logo-caja {
+  background: #fff; color: var(--ink);
+  font-family: var(--serif); font-weight: 700; font-size: 1.5rem;
+  line-height: 1; padding: 5px 8px 8px; border-radius: 9px;
+  letter-spacing: 0.01em;
+}
+.logo-palabra {
+  color: #fff; font-family: var(--sans);
+  font-weight: 800; font-size: 1.14rem; letter-spacing: 0.04em;
+}
+/* Separador vertical entre el logo y el nombre del producto (como el «|» de la web) */
+.brand .logo-ilp + .brand-sub { border-left: 1px solid rgba(255,255,255,0.35); padding-left: 12px; }
+.pie .logo-ilp.logo-pie { margin: 0 0 12px; }
 .brand-mark {
   font-family: var(--serif);
   font-size: 1.5rem;
